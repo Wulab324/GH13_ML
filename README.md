@@ -21,7 +21,7 @@ https://github.com/jafetgado/Cel7ML
 - seaborn (0.11.0)
 - pydot_ng (2.0.0)
 
-##### Other softwares (version used in this work)
+## Other softwares (version used in this work)
 - HMMER v3.1b2
 - MAFFT v7.475 (2020/Nov/23)
 - NCBI command-line BLAST v2.11.0
