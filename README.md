@@ -24,7 +24,7 @@ https://github.com/jafetgado/Cel7ML
 #### Python scripts
 -----------------------
 #### Main scripts (in chronological order as used in the study)
-- `subtype_hmm.py` : Use hidden Markov models (HMM) to discriminate GH13 functional subtypes (CBH vs EG)
+- `subtype_hmm.py` : Use hidden Markov models (HMM) to discriminate GH13 functional subtypes (ASs vs SHs)
 - `subtype_rules.py`: Derive position-specific classification rules for discriminating GH13 functional subtypes
 
 #### Other Python scripts
