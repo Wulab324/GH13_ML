@@ -1,5 +1,5 @@
 # GH13_ML
-## Decipher the mechanism of transglycosylation and hydrolysis in a GH13 family using machine learning 
+## Deciphering the mechanism of transglycosylation and hydrolysis in a GH13 family using machine learning 
 ----------------
 Reference source 
 
