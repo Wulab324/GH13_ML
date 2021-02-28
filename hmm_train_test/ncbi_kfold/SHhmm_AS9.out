@@ -1,0 +1,1468 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  hmm_train_test/ncbi_kfold/SH9.hmm
+# target sequence database:        hmm_train_test/ncbi_kfold/AS_test9.fasta
+# sequence reporting threshold:    score >= 0
+# sequence inclusion threshold:    score >= 0
+# biased composition HMM filter:   off
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       SH_train9  [M=622]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------     -----------
+   6.6e-114  372.4  17.7   1.3e-107  351.6   8.8    4.8  3  pdb|3UCQ|A    Chain A, Amylosucrase
+   9.8e-111  361.9  13.4    6.4e-62  200.7   1.3    4.9  3  AQX16487.1    alphaamylase [Tessaracoccus sp. T2.530]
+   1.5e-106  348.1  12.4    1.4e-60  196.3   0.5    5.0  4  ODT57841.1    alphaamylase [Paracoccus sp. SCN 6821]
+   4.7e-104  339.9  19.2    1.3e-56  183.1   0.9    5.0  3  AXV07251.1    Sucrose phosphorylase [Euzebya sp. DY3246]
+   1.3e-101  331.8  11.0    1.6e-56  182.9   0.1    5.0  5  BAY83936.1    alpha amylase catalytic region [Calothrix paras
+   1.3e-100  328.5  15.3    1.5e-41  133.4   1.1    5.1  5  KPK55750.1    amylosucrase [Thiotrichales bacterium SG8_50]
+    2.1e-98  321.2  10.2    6.8e-58  187.4   0.6    4.7  5  KAB2904241.1  amylosucrase [Anaerolineae bacterium]
+    2.4e-96  314.4  24.6    1.6e-56  182.9   3.2    3.6  4  KRC90327.1    alphaamylase [Terrabacter sp. Root85]
+    6.3e-94  306.4  11.6    6.1e-53  171.0   2.1    3.1  2  KGF00712.1    alphaamylase [Actinomyces urogenitalis S6C4]
+      4e-91  297.1   8.9    2.3e-54  175.7   0.6    3.3  3  OJS82655.1    amylosucrase [Bifidobacterium longum subsp. lon
+    6.5e-91  296.4  11.9      7e-55  177.4   0.2    3.8  4  EFV36970.1    alpha amylase [Bifidobacterium longum]
+    2.3e-89  291.3   7.2    3.6e-40  128.8   0.9    5.0  6  KPV54380.1    amylosucrase [Kouleothrix aurantiaca]
+    8.4e-88  286.2   9.6    1.8e-38  123.2   0.2    5.8  6  CAD78342.1    alphaamylase, amylosucrase [Rhodopirellula balt
+    1.4e-87  285.4   5.3      3e-39  125.8   0.7    4.2  4  KIV84544.1    hypothetical protein PV11_00318 [Exophiala side
+    6.1e-87  283.3  12.5      8e-51  164.0   0.2    5.0  5  AHF24012.1    amylosucrase [uncultured bacterium Contig1756]
+    8.7e-87  282.8   6.3    3.6e-51  165.2   0.2    4.2  4  CDD77892.1    putative uncharacterized protein [Ruminococcus 
+    2.9e-86  281.1   6.3    4.2e-49  158.3   0.1    3.5  3  ERI96075.1    alpha amylase, catalytic domain protein [Blauti
+    1.9e-85  278.4   7.7    4.4e-48  155.0   0.1    4.0  4  CCY32293.1    alpha amylase catalytic domain protein [Ruminoc
+      7e-85  276.5   7.3    5.6e-37  118.3   0.5    4.9  5  APX04080.1    amylosucrase [Arthrobacter sp. QXT31]
+      5e-84  273.7  13.0    4.5e-34  108.7   0.0    5.4  6  AOH44470.1    amylosucrase [Anaerolineaceae bacterium oral ta
+    1.1e-83  272.6   9.6    3.4e-48  155.3   0.2    4.2  4  OLA07016.1    amylosucrase [Eubacterium sp. 38_16]
+      1e-82  269.4  19.7    3.2e-53  171.9   1.2    4.8  4  ODU11059.1    alphaamylase [Thiobacillus sp. SCN 6435]
+    1.9e-82  268.5  20.5    1.3e-52  170.0   0.9    4.5  5  OGS73035.1    alphaamylase [Gallionellales bacterium GWA2_60_
+    5.3e-82  267.0  14.7    2.1e-54  175.9   0.4    5.0  5  OIP71579.1    alphaamylase [Oscillatoriales cyanobacterium CG
+    7.6e-82  266.5  16.1    3.3e-53  171.9   1.3    4.8  5  OIO71076.1    alphaamylase [Zetaproteobacteria bacterium CG1_
+    5.4e-79  257.1  12.7    1.3e-49  160.0   0.0    4.9  5  GAU77909.1    sucrose phosphorylase [Fusibacter sp. 3D3]
+    4.3e-77  250.8   7.7    6.1e-47  151.2   0.1    4.7  5  KPQ20099.1    amylosucrase AmsA [Algoriphagus marincola HL49]
+      1e-52  170.2   0.1    6.8e-39  124.6   0.0    3.3  3  GAK52864.1    alpha amylase catalytic region [Candidatus Modu
+    1.1e-52  170.2   0.0    4.6e-38  121.9   0.0    3.3  3  GAK54911.1    alpha amylase catalytic region [Candidatus Vect
+    1.4e-44  143.3   0.0    2.8e-29   92.8   0.0    2.9  3  GBD22423.1    Trehalose synthase/amylase TreS [bacterium HR29
+
+
+Domain annotation for each sequence (and alignments):
+>> pdb|3UCQ|A  Chain A, Amylosucrase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  351.6   8.8  1.3e-107  1.3e-107      73     429 ..     380     836 ..     368     844 .. 0.95
+   2 !   13.9   0.0   2.2e-05   2.2e-05     462     499 ..     919     969 ..     918     971 .. 0.95
+   3 !    5.8   0.4    0.0063    0.0063     503     518 ..     993    1008 ..     992    1009 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 351.6 bits;  conditional E-value: 1.3e-107
+   SH_train9  73 aaraaepd.WfleqemlgYsaYvdrfa.......gtlagvaervdyLqeLgvryLHlLpllkar..agdnDGGfAVadyeevePrlGsnad........ 153
+                 +ar  +pd W++++em+gY aY drfa       gtl+gv+er+dyL+ Lgv+yLHl+pll++r  +g+nDGG+AV+dy++v P lG+++d        
+  pdb|3UCQ|A 380 EARLLRPD-WLQRPEMVGYVAYTDRFA-------GTLKGVEERLDYLEGLGVKYLHLMPLLRPR--EGENDGGYAVQDYRAVRPDLGTMDD-------- 460
+                 677888888****************************************************************************************** PP
+
+   SH_train9 154 ..lealtarlreagisLcaDlvlNHvaddhaWAqaaraG.....d....aryrd..fyhvladreevdayer....................tlgqvFP 219
+                   l+al+++lr +gisL++DlvlNHva++haWAq+araG     d    ++yr+  ++h+++dr+ +da+e+                    tl ++FP
+  pdb|3UCQ|A 461 --LSALARALRGRGISLVLDLVLNHVAREHAWAQKARAG-----D----PKYRA--YFHLFPDRRGPDAFEA--------------------TLPEIFP 526
+                 *************************************************************************************************** PP
+
+   SH_train9 220 qtAPGnFtlve....elgg..............wvWttFyp.............yqWDLnyanpavfaemaeallrlanrGveafRLDStafLWKregt 287
+                 + APGnF+++e    e+g+              wvWttF               yqWDLn+anp+vf e ++++l lanrGve+fRLD++af+WKr gt
+  pdb|3UCQ|A 527 DFAPGNFSWDE----EIGE---geg---g----WVWTTFNS-------------YQWDLNWANPDVFLEFVDIILYLANRGVEVFRLDAIAFIWKRLGT 598
+                 *****************87777788************************************************************************** PP
+
+   SH_train9 288 dcrnqpeahtilqalravldivaPgvllkaEaivptaelppyfgsgaee...............akechlaYhsslmaagWvalaeqdadllraviaa. 370
+                 dc+nqpe+h++ +alra++ ivaP+v++kaEaiv+ a+l  y+g+ a++                   ++aYh+slm+ +W++la+++++l+++ ++a 
+  pdb|3UCQ|A 599 DCQNQPEVHHLTRALRAAARIVAPAVAFKAEAIVAPADLIHYLGTRAHHgk-------------V--SDMAYHNSLMVQLWSSLASRNTRLFEEALRA- 681
+                 ********************************************999886777777777777776..479*************************9866 PP
+
+   SH_train9 371 t.palpeaaaWlsYvRCHDDigWnvlraeaa.geaaaaeerlarvarfy..agavagsyarGe 429
+                   p++p++++W  YvRCHDDigW +  ++aa  ++ + +++ + +++fy  +g+ +gs+arG 
+  pdb|3UCQ|A 682 F-PPKPTSTTWGLYVRCHDDIGWAISDEDAA-RAGLNGAAHRHFLSDFY--SGQFPGSFARGL 740
+                 59999*******************99999988677888889999*****************96 PP
+
+  == domain 2  score: 13.9 bits;  conditional E-value: 2.2e-05
+   SH_train9 462 lalrRllllyalalalgglpllY.............mGDElalendesyrd 499
+                  a+rRllll++++l +gg+pllY             mGDElal nd +++d
+  pdb|3UCQ|A 919 DAVRRLLLLHTVILGFGGVPLLY-------------MGDELALLNDYAFED 956
+                 69********************************************99887 PP
+
+  == domain 3  score: 5.8 bits;  conditional E-value: 0.0063
+   SH_train9  503 raadgRwlhRpamdwa 518 
+                  +a d+Rw+hRp+mdwa
+  pdb|3UCQ|A  993 HAPDNRWVHRPQMDWA 1008
+                  6789***********7 PP
+
+>> AQX16487.1  alphaamylase [Tessaracoccus sp. T2.530]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  144.2   1.8   7.8e-45   7.8e-45      74     229 ..     381     587 ..     368     588 .. 0.96
+   2 !  200.7   1.3   6.4e-62   6.4e-62     236     433 ..     612     842 ..     611     848 .. 0.89
+   3 !   18.3   0.1   1.1e-06   1.1e-06     462     518 ..     919    1008 ..     918    1009 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 144.2 bits;  conditional E-value: 7.8e-45
+   SH_train9  74 araaepd.WfleqemlgYsaYvdrfa.......gtlagvaervdyLqeLgvryLHlLpllkar..agdnDGGfAVadyeevePrlGsnad......... 153
+                 ar  +pd W++ ++++gY aY +rfa       gtl+g++ +vdyLq+Lgv+yLHl+pll++r  +g nDGG+AVady++v P lG++ad         
+  AQX16487.1 381 ARLLRPD-WLQLPSQVGYVAYTERFA-------GTLTGITGHVDYLQDLGVTYLHLMPLLQPR--EGANDGGYAVADYRTVRPDLGTMAD--------- 460
+                 67777888******************************************************************************************* PP
+
+   SH_train9 154 .lealtarlreagisLcaDlvlNHvaddhaWAqaaraG.....d....aryrd..fyhvladreevdayer....................tlgqvFPq 220
+                  lealt +lr +gisL++DlvlNHva++h+WA  araG     +    ++yrd  +++v++dre++++yer                    tl +vFP+
+  AQX16487.1 461 -LEALTGQLRGHGISLVVDLVLNHVAREHEWAVRARAG-----E----QKYRD--YFMVFPDREKPEQYER--------------------TLPEVFPD 527
+                 *******************************************9999999************************************************* PP
+
+   SH_train9 221 tAPGnFtlv 229
+                  APGnFt++
+  AQX16487.1 528 FAPGNFTWD 536
+                 *******97 PP
+
+  == domain 2  score: 200.7 bits;  conditional E-value: 6.4e-62
+   SH_train9 236 vWttFyp.............yqWDLnyanpavfaemaeallrlanrGveafRLDStafLWKregtdcrnqpeahtilqalravldivaPgvllkaEaiv 321
+                 vWttF               yqWD+n+anp+vf+e ++ +l+lan Gve+fRLD++af+WK++gtdc+n+p +h+i qalr ++ i+aP+v++kaEaiv
+  AQX16487.1 612 VWTTFND-------------YQWDVNWANPDVFVEYLDLILDLANLGVEVFRLDAIAFIWKEMGTDCQNEPPVHAITQALRQAARIAAPAVAFKAEAIV 697
+                 55555555555555555555******************************************************************************* PP
+
+   SH_train9 322 ptaelppyfgsgaee...............akechlaYhsslmaagWvalaeqdadllraviaa.t.palpeaaaWlsYvRCHDDigWnvlraeaa.ge 402
+                   ++l +yfg+g+++                   ++aYh+slma +W++la++d++llr+ + a   p++p++a+W +YvRCHDDigW +   +aa ++
+  AQX16487.1 698 GPKDLIAYFGTGEHHgk-------------L--SDIAYHNSLMAQLWSTLATHDTTLLRRALGA-F-PPKPATATWGTYVRCHDDIGWAIDDVDAA-TA 778
+                 *************886777777777777775..47*************************9986659999********************999998877 PP
+
+   SH_train9 403 aaaaeerlarvarfy..agavagsyarGea..Fqs 433
+                 + + +++ + +++fy  +g+++gs+arG    Fq+
+  AQX16487.1 779 GLNGAAHRRFLSDFY--SGEHPGSFARGLV--FQA 809
+                 7888889999******************8766666 PP
+
+  == domain 3  score: 18.3 bits;  conditional E-value: 1.1e-06
+   SH_train9  462 lalrRllllyalalalgglpllY.............mGDElalendesyrddp....................eraadgRwlhRpamdwa 518 
+                  la++R+ ll+a++   gg+pl+Y             mGDEla+ nd+++ +dp                    ++a+d+Rw+hRp+mdwa
+  AQX16487.1  919 LAVARINLLHAVIAGWGGIPLIY-------------MGDELAMLNDHDFVRDP--------------------AHAEDNRWVHRPVMDWA 975 
+                  79**************************************************************************************97 PP
+
+>> ODT57841.1  alphaamylase [Paracoccus sp. SCN 6821]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  129.7   0.1     2e-40     2e-40      75     190 ..     382     517 ..     368     550 .. 0.94
+   2 !    7.4   0.1    0.0021    0.0021     214     229 ..     572     587 ..     571     588 .. 0.90
+   3 !  196.3   0.5   1.4e-60   1.4e-60     243     430 ..     632     837 ..     611     847 .. 0.90
+   4 !   18.4   0.3   9.9e-07   9.9e-07     462     518 ..     919    1008 ..     918    1009 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 129.7 bits;  conditional E-value: 2e-40
+   SH_train9  75 raaepd.WfleqemlgYsaYvdrfa.......gtlagvaervdyLqeLgvryLHlLpllkar..agdnDGGfAVadyeevePrlGsnad.......... 153
+                 r  epd Wf+++ m gY +Y+drfa       gtlagv++r+dyL++Lg++y+Hl+p l +r   gd+DGG+ V dy++++P++G++ad          
+  ODT57841.1 382 RDLEPD-WFQRSGMAGYVFYIDRFA-------GTLAGVHDRLDYLRDLGISYVHLMPCLMPR--PGDSDGGYSVMDYRQINPAYGRMAD---------- 460
+                 5556777******************************************************************************************** PP
+
+   SH_train9 154 lealtarlreagisLcaDlvlNHvaddhaWAqaaraG 190
+                 l++l+ +lr++g+sLc+DlvlNH+a++h+WA+ a aG
+  ODT57841.1 461 LTRLAGSLRDRGMSLCVDLVLNHTAQEHEWARRAAAG 497
+                 **********************************998 PP
+
+  == domain 2  score: 7.4 bits;  conditional E-value: 0.0021
+   SH_train9 214 lgqvFPqtAPGnFtlv 229
+                 l ++FP+tAPG+Ft+ 
+  ODT57841.1 572 LIEIFPETAPGSFTHH 587
+                 789***********97 PP
+
+  == domain 3  score: 196.3 bits;  conditional E-value: 1.4e-60
+   SH_train9 243 yqWDLnyanpavfaemaeallrlanrGveafRLDStafLWKregtdcrnqpeahtilqalravldivaPgvllkaEaivptaelppyfgsgaeeak... 338
+                 +qWDLn+anp+vf e+++++l+lanrGv+++RLD++af+WKr+gt+c+ qpe+h+il+alra++ i+a +v+   Eaiv  ae+++yfg+g+++++   
+  ODT57841.1 632 HQWDLNWANPRVFLEIVRIMLNLANRGVDVLRLDAVAFMWKRMGTTCQSQPEVHMILRALRACTRIAASAVIHLEEAIVGPAEMLTYFGRGEHDGR--- 727
+                 7*******************************************************************************************9966777 PP
+
+   SH_train9 339 ..........echlaYhsslmaagWvalaeqdadllraviaat..palpeaaaWlsYvRCHDDigWnvlraeaa.geaaaaeerlarvarfy..agava 422
+                           e +l Yh+slm+  W+ala++d++l+++v+++   p+  ++a++ +Y+RCHDDigW +  ++a  + + + +++ a +++fy  +g+ +
+  ODT57841.1 728 ----------EGNLCYHNSLMVQYWSALATRDTRLMTHVLRTHf-PPVLTNANYATYIRCHDDIGWAITDEDAG-ALGLSGAAHRAFLSDFY--DGSYP 812
+                 777777777777899**************************99899**********************9999988677888888999************ PP
+
+   SH_train9 423 gsyarGea 430
+                 gs+arG  
+  ODT57841.1 813 GSFARGVL 820
+                 ******76 PP
+
+  == domain 4  score: 18.4 bits;  conditional E-value: 9.9e-07
+   SH_train9  462 lalrRllllyalalalgglpllY.............mGDElalendesyrddp....................eraadgRwlhRpamdwa 518 
+                   a++R+ll +al+ ++gg+pl+Y             mGDEla+ nd+ yrd p                    e+a+d+Rw++Rpamdw+
+  ODT57841.1  919 RAVDRILLGHALIASFGGIPLIY-------------MGDELAMGNDHGYRDVP--------------------EHAHDSRWINRPAMDWD 975 
+                  699**************************************************************************************7 PP
+
+>> AXV07251.1  Sucrose phosphorylase [Euzebya sp. DY3246]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  143.6   4.3   1.2e-44   1.2e-44      75     229 ..     382     587 ..     380     588 .. 0.98
+   2 !  183.1   0.9   1.3e-56   1.3e-56     243     428 ..     632     835 ..     611     849 .. 0.85
+   3 !   16.6   0.7   3.4e-06   3.4e-06     463     518 ..     920    1008 ..     918    1009 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 143.6 bits;  conditional E-value: 1.2e-44
+   SH_train9  75 raaepd.WfleqemlgYsaYvdrfa.......gtlagvaervdyLqeLgvryLHlLpllkar..agdnDGGfAVadyeevePrlGsnad.......... 153
+                 r+a pd Wfl+++m+gY +Yvdrf        gt+a + +r+d+L++Lgv+yLHl+pll+ar     nDGG+AV+d+++v+P+lG+++d          
+  AXV07251.1 382 REAAPD-WFLSERMVGYVTYVDRFD-------GTIARIGDRLDHLTDLGVTYLHLMPLLHAR--PRPNDGGYAVQDFRAVDPSLGTMED---------- 460
+                 7888999******************************************************************************************** PP
+
+   SH_train9 154 lealtarlreagisLcaDlvlNHvaddhaWAqaaraG.....d....aryrd..fyhvladreevdayer....................tlgqvFPqt 221
+                 l+al+arl+++gisLc+DlvlNH+a +h+WAq araG     +    +ry d  +y++++dr+e+d++e+                    tl +vFP+t
+  AXV07251.1 461 LRALAARLHANGISLCVDLVLNHTAAEHEWAQRARAG-----E----QRYLD--YYRTYPDRTEPDRWEQ--------------------TLPEVFPDT 528
+                 ******************************************999999*************************************************** PP
+
+   SH_train9 222 APGnFtlv 229
+                 APGnFt++
+  AXV07251.1 529 APGNFTWD 536
+                 ******97 PP
+
+  == domain 2  score: 183.1 bits;  conditional E-value: 1.3e-56
+   SH_train9 243 yqWDLnyanpavfaemaeallrlanrGveafRLDStafLWKregtdcrnqpeahtilqalravldivaPgvllkaEaivptaelppyfgsgaeeak... 338
+                 +qWDL+++np+vf+em++++l+la  G++++RLD+++fLWKr+gtd++n+ e+h il+a+r ++ i+aP+++lk Eaiv+ ++l+py g g +ea    
+  AXV07251.1 632 WQWDLDWSNPDVFVEMLRIILDLAAVGIDVLRLDAVPFLWKRMGTDSQNLAEVHLILRAIRGLVGIAAPATILKGEAIVAPRDLVPYQGVGPREAA--- 727
+                 8******************************************************************************************99977888 PP
+
+   SH_train9 339 ..........echlaYhsslmaagWvalaeqdadllraviaat...palpeaaaWlsYvRCHDDigWnvlraeaa.geaaaaeerlarvarfy..agav 421
+                           ec+l Yh+ lm+ gW++la +d++l++ +  +t   +++p++a+W++YvRCHDDigW +  ++aa +++ + +++ + ++++y  ag+ 
+  AXV07251.1 728 ----------ECDLLYHNQLMVQGWSSLAAKDGRLAT-IGLST-m-AETPPHASWVTYVRCHDDIGWAIDDTDAA-QRGWNGSAHRRFLSSWY--AGEL 810
+                 88888888888*********************99865.4445666889*******************99888876655555555555666666666666 PP
+
+   SH_train9 422 agsyarG 428
+                 +gs a+G
+  AXV07251.1 811 EGSPAEG 817
+                 6666665 PP
+
+  == domain 3  score: 16.6 bits;  conditional E-value: 3.4e-06
+   SH_train9  463 alrRllllyalalalgglpllY.............mGDElalendesyrddp....................eraadgRwlhRpamdwa 518 
+                  a++R+lllyala + gg+pl++             mGDE+al nd+s+ +dp                    +raad+RwlhRp mdw 
+  AXV07251.1  920 AIDRFLLLYALAASYGGIPLIW-------------MGDEIALDNDTSFLADP--------------------DRAADNRWLHRPPMDWV 975 
+                  89*************************************************************************************96 PP
+
+>> BAY83936.1  alpha amylase catalytic region [Calothrix parasitica NIES267]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  127.5   0.0   9.4e-40   9.4e-40      81     190 ..     389     517 ..     381     549 .. 0.97
+   2 !    7.7   0.1    0.0016    0.0016     214     229 ..     572     587 ..     571     588 .. 0.90
+   3 !  182.9   0.1   1.6e-56   1.6e-56     243     429 ..     632     836 ..     611     857 .. 0.85
+   4 !   11.7   0.0    0.0001    0.0001     462     500 ..     919     970 ..     918     971 .. 0.96
+   5 !    5.6   0.5    0.0071    0.0071     503     518 ..     993    1008 ..     992    1009 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 127.5 bits;  conditional E-value: 9.4e-40
+   SH_train9  81 WfleqemlgYsaYvdrfa.......gtlagvaervdyLqeLgvryLHlLpllkar..agdnDGGfAVadyeevePrlGsnad..........lealtar 160
+                 Wf+e++m+gY +Yvd fa       g+l+g++e++ y+qeL ++yLHl+pll++    g+nDGG+AV+dy++v+P+lG + d          l++l+++
+  BAY83936.1 389 WFQEPSMVGYVCYVDLFA-------GNLNGIREKIGYFQELDITYLHLMPLLEPS--PGNNDGGYAVKDYRKVNPELGMMSD----------LKQLSEE 468
+                 *************************************************************************************************** PP
+
+   SH_train9 161 lreagisLcaDlvlNHvaddhaWAqaaraG 190
+                 l++ gisLc+DlvlNH+a++h+WAq+a aG
+  BAY83936.1 469 LHACGISLCLDLVLNHTAKEHEWAQKAMAG 498
+                 ***************************998 PP
+
+  == domain 2  score: 7.7 bits;  conditional E-value: 0.0016
+   SH_train9 214 lgqvFPqtAPGnFtlv 229
+                 l ++FP+ APGnFt+ 
+  BAY83936.1 572 LPEIFPNDAPGNFTWY 587
+                 899***********97 PP
+
+  == domain 3  score: 182.9 bits;  conditional E-value: 1.6e-56
+   SH_train9 243 yqWDLnyanpavfaemaeallrlanrGveafRLDStafLWKregtdcrnqpeahtilqalravldivaPgvllkaEaivptaelppyfgsgaeeak... 338
+                 +qWDLny+np+vf e+a++++ lan+G +++RLD+++f+WKregt+c+nqpe+++i+qa+rav+ +vaPg++lkaEaivp +el++y+g +a+ +k   
+  BAY83936.1 632 FQWDLNYTNPNVFREVADVMFFLANQGGDVLRLDAAPFIWKREGTNCQNQPEVFQIIQAFRAVMRVVAPGTILKAEAIVPPDELQKYLGVKATVEK--- 727
+                 9****************************************************************************************9997755666 PP
+
+   SH_train9 339 ..........echlaYhsslmaagWvalaeqdadllraviaa.t.palpeaaaWlsYvRCHDDigWnvlraeaa.geaaaaeerlarvarfy..agava 422
+                           +c+laY++ lm+ +W++la+++ +l+++v ++ + p++  ++a ++Y+R HDDigW +  +  a + +++   + + + +fy  +g+ +
+  BAY83936.1 728 ----------QCELAYNNQLMVLLWSSLASRKVNLMTHVFHS-S-PKMMIGCAPINYIRNHDDIGWAMTDEALA-TVGEDGFLHRQFLNDFY--SGNFE 811
+                 66666666666***************************99766699********************987775545344455555566777888888888 PP
+
+   SH_train9 423 gsyarGe 429
+                 gs+a+G+
+  BAY83936.1 812 GSFAKGS 818
+                 8888876 PP
+
+  == domain 4  score: 11.7 bits;  conditional E-value: 0.0001
+   SH_train9 462 lalrRllllyalalalgglpllY.............mGDElalendesyrdd 500
+                 la+rR+ll++++++ +gg+p+++             mGDEl+l nd+sy +d
+  BAY83936.1 919 LAVRRILLMHSIIFGFGGIPVIH-------------MGDELGLLNDSSYMND 957
+                 69***********************************************987 PP
+
+  == domain 5  score: 5.6 bits;  conditional E-value: 0.0071
+   SH_train9  503 raadgRwlhRpamdwa 518 
+                  +a+d+Rw+hRp mdw+
+  BAY83936.1  993 KASDNRWMHRPSMDWD 1008
+                  689************7 PP
+
+>> KPK55750.1  amylosucrase [Thiotrichales bacterium SG8_50]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  128.1   0.2   6.1e-40   6.1e-40      67     211 ..     370     549 ..     368     550 .. 0.90
+   2 !  133.4   1.1   1.5e-41   1.5e-41     235     331 ..     611     720 ..     611     722 .. 0.93
+   3 !   58.4   0.1   7.5e-19   7.5e-19     339     435 ..     741     844 ..     741     858 .. 0.90
+   4 !   10.6   0.0   0.00023   0.00023     462     501 ..     919     971 ..     918     971 .. 0.94
+   5 !    5.3   0.1    0.0087    0.0087     505     519 ..     995    1009 ..     992    1009 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 128.1 bits;  conditional E-value: 6.1e-40
+   SH_train9  67 alrald....aaraaepd.WfleqemlgYsaYvdrfa.......gtlagvaervdyLqeLgvryLHlLpllkar..agdnDGGfAVadyeevePrlGsn 151
+                 +l+ald    a r+a+p+ W+++++m+g ++Yvd fa       g+l+g+++r++yL+eLg++yLHl+p++k    agdnDGG+AV++y+ev+PrlG+ 
+  KPK55750.1 370 ELKALD----AMREADPH-WYQSNRMVGAMCYVDLFA-------GDLQGLRQRIPYLTELGINYLHLMPVFKVP--AGDNDGGYAVSSYREVDPRLGTI 454
+                 5566666666789999999******************************************************************************** PP
+
+   SH_train9 152 ad..........lealtarlreagisLcaDlvlNHvaddhaWAqaaraG.....d....aryrd..fyhvladreevdaye 211
+                 +d          l++l+++lr++gisL +D+v NH++d+h+WA++a aG     d    ++y++  +y+++a+re++daye
+  KPK55750.1 455 ED----------LAELASELRHHGISLTVDFVFNHTSDEHEWAKKALAG-----D----KEYQA--YYRMFANREMPDAYE 514
+                 ***********************************************9966666666666666666666666666666666 PP
+
+  == domain 2  score: 133.4 bits;  conditional E-value: 1.5e-41
+   SH_train9 235 wvWttFyp.............yqWDLnyanpavfaemaeallrlanrGveafRLDStafLWKregtdcrnqpeahtilqalravldivaPgvllkaEai 320
+                 wvWttF+              yqWDLny npavf +m+e +l lan+Gve +RLD++afLWKr gt+++n+peah+i+qa+ a+++i+aP+v++k+Eai
+  KPK55750.1 611 WVWTTFHT-------------YQWDLNYENPAVFNRMIEEMLFLANQGVEILRLDAVAFLWKRLGTNSQNLPEAHWIIQAFNAIASIAAPAVVFKSEAI 696
+                 677777777777777777777****************************************************************************** PP
+
+   SH_train9 321 vptaelppyfg 331
+                 v+ +e+++y+ 
+  KPK55750.1 697 VHPDEVSKYIS 707
+                 *********85 PP
+
+  == domain 3  score: 58.4 bits;  conditional E-value: 7.5e-19
+   SH_train9 339 echlaYhsslmaagWvalaeqdadllraviaa.t.palpeaaaWlsYvRCHDDigWnvlraeaa.geaaaaeerlarvarfy..agavagsyarGea.. 430
+                 ec+l+Y+  lma +W ala++da++l+  +++    a pe++ W++YvRCHDDigW   ++++a + + +++e+ + +++fy   g+ +gs+arG+   
+  KPK55750.1 741 ECQLSYNPQLMALLWEALATRDARVLQFAMRH-R-YAIPEGCGWVNYVRCHDDIGWAFANDDVA-AIGFDPAEHRRFLTKFY--IGRFKGSFARGAP-- 832
+                 8*************************999987756689***********************99998889999999********************9877 PP
+
+   SH_train9 431 Fqssd 435
+                 Fq + 
+  KPK55750.1 833 FQEDP 837
+                 77665 PP
+
+  == domain 4  score: 10.6 bits;  conditional E-value: 0.00023
+   SH_train9 462 lalrRllllyalalalgglpllY.............mGDElalendesyrddp 501
+                 la+rR+ll++++++++gg+pl+Y             +GDE+a  nd +y +dp
+  KPK55750.1 919 LAIRRMLLVHGVIITVGGIPLIY-------------LGDEVATLNDYDYDKDP 958
+                 699********************999999999999999999999999999886 PP
+
+  == domain 5  score: 5.3 bits;  conditional E-value: 0.0087
+   SH_train9  505 adgRwlhRpamdwar 519 
+                   d+RwlhRp++dw+r
+  KPK55750.1  995 GDTRWLHRPVFDWER 1009
+                  69***********85 PP
+
+>> KAB2904241.1  amylosucrase [Anaerolineae bacterium]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  117.9   0.0   7.2e-37   7.2e-37      74     211 ..     381     549 ..     368     550 .. 0.88
+   2 ?    0.6   0.0      0.23      0.23     214     229 ..     572     587 ..     571     588 .. 0.90
+   3 !  187.4   0.6   6.8e-58   6.8e-58     235     400 ..     611     804 ..     611     836 .. 0.85
+   4 !   17.0   0.0   2.6e-06   2.6e-06     462     501 ..     919     971 ..     918     971 .. 0.97
+   5 ?    0.5   0.2      0.26      0.26     503     518 ..     993    1008 ..     992    1009 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 117.9 bits;  conditional E-value: 7.2e-37
+     SH_train9  74 araaepd.WfleqemlgYsaYvdrfa.......gtlagvaervdyLqeLgvryLHlLpllkar..agdnDGGfAVadyeevePrlGsnad....... 153
+                   +r+a+p  Wf++q+mlg + Yvd fa       g+l+gv+e+++yL+eLg++yLHl+pl++    + ++DGG+AV++y+ev+P lGs+++       
+  KAB2904241.1 381 QREANPL-WFQSQTMLGTMLYVDLFA-------GNLKGVQEKIPYLKELGITYLHLMPLFRCP--EENSDGGYAVSSYREVNPMLGSMDE------- 460
+                   67777777***************************************************************************************** PP
+
+     SH_train9 154 ...lealtarlreagisLcaDlvlNHvaddhaWAqaaraG.....d....aryrd..fyhvladreevdaye 211
+                      l +l+a+ r++gisL++D+v NH++d+h+WA +a  G     d     +y+d  +y +++dr+ +daye
+  KAB2904241.1 461 ---LYDLAAEFRRHGISLVLDFVFNHTSDEHEWALKALGG-----D----MDYQD--YYLIFPDRTLPDAYE 518
+                   ************************************988755555555555555555555555555555555 PP
+
+  == domain 2  score: 0.6 bits;  conditional E-value: 0.23
+     SH_train9 214 lgqvFPqtAPGnFtlv 229
+                   l+++FP+  PG+F++ 
+  KAB2904241.1 572 LREIFPEQSPGSFSYR 587
+                   899**********986 PP
+
+  == domain 3  score: 187.4 bits;  conditional E-value: 6.8e-58
+     SH_train9 235 wvWttFyp.............yqWDLnyanpavfaemaeallrlanrGveafRLDStafLWKregtdcrnqpeahtilqalravldivaPgvllkaE 318
+                   wvWttF               +qWDLny np+vf +m+  +l lan Gve +RLD++af+WK+ gt c n+p+ah+++qa+ a++ +vaPg++lk+E
+  KAB2904241.1 611 WVWTTFNS-------------FQWDLNYRNPEVFNAMLGEMLFLANVGVEILRLDAVAFIWKELGTVCENLPQAHQLIQAFNAMVRLVAPGMVLKSE 694
+                   5666666666666666666669*************************************************************************** PP
+
+     SH_train9 319 aivptaelppyfgsgaeeak.............echlaYhsslmaagWvalaeqdadllraviaa.t.palpeaaaWlsYvRCHDDigWnvlraeaa 400
+                   aiv+ +e+ +yfg+g++++              ec ++Y+ +lma +W +la+++ +ll+  +++    a p+++aW++YvRCHDDigW+   ++a+
+  KAB2904241.1 695 AIVHPDEVAKYFGEGEKAGY-------------ECPISYNPTLMALLWETLATREVRLLQYAMQR-R-FAHPDNCAWVNYVRCHDDIGWSFADEDAH 776
+                   ****************997788888888888888**************************99987746678*******************9888875 PP
+
+  == domain 4  score: 17.0 bits;  conditional E-value: 2.6e-06
+     SH_train9 462 lalrRllllyalalalgglpllY.............mGDElalendesyrddp 501
+                   la+rR+lll++++l++gg+pl+Y             mGDE+a  nd sy++dp
+  KAB2904241.1 919 LAVRRILLLHSIILSIGGIPLIY-------------MGDEIATLNDYSYENDP 958
+                   69***********************************************9986 PP
+
+  == domain 5  score: 0.5 bits;  conditional E-value: 0.26
+     SH_train9  503 raadgRwlhRpamdwa 518 
+                    +a+d+Rw hRp  dw+
+  KAB2904241.1  993 KAQDNRWAHRPFTDWE 1008
+                    589************7 PP
+
+>> KRC90327.1  alphaamylase [Terrabacter sp. Root85]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  140.9   6.4   7.8e-44   7.8e-44      74     229 ..     381     587 ..     369     588 .. 0.97
+   2 !  182.9   3.2   1.6e-56   1.6e-56     243     430 ..     632     837 ..     611     849 .. 0.91
+   3 ?   -3.0   0.0       2.9       2.9     465     499 ..     922     969 ..     920     971 .. 0.61
+   4 ?   -4.6   1.0       8.8       8.8     504     518 ..     994    1008 ..     993    1008 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 140.9 bits;  conditional E-value: 7.8e-44
+   SH_train9  74 araaepd.WfleqemlgYsaYvdrfa.......gtlagvaervdyLqeLgvryLHlLpllkar..agdnDGGfAVadyeevePrlGsnad......... 153
+                 +r  +pd W+++++m gY++Y drfa       g+l+g++ rv yL++Lgv+yLHl+pll++r  +gdnDGG+AV+dy++v P lG+ +d         
+  KRC90327.1 381 RRLLRPD-WLQQPDMFGYACYTDRFA-------GDLDGLRGRVGYLRDLGVSYLHLMPLLQPR--EGDNDGGYAVQDYRTVRPDLGDVED--------- 460
+                 56677888******************************************************************************************* PP
+
+   SH_train9 154 .lealtarlreagisLcaDlvlNHvaddhaWAqaaraG.....d....aryrd..fyhvladreevdayer....................tlgqvFPq 220
+                  l++l+++lr +gisL++DlvlNHva++h+WA+ araG     +    ++yrd  ++hv++dr ++dayer                    tl +vFP+
+  KRC90327.1 461 -LRRLASDLRGQGISLVLDLVLNHVAREHEWARRARAG-----E----SHYRD--YFHVYPDRVMPDAYER--------------------TLPEVFPD 527
+                 *******************************************999999************************************************** PP
+
+   SH_train9 221 tAPGnFtlv 229
+                  APGnFt++
+  KRC90327.1 528 FAPGNFTWD 536
+                 *******97 PP
+
+  == domain 2  score: 182.9 bits;  conditional E-value: 1.6e-56
+   SH_train9 243 yqWDLnyanpavfaemaeallrlanrGveafRLDStafLWKregtdcrnqpeahtilqalravldivaPgvllkaEaivptaelppyfgsgaee..... 336
+                 +qWD+n+anp+v++e a+++l lan Gve++RLD++af WKr gt+c+nqpe+h++ qalrav+ i +P+ ++kaEaiv  ++l++y+g+g+++     
+  KRC90327.1 632 WQWDVNWANPDVLVEYADIVLYLANLGVEVLRLDAIAFTWKRLGTSCQNQPEVHAVTQALRAVARIGCPALAFKAEAIVGPRDLVQYLGQGEHAgr--- 727
+                 7*******************************************************************************************9977777 PP
+
+   SH_train9 337 ..........akechlaYhsslmaagWvalaeqdadllraviaa.t.palpeaaaWlsYvRCHDDigWnvlraeaa.geaaaaeerlarvarfy..aga 420
+                               +laYh+slm+ +W+ la++++ l ++ ++a   p++p++++W+ YvRCHDDigW +   +aa +++ +  ++ + ++++y  +g+
+  KRC90327.1 728 ----------V--SDLAYHNSLMVQVWSMLATGSTGLTKQALSA-L-PTTPPSGTWICYVRCHDDIGWAIDDGDAA-SAGLDGYAHRRFLSNWY--SGD 809
+                 77777777776..57*************************9987769999*******************999999887778888888999999999999 PP
+
+   SH_train9 421 vagsyarGea 430
+                 ++gs+a+G  
+  KRC90327.1 810 HPGSWAHGLV 819
+                 9999999965 PP
+
+  == domain 3  score: -3.0 bits;  conditional E-value: 2.9
+   SH_train9 465 rRllllyalalalgglpllY.............mGDElalendesyrd 499
+                 +Rl l +a++   gg+p+++              GDEl+l nd ++++
+  KRC90327.1 922 ARLFLAHAVVAGWGGVPVVW-------------SGDELGLPNDPDWAR 956
+                 566666666666666666654444444444444588888888887766 PP
+
+  == domain 4  score: -4.6 bits;  conditional E-value: 8.8
+   SH_train9  504 aadgRwlhRpamdwa 518 
+                  ++d+Rw hR  +dwa
+  KRC90327.1  994 EDDNRWAHRERLDWA 1008
+                  689**********95 PP
+
+>> KGF00712.1  alphaamylase [Actinomyces urogenitalis S6C4]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  137.5   2.2   8.4e-43   8.4e-43      81     229 ..     389     587 ..     381     588 .. 0.98
+   2 !  171.0   2.1   6.1e-53   6.1e-53     235     396 ..     611     800 ..     611     807 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 137.5 bits;  conditional E-value: 8.4e-43
+   SH_train9  81 WfleqemlgYsaYvdrfa.......gtlagvaervdyLqeLgvryLHlLpllkar..agdnDGGfAVadyeevePrlGsnad..........lealtar 160
+                 W ++++++gY+aY +rfa       g+l+gv+er++yL+eLgv+yLHl+pll +r   gd+DGG+AVady++v   lG+++d          le+lt +
+  KGF00712.1 389 WAQDPSRIGYAAYTERFA-------GDLRGVEERIPYLRELGVSYLHLMPLLTPR--PGDSDGGYAVADYRSVRADLGDMED----------LEHLTGA 468
+                 99************************************************************************************************* PP
+
+   SH_train9 161 lreagisLcaDlvlNHvaddhaWAqaaraG.....d....aryrd..fyhvladreevdayer....................tlgqvFPqtAPGnFtl 228
+                 lr++gisL++DlvlNHva++h+WAq araG     +    +ryrd  ++ +++dr+e+d ye+                    tl ++FP+ APGnFt+
+  KGF00712.1 469 LRREGISLVVDLVLNHVAREHEWAQRARAG-----E----ERYRD--YFYIFPDRTEPDVYEQ--------------------TLPEIFPDFAPGNFTW 536
+                 ***********************************8999999********************************************************9 PP
+
+   SH_train9 229 v 229
+                 +
+  KGF00712.1 537 D 537
+                 7 PP
+
+  == domain 2  score: 171.0 bits;  conditional E-value: 6.1e-53
+   SH_train9 235 wvWttFyp.............yqWDLnyanpavfaemaeallrlanrGveafRLDStafLWKregtdcrnqpeahtilqalravldivaPgvllkaEai 320
+                 wvWttF               +qWD+n+ np+++ e a+++l+lanrGve++RLD++af  Kr+gtdc+ qpe+h+i ++l+a++ i++P+v lkaEai
+  KGF00712.1 611 WVWTTFNS-------------FQWDVNWRNPNIMEEYAQIVLDLANRGVEVLRLDAIAFTIKRKGTDCQGQPEVHAITEVLKALTRIACPAVDLKAEAI 696
+                 5666666666666666666669***************************************************************************** PP
+
+   SH_train9 321 vptaelppyfgsgaee...............akechlaYhsslmaagWvalaeqdadllraviaa.t.palpeaaaWlsYvRCHDDigWnvlr 396
+                 v+ +el++y+g+g+ +                   +laYh+slm+ +W+ la+++ +l+++ ++a   p  p++a+W++Y+RCHDDigW +  
+  KGF00712.1 697 VAPTELLQYLGQGKYTgk-------------V--SDLAYHNSLMVQVWSMLASKNVRLAARALSA-L-PVEPSSATWITYIRCHDDIGWAIDD 772
+                 *************9886777777777777776..57***********************99997666999*******************8755 PP
+
+>> OJS82655.1  amylosucrase [Bifidobacterium longum subsp. longum]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  113.5   0.1   1.6e-35   1.6e-35      73     210 ..     380     548 ..     368     550 .. 0.89
+   2 !   11.9   0.3   8.8e-05   8.8e-05     214     229 ..     572     587 ..     571     588 .. 0.90
+   3 !  175.7   0.6   2.3e-54   2.3e-54     243     393 ..     632     797 ..     611     803 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 113.5 bits;  conditional E-value: 1.6e-35
+   SH_train9  73 aaraaepd.WfleqemlgYsaYvdrfa.......gtlagvaervdyLqeLgvryLHlLpllkar..agdnDGGfAVadyeevePrlGsnad........ 153
+                 ++r+++p+ W+++ +m g ++Y d fa       g+l+ +a++++yL+e  ++yLHl+pll +   + +nDGG+AV+d+++v+P+lG+n+d        
+  OJS82655.1 380 KTREQDPG-WYKRGDMFGMTMYTDLFA-------GDLKKLADKIPYLKEQKLTYLHLMPLLDMP--HPNNDGGYAVQDFDTVDPKLGTNED-------- 460
+                 789999999****************************************************************************************** PP
+
+   SH_train9 154 ..lealtarlreagisLcaDlvlNHvaddhaWAqaaraG.....d....aryrd..fyhvladreevday 210
+                   l+al+++lr+agisLc+D+v+NH+a  h WA+aa+aG     d    ++y+d  +y +++dr+ +d+y
+  OJS82655.1 461 --LAALAKKLRRAGISLCIDFVMNHTASTHRWAKAAEAG-----D----PEYQD--YYFCYPDRTIPDRY 517
+                 **************************************96666666666666666666666666666666 PP
+
+  == domain 2  score: 11.9 bits;  conditional E-value: 8.8e-05
+   SH_train9 214 lgqvFPqtAPGnFtlv 229
+                 + qvFP+tAPGnFt++
+  OJS82655.1 572 VPQVFPNTAPGNFTWN 587
+                 68************97 PP
+
+  == domain 3  score: 175.7 bits;  conditional E-value: 2.3e-54
+   SH_train9 243 yqWDLnyanpavfaemaeallrlanrGveafRLDStafLWKregtdcrnqpeahtilqalravldivaPgvllkaEaivptaelppyfgsgaee..... 336
+                 +qWDLny np+v+++m+ +++rlan Gve+fR+D+++++WK+ gt+crn+p++hti++ lr +l+ v+P+v+lk E +++ +el +yfg+ + +     
+  OJS82655.1 632 FQWDLNYRNPKVLVAMMGSVMRLANLGVEVFRIDAVPYIWKQLGTNCRNLPQVHTIVRMLRIILECVCPAVVLKGEVVMAPKELAAYFGTPE-A----- 724
+                 9****************************************************************************************977.788888 PP
+
+   SH_train9 337 ..........akechlaYhsslmaagWvalaeqdadllraviaa.t.palpeaaaWlsYvRCHDDigWn 393
+                             ech+ Y+ s+m+ +W+ala++d +ll++ i++   ++lpe++ +++Y+RCHDDigW 
+  OJS82655.1 725 ----------P-ECHMLYNVSIMVNLWSALASRDVRLLKNQIDK-L-NSLPENCWFVNYLRCHDDIGWG 780
+                 88888888887.8*****************************98856689******************6 PP
+
+>> EFV36970.1  alpha amylase [Bifidobacterium longum]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  113.5   0.1   1.6e-35   1.6e-35      73     210 ..     380     548 ..     368     550 .. 0.89
+   2 !   11.9   0.3   8.8e-05   8.8e-05     214     229 ..     572     587 ..     571     588 .. 0.90
+   3 !  177.4   0.2     7e-55     7e-55     243     428 ..     632     835 ..     611     837 .. 0.86
+   4 ?   -1.6   0.1       1.1       1.1     503     518 ..     993    1008 ..     992    1009 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 113.5 bits;  conditional E-value: 1.6e-35
+   SH_train9  73 aaraaepd.WfleqemlgYsaYvdrfa.......gtlagvaervdyLqeLgvryLHlLpllkar..agdnDGGfAVadyeevePrlGsnad........ 153
+                 ++r+++p+ W+++ +m g ++Y d fa       g+l+ +a++++yL+e  ++yLHl+pll +   + +nDGG+AV+d+++v+P+lG+n+d        
+  EFV36970.1 380 KTREQDPG-WYKRGDMFGMTMYTDLFA-------GDLKKLADKIPYLKEQKLTYLHLMPLLDMP--HPNNDGGYAVQDFDTVDPKLGTNED-------- 460
+                 789999999****************************************************************************************** PP
+
+   SH_train9 154 ..lealtarlreagisLcaDlvlNHvaddhaWAqaaraG.....d....aryrd..fyhvladreevday 210
+                   l+al+++lr+agisLc+D+v+NH+a  h WA+aa+aG     d    ++y+d  +y +++dr+ +d+y
+  EFV36970.1 461 --LAALAKKLRRAGISLCIDFVMNHTASTHRWAKAAEAG-----D----PEYQD--YYFCYPDRTIPDRY 517
+                 **************************************96666666666666666666666666666666 PP
+
+  == domain 2  score: 11.9 bits;  conditional E-value: 8.8e-05
+   SH_train9 214 lgqvFPqtAPGnFtlv 229
+                 + qvFP+tAPGnFt++
+  EFV36970.1 572 VPQVFPNTAPGNFTWN 587
+                 68************97 PP
+
+  == domain 3  score: 177.4 bits;  conditional E-value: 7e-55
+   SH_train9 243 yqWDLnyanpavfaemaeallrlanrGveafRLDStafLWKregtdcrnqpeahtilqalravldivaPgvllkaEaivptaelppyfgsgaee..... 336
+                 +qWDLny np+v+++m+ +++rlan Gve+fR+D+++++WK+ gt+crn+p++hti++ lr +l+ v+P+v+lk E +++ +el +yfg+ + +     
+  EFV36970.1 632 FQWDLNYRNPKVLVAMMGSVMRLANLGVEVFRIDAVPYIWKQLGTNCRNLPQVHTIVRMLRIILECVCPAVVLKGEVVMAPKELAAYFGTPE-A----- 724
+                 9****************************************************************************************977.788888 PP
+
+   SH_train9 337 ..........akechlaYhsslmaagWvalaeqdadllraviaa.t.palpeaaaWlsYvRCHDDigWnvlraeaa..geaaaaeerlarvarfy..ag 419
+                             ech+ Y+ s+m+ +W+ala++d +ll++ i++   ++lpe++ +++Y+RCHDDigW  l ++++    + ++ ++ + + +fy  +g
+  EFV36970.1 725 ----------P-ECHMLYNVSIMVNLWSALASRDVRLLKNQIDK-L-NSLPENCWFVNYLRCHDDIGWG-LDEDVEr-YLDIDPLKHKEFLYHFY--EG 806
+                 88888888887.8*****************************98856689******************7.44445423244555555555556666666 PP
+
+   SH_train9 420 avagsyarG 428
+                 a++gs++ G
+  EFV36970.1 807 ATPGSWSMG 815
+                 666666555 PP
+
+  == domain 4  score: -1.6 bits;  conditional E-value: 1.1
+   SH_train9  503 raadgRwlhRpamdwa 518 
+                  r +d+R lhR ++dw+
+  EFV36970.1  993 RVEDSRNLHRSKFDWT 1008
+                  678************7 PP
+
+>> KPV54380.1  amylosucrase [Kouleothrix aurantiaca]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  112.7   0.0   2.7e-35   2.7e-35      74     190 ..     381     517 ..     368     550 .. 0.90
+   2 ?   -2.3   0.0       1.8       1.8     213     229 ..     571     587 ..     571     588 .. 0.92
+   3 !  128.8   0.9   3.6e-40   3.6e-40     235     330 ..     611     719 ..     611     722 .. 0.90
+   4 !   41.0   0.0   1.4e-13   1.4e-13     339     430 ..     741     837 ..     741     850 .. 0.82
+   5 !    8.1   0.0    0.0013    0.0013     462     501 ..     919     971 ..     918     971 .. 0.90
+   6 ?   -1.0   0.1      0.71      0.71     503     516 ..     993    1006 ..     992    1009 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 112.7 bits;  conditional E-value: 2.7e-35
+   SH_train9  74 araaepd.WfleqemlgYsaYvdrfa.......gtlagvaervdyLqeLgvryLHlLpllkar..agdnDGGfAVadyeevePrlGsnad......... 153
+                 +r+a+p+ Wf++q+m+g  +Yvd fa       g+l+gv+er++y++eLg++yLHl+pl+ a   + ++DGG+AV++y++++P+lG+ a+         
+  KPV54380.1 381 RREADPE-WFQSQQMVGGVCYVDLFA-------GKLSGVRERLPYFKELGLTYLHLMPLFAAP--ENESDGGYAVSSYRDINPALGTFAE--------- 460
+                 78999999******************************************************************************************* PP
+
+   SH_train9 154 .lealtarlreagisLcaDlvlNHvaddhaWAqaaraG 190
+                  l++l+++ +++gisL++D+v NH++d+h WA++a+aG
+  KPV54380.1 461 -LRELAEEFQTHGISLVVDFVFNHTSDEHGWARKAQAG 497
+                 ************************************99 PP
+
+  == domain 2  score: -2.3 bits;  conditional E-value: 1.8
+   SH_train9 213 tlgqvFPqtAPGnFtlv 229
+                 tl+++FP++  G+Ft+ 
+  KPV54380.1 571 TLREIFPTVRRGSFTWR 587
+                 699************96 PP
+
+  == domain 3  score: 128.8 bits;  conditional E-value: 3.6e-40
+   SH_train9 235 wvWttFyp.............yqWDLnyanpavfaemaeallrlanrGveafRLDStafLWKregtdcrnqpeahtilqalravldivaPgvllkaEai 320
+                 wvWttF               +qWDLnyanpavf +ma  +l +an Gve +RLD++af+WKr gt+c nqpeaht++qa+ a++ i+aP++l+k+Eai
+  KPV54380.1 611 WVWTTFNN-------------FQWDLNYANPAVFRAMAGEMLFIANAGVEILRLDAVAFIWKRIGTSCENQPEAHTVIQAYNALARIAAPAMLFKSEAI 696
+                 5555555555555555555559***************************************************************************** PP
+
+   SH_train9 321 vptaelppyf 330
+                 v+ +++++y+
+  KPV54380.1 697 VHPDDVMRYI 706
+                 *********8 PP
+
+  == domain 4  score: 41.0 bits;  conditional E-value: 1.4e-13
+   SH_train9 339 echlaYhsslmaagWvalaeqdadllraviaat...palpeaaaWlsYvRCHDDigWnvlraeaa.geaaaaeerlarvarfy..agavagsyarGea 430
+                 ec+++Y+  lma  W ala+++ +ll++ +  t    +lp+++aW++Y+R HDDigW+   a+a+ + + +a  + + + +fy   g+ +gs+arG  
+  KPV54380.1 741 ECQISYNPLLMALIWEALATREVKLLAHSMI-T-r-FKLPPGCAWVNYLRSHDDIGWTFDDADAH-HVGIDAFGHRRFLNNFY--IGRFEGSFARGVP 832
+                 8***********************9988765.4446689*******************9888887755667777777788888888888888888876 PP
+
+  == domain 5  score: 8.1 bits;  conditional E-value: 0.0013
+   SH_train9 462 lalrRllllyalalalgglpllY.............mGDElalendesyrddp 501
+                 la+rR+l++++l+l++gg+pllY             +GDE+a  nd s+++dp
+  KPV54380.1 919 LAVRRILMVHSLILSIGGIPLLY-------------LGDEVATLNDYSFANDP 958
+                 69*********************999999999999999999999999888775 PP
+
+  == domain 6  score: -1.0 bits;  conditional E-value: 0.71
+   SH_train9  503 raadgRwlhRpamd 516 
+                  +a+d+Rw+hRpa  
+  KPV54380.1  993 KASDSRWVHRPAAS 1006
+                  689********976 PP
+
+>> CAD78342.1  alphaamylase, amylosucrase [Rhodopirellula baltica SH 1]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  102.4   0.1   3.6e-32   3.6e-32      74     190 ..     381     517 ..     368     550 .. 0.91
+   2 ?    0.4   0.0      0.27      0.27     213     229 ..     571     587 ..     571     588 .. 0.92
+   3 !  123.2   0.2   1.8e-38   1.8e-38     235     331 ..     611     720 ..     611     722 .. 0.91
+   4 !   51.5   0.0   9.5e-17   9.5e-17     339     432 ..     741     841 ..     741     848 .. 0.90
+   5 !    5.9   0.0    0.0058    0.0058     462     484 ..     919     941 ..     918     971 .. 0.90
+   6 ?    3.6   0.1     0.029     0.029     503     518 ..     993    1008 ..     992    1009 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 102.4 bits;  conditional E-value: 3.6e-32
+   SH_train9  74 araaepd.WfleqemlgYsaYvdrfa.......gtlagvaervdyLqeLgvryLHlLpllkar..agdnDGGfAVadyeevePrlGsnad......... 153
+                 +r ++p+ W+++++ +g + Yvd f+       ++l  ++++++y+q+Lg++yLHl+pl+  r   g+nDGG+A+++y++v+Pr+G+ +d         
+  CAD78342.1 381 HRINNPE-WYQSEKLVGGALYVDLFS-------ENLGELRKQIPYFQDLGLSYLHLMPLFAVR--PGNNDGGYAISNYRSVDPRVGTIDD--------- 460
+                 56677777******************************************************************************************* PP
+
+   SH_train9 154 .lealtarlreagisLcaDlvlNHvaddhaWAqaaraG 190
+                  l+ l+++lreagi L++D+v NH+addh WAq+a++G
+  CAD78342.1 461 -LRLLADDLREAGILLVLDFVFNHTADDHYWAQQAQSG 497
+                 ***********************************998 PP
+
+  == domain 2  score: 0.4 bits;  conditional E-value: 0.27
+   SH_train9 213 tlgqvFPqtAPGnFtlv 229
+                 tl+++FP++  GnFt+ 
+  CAD78342.1 571 TLREIFPTVRRGNFTWH 587
+                 699************97 PP
+
+  == domain 3  score: 123.2 bits;  conditional E-value: 1.8e-38
+   SH_train9 235 wvWttFyp.............yqWDLnyanpavfaemaeallrlanrGveafRLDStafLWKregtdcrnqpeahtilqalravldivaPgvllkaEai 320
+                 wvWttF               +qWDLny np+vf +m++ +l +an+Gv+ +RLD++af+WK++gt+c n+peaht+++a+ +++ i+aPg ++k+Eai
+  CAD78342.1 611 WVWTTFNS-------------FQWDLNYRNPEVFRAMLSEMLFIANTGVDLLRLDAVAFIWKQMGTNCENLPEAHTLIRAFNSCVRIAAPGLVFKSEAI 696
+                 5666666666666666666669***************************************************************************** PP
+
+   SH_train9 321 vptaelppyfg 331
+                 v+ +++++y+ 
+  CAD78342.1 697 VHPDDVVRYIS 707
+                 *********86 PP
+
+  == domain 4  score: 51.5 bits;  conditional E-value: 9.5e-17
+   SH_train9 339 echlaYhsslmaagWvalaeqdadllraviaa.t.palpeaaaWlsYvRCHDDigWnvlraeaa.geaaaaeerlarvarfy..agavagsyarGea.. 430
+                 ec+ +Y+ +lma +W +la++d++llr+ +a+    +lpe+++W++Y+RCHDDigW+   a+aa + + +a  + + + +fy  +g+ +gs+arG    
+  CAD78342.1 741 ECQTSYNPTLMALMWESLATRDTKLLRRSLAR-R-HKLPERTTWVNYLRCHDDIGWTFDDADAA-AVGIDAFGHRQFLNAFY--TGQFEGSFARGVP-- 832
+                 8*****************************9886778*********************9999988777888888889999999999999****998655 PP
+
+   SH_train9 431 Fq 432
+                 Fq
+  CAD78342.1 833 FQ 834
+                 55 PP
+
+  == domain 5  score: 5.9 bits;  conditional E-value: 0.0058
+   SH_train9 462 lalrRllllyalalalgglpllY 484
+                 la+rR+lll+a++l++gg+pl+Y
+  CAD78342.1 919 LAIRRILLLNAMMLSVGGIPLVY 941
+                 79********************9 PP
+
+  == domain 6  score: 3.6 bits;  conditional E-value: 0.029
+   SH_train9  503 raadgRwlhRpamdwa 518 
+                  +a d+Rw+hRp+m+w+
+  CAD78342.1  993 KAGDTRWVHRPKMQWK 1008
+                  5789**********97 PP
+
+>> KIV84544.1  hypothetical protein PV11_00318 [Exophiala sideris]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  107.6   0.0   9.6e-34   9.6e-34      73     190 ..     380     517 ..     369     517 .. 0.96
+   2 !  125.8   0.7     3e-39     3e-39     243     331 ..     632     720 ..     611     722 .. 0.92
+   3 !   44.6   0.0   1.2e-14   1.2e-14     339     430 ..     741     837 ..     741     848 .. 0.84
+   4 !    6.9   0.0     0.003     0.003     463     501 ..     920     971 ..     920     971 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 107.6 bits;  conditional E-value: 9.6e-34
+   SH_train9  73 aaraaepd.WfleqemlgYsaYvdrfa.......gtlagvaervdyLqeLgvryLHlLpllkar..agdnDGGfAVadyeevePrlGsnad........ 153
+                 ++r++ep+ W+++++mlg  +Yvdr+a       ++lag+++r++y+qeLg++yLHl+pl+ a   +  nDGG+AV++y++++P+lG+ ++        
+  KIV84544.1 380 KQRESEPE-WYMSNRMLGGVCYVDRYA-------NNLAGIKQRIPYFQELGLTYLHLMPLFLAP--QPVNDGGYAVSSYRDIQPELGTIEE-------- 460
+                 689999999******************************************************9999******************************** PP
+
+   SH_train9 154 ..lealtarlreagisLcaDlvlNHvaddhaWAqaaraG 190
+                   l+ l+++lr+agisL++Dlv NH++++h WA++a +G
+  KIV84544.1 461 --LRGLARELRKAGISLVLDLVFNHTSNEHRWARKAAEG 497
+                 ***********************************9987 PP
+
+  == domain 2  score: 125.8 bits;  conditional E-value: 3e-39
+   SH_train9 243 yqWDLnyanpavfaemaeallrlanrGveafRLDStafLWKregtdcrnqpeahtilqalravldivaPgvllkaEaivptaelppyfg 331
+                 +qWDLny+npavf +ma+ +l lan Gv+ fR+D++af+WK++ tdc n+pe+h++l+a+ a++ i+aP+vl+k+Eaiv+ + +++y+ 
+  KIV84544.1 632 FQWDLNYSNPAVFRAMAAEMLYLANIGVDFFRMDAVAFMWKQMNTDCENLPEVHKLLRAFNALCRIAAPSVLFKSEAIVHPDFVVQYID 720
+                 9*************************************************************************************987 PP
+
+  == domain 3  score: 44.6 bits;  conditional E-value: 1.2e-14
+   SH_train9 339 echlaYhsslmaagWvalaeqdadllraviaa.t.palpeaaaWlsYvRCHDDigWnvlraeaa.geaaaaeerlarvarfy..agavagsyarGea 430
+                 ec+l+Y+   ma +W ala++da++l++ i++    +  +++aW++YvR HDDigW+   ++a+ + +++ +++ + + +f+   ++ +gs+arG  
+  KIV84544.1 741 ECQLSYNPLQMALTWEALATRDASMLSQAIER-R-HNIARGCAWVNYVRSHDDIGWTFSDEDAS-ELGKEGASHRKFLNAFF--VNRYPGSFARGVP 832
+                 8*****************************9884556789*****************9999987855555566666777888888888999999875 PP
+
+  == domain 4  score: 6.9 bits;  conditional E-value: 0.003
+   SH_train9 463 alrRllllyalalalgglpllY.............mGDElalendesyrddp 501
+                 a++R+ll y++a+++gg+pl+Y             +GDE+++ nd +y +dp
+  KIV84544.1 920 AIERILLAYSIAMSTGGIPLIY-------------LGDEVGQLNDYTYLNDP 958
+                 789******************************************9999886 PP
+
+>> AHF24012.1  amylosucrase [uncultured bacterium Contig1756]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  108.4   0.0   5.6e-34   5.6e-34      75     190 ..     382     517 ..     380     517 .. 0.97
+   2 !   11.9   0.3   8.7e-05   8.7e-05     213     229 ..     571     587 ..     571     588 .. 0.90
+   3 !  164.0   0.2     8e-51     8e-51     243     393 ..     632     797 ..     611     801 .. 0.92
+   4 ?    3.5   0.0      0.03      0.03     463     501 ..     920     971 ..     918     971 .. 0.89
+   5 ?   -0.2   0.1      0.41      0.41     503     518 ..     993    1008 ..     992    1009 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 108.4 bits;  conditional E-value: 5.6e-34
+   SH_train9  75 raaepd.WfleqemlgYsaYvdrfa.......gtlagvaervdyLqeLgvryLHlLpllkar..agdnDGGfAVadyeevePrlGsnad.......... 153
+                 r+a pd W+  ++ +g  +Yv  fa       gtl+gv++++dy+q+ gv+yLHl+pll++   +g +DGG+AV+d+++v+P+lG+++d          
+  AHF24012.1 382 REACPD-WYRGRDLTGMLMYVKAFA-------GTLQGVRQKLDYIQDCGVNYLHLMPLLESP--EGRSDGGYAVSDFRKVQPELGTMED---------- 460
+                 6667777******************************************************************************************** PP
+
+   SH_train9 154 lealtarlreagisLcaDlvlNHvaddhaWAqaaraG 190
+                 l++l+++ +++gis+c+D v+NH+++dh+WA+ araG
+  AHF24012.1 461 LAELAEDCHRRGISVCLDYVMNHTSEDHEWARRARAG 497
+                 ***********************************98 PP
+
+  == domain 2  score: 11.9 bits;  conditional E-value: 8.7e-05
+   SH_train9 213 tlgqvFPqtAPGnFtlv 229
+                 t+ qvFP+tAPGnFt+ 
+  AHF24012.1 571 TVPQVFPTTAPGNFTWC 587
+                 578************97 PP
+
+  == domain 3  score: 164.0 bits;  conditional E-value: 8e-51
+   SH_train9 243 yqWDLnyanpavfaemaeallrlanrGveafRLDStafLWKregtdcrnqpeahtilqalravldivaPgvllkaEaivptaelppyfgsgaee..... 336
+                 yqWDLnyanp+vf +m e +l+l n+Gv+  RLD+++++WK  gt+crn+p++ht+++ +r v++iv+Pg+ll  E +++ ++++pyfg+ + +     
+  AHF24012.1 632 YQWDLNYANPTVFNDMTENMLNLCNHGVDIIRLDAVPYIWKALGTTCRNLPQVHTLVRMMRIVCEIVCPGTLLLGEVVMEPSRVVPYFGTVE-K----- 724
+                 9****************************************************************************************966.788888 PP
+
+   SH_train9 337 ..........akechlaYhsslmaagWvalaeqdadllraviaa.t.palpeaaaWlsYvRCHDDigWn 393
+                             echl Y+ + ma++W ++a++d +ll++ + +    alp++  +l+Y+RCHDDigW 
+  AHF24012.1 725 ----------P-ECHLLYNVTTMASLWHTVATRDVRLLAHQLGQ-V-FALPKQYVFLNYLRCHDDIGWG 780
+                 88888888887.7*************************998887756689******************6 PP
+
+  == domain 4  score: 3.5 bits;  conditional E-value: 0.03
+   SH_train9 463 alrRllllyalalalgglpllY.............mGDElalendesyrddp 501
+                 a+r  l+l+al+++l g+p+lY              GDE+a+end+ y+ddp
+  AHF24012.1 920 AIRLDLMLHALMFTLSGVPVLY-------------SGDEIAQENDNGYHDDP 958
+                 55556789**************99999999999999***********99986 PP
+
+  == domain 5  score: -0.2 bits;  conditional E-value: 0.41
+   SH_train9  503 raadgRwlhRpamdwa 518 
+                  +a+d+R lhR +mdw+
+  AHF24012.1  993 KADDSRYLHRGNMDWE 1008
+                  579************7 PP
+
+>> CDD77892.1  putative uncharacterized protein [Ruminococcus sp. CAG:9]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  106.4   0.0   2.2e-33   2.2e-33      73     190 ..     380     517 ..     369     517 .. 0.98
+   2 !   11.0   0.2   0.00017   0.00017     215     229 ..     573     587 ..     571     588 .. 0.89
+   3 !  165.2   0.2   3.6e-51   3.6e-51     243     393 ..     632     797 ..     611     801 .. 0.91
+   4 ?   -0.2   0.0      0.42      0.42     485     501 ..     955     971 ..     920     971 .. 0.68
+
+  Alignments for each domain:
+  == domain 1  score: 106.4 bits;  conditional E-value: 2.2e-33
+   SH_train9  73 aaraaepd.WfleqemlgYsaYvdrfa.......gtlagvaervdyLqeLgvryLHlLpllkar..agdnDGGfAVadyeevePrlGsnad........ 153
+                 ++r+a+pd W+++++ +g ++Yv++fa        tl+g++e++dy++e +v+yLHl+pll +   +g++DGG+AVad+++v+P+lG+++d        
+  CDD77892.1 380 KKREADPD-WYKRNDLVGMMMYVNNFA-------HTLKGLEEHLDYVEECNVNYLHLMPLLASP--KGKSDGGYAVADFRTVQPELGTMED-------- 460
+                 57999********************************************************************************************** PP
+
+   SH_train9 154 ..lealtarlreagisLcaDlvlNHvaddhaWAqaaraG 190
+                    ++lt++ +e+gi +c+D+v+NH++++h+WA+ araG
+  CDD77892.1 461 --FSELTSKCHERGINICLDFVMNHTSEEHEWAKRARAG 497
+                 *************************************98 PP
+
+  == domain 2  score: 11.0 bits;  conditional E-value: 0.00017
+   SH_train9 215 gqvFPqtAPGnFtlv 229
+                  qvFP+tAPGnFt+ 
+  CDD77892.1 573 PQVFPTTAPGNFTWL 587
+                 79***********96 PP
+
+  == domain 3  score: 165.2 bits;  conditional E-value: 3.6e-51
+   SH_train9 243 yqWDLnyanpavfaemaeallrlanrGveafRLDStafLWKregtdcrnqpeahtilqalravldivaPgvllkaEaivptaelppyfgsgaee..... 336
+                 yqWDLny np vf em+  +l lan+Gv+  RLD+++++WK+ gt+crn+p++hti++ +r +++iv+Pgvll  E +++ ++++pyfg+ + +     
+  CDD77892.1 632 YQWDLNYRNPVVFNEMVYNMLYLANQGVDIVRLDAVPYIWKQLGTNCRNLPQVHTIVRMMRMICEIVCPGVLLLGEVVMAPEKVVPYFGTLE-K----- 724
+                 9****************************************************************************************966.788888 PP
+
+   SH_train9 337 ..........akechlaYhsslmaagWvalaeqdadllraviaa.t.palpeaaaWlsYvRCHDDigWn 393
+                             ech+ Y+ + ma++W ++a++d +llr+ ++     +lp++  + +Y+RCHDDigW 
+  CDD77892.1 725 ----------P-ECHILYNVTTMASTWHTVATKDVSLLRRQLDI-L-GSLPKEYIFQNYLRCHDDIGWG 780
+                 88888888887.7**************************99975547789******************6 PP
+
+  == domain 4  score: -0.2 bits;  conditional E-value: 0.42
+   SH_train9 485 mGDElalendesyrddp 501
+                  GDE+++ nd sy+ddp
+  CDD77892.1 955 SGDEIGQVNDYSYKDDP 971
+                 69************986 PP
+
+>> ERI96075.1  alpha amylase, catalytic domain protein [Blautia sp. KLE 1732]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  112.4   0.0   3.5e-35   3.5e-35      74     190 ..     381     517 ..     380     517 .. 0.98
+   2 !   11.4   0.8   0.00013   0.00013     213     229 ..     571     587 ..     571     588 .. 0.89
+   3 !  158.3   0.1   4.2e-49   4.2e-49     243     393 ..     632     797 ..     611     803 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 112.4 bits;  conditional E-value: 3.5e-35
+   SH_train9  74 araaepd.WfleqemlgYsaYvdrfa.......gtlagvaervdyLqeLgvryLHlLpllkar..agdnDGGfAVadyeevePrlGsnad......... 153
+                 +r+++pd Wf +++mlg + Y+d+fa       g+++gv ++++yL+e +v+ LHl+p+l +   +g +DGG+AVad+++v P lGs++d         
+  ERI96075.1 381 EREKNPD-WFRQKDMLGMMLYIDNFA-------GNIKGVSAKLPYLKECNVNCLHLMPFLDTP--KGRSDGGYAVADFRKVRPDLGSMKD--------- 460
+                 58899999******************************************************************************************* PP
+
+   SH_train9 154 .lealtarlreagisLcaDlvlNHvaddhaWAqaaraG 190
+                  l+al+++ +++g+ Lc+D+v+NH+++dh+WA++ar+G
+  ERI96075.1 461 -LAALADKCHKNGMNLCMDFVMNHTSEDHEWAKKARQG 497
+                 ************************************98 PP
+
+  == domain 2  score: 11.4 bits;  conditional E-value: 0.00013
+   SH_train9 213 tlgqvFPqtAPGnFtlv 229
+                 t+ qvFP+tAPGnFt+ 
+  ERI96075.1 571 TVPQVFPTTAPGNFTWL 587
+                 578************96 PP
+
+  == domain 3  score: 158.3 bits;  conditional E-value: 4.2e-49
+   SH_train9 243 yqWDLnyanpavfaemaeallrlanrGveafRLDStafLWKregtdcrnqpeahtilqalravldivaPgvllkaEaivptaelppyfgsgaee..... 336
+                 yqWDLny np+vf em+  +l lan+G+++ R+D+++++WK+ gt crn+ ++hti++ +r +++iv+P+v+l  E +++ ++++pyfg+ + +     
+  ERI96075.1 632 YQWDLNYGNPRVFNEMMYNFLFLANQGMDVIRIDAVPYIWKELGTPCRNLKQVHTIVRMMRMIAEIVCPSVVLLGEVVMEPEKVVPYFGTVE-K----- 724
+                 *****************************************************************************************966.788888 PP
+
+   SH_train9 337 ..........akechlaYhsslmaagWvalaeqdadllraviaa.t.palpeaaaWlsYvRCHDDigWn 393
+                             ech+ Y+ + ma++W ++a++d +ll++ ++    ++lp++ ++l+Y+RCHDDigW 
+  ERI96075.1 725 ----------P-ECHMLYNVTTMATTWNSIATRDIRLLKKQMDI-V-NSLPKQYTFLNYLRCHDDIGWG 780
+                 88888888887.7**************************99875536689******************6 PP
+
+>> CCY32293.1  alpha amylase catalytic domain protein [Ruminococcus sp. CAG:60]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  113.5   0.0   1.5e-35   1.5e-35      74     190 ..     381     517 ..     371     517 .. 0.98
+   2 !   11.4   0.8   0.00013   0.00013     213     229 ..     571     587 ..     571     588 .. 0.89
+   3 !  155.0   0.1   4.4e-48   4.4e-48     243     393 ..     632     797 ..     611     802 .. 0.90
+   4 ?   -1.3   0.0      0.87      0.87     467     500 ..     924     970 ..     918     971 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 113.5 bits;  conditional E-value: 1.5e-35
+   SH_train9  74 araaepd.WfleqemlgYsaYvdrfa.......gtlagvaervdyLqeLgvryLHlLpllkar..agdnDGGfAVadyeevePrlGsnad......... 153
+                 +r+a+p+ W+++++mlg ++Y+d+fa       g+++gv++++dyL++ +v+y+Hl+p+l +   +g +DGG+AVad+++v+ +lG+++d         
+  CCY32293.1 381 KREADPN-WYKKNDMLGMMFYIDNFA-------GNMKGVESKIDYLEKNNVNYIHLMPFLDTP--EGRSDGGYAVADFRKVQEKLGTMED--------- 460
+                 68999999******************************************************************************************* PP
+
+   SH_train9 154 .lealtarlreagisLcaDlvlNHvaddhaWAqaaraG 190
+                  le+lt + +e+gis+c+D+v+NH+++dh+WA++ar+G
+  CCY32293.1 461 -LEELTGACHEKGISVCMDFVMNHTSEDHEWAKKARQG 497
+                 ************************************98 PP
+
+  == domain 2  score: 11.4 bits;  conditional E-value: 0.00013
+   SH_train9 213 tlgqvFPqtAPGnFtlv 229
+                 t+ qvFP+tAPGnFt+ 
+  CCY32293.1 571 TVPQVFPTTAPGNFTWL 587
+                 578************96 PP
+
+  == domain 3  score: 155.0 bits;  conditional E-value: 4.4e-48
+   SH_train9 243 yqWDLnyanpavfaemaeallrlanrGveafRLDStafLWKregtdcrnqpeahtilqalravldivaPgvllkaEaivptaelppyfgsgaee..... 336
+                 yqWDLny np+vf em+  +l lan+G++  R+D+++++WK+  t crn+p++hti++ +r + +iv+Pg+ll  E +++ ++++pyfg+ + +     
+  CCY32293.1 632 YQWDLNYRNPRVFNEMMYNFLFLANKGIDIIRIDAVPYIWKELNTPCRNLPQVHTIVRMMRLISEIVCPGILLLGEVVMEPEKVVPYFGTVE-K----- 724
+                 *****************************************************************************************966.788888 PP
+
+   SH_train9 337 ..........akechlaYhsslmaagWvalaeqdadllraviaa.t.palpeaaaWlsYvRCHDDigWn 393
+                             ech+ Y+ + ma++W ++a++d +ll++ ++    ++lp++  +l+Y+RCHDDigW 
+  CCY32293.1 725 ----------P-ECHMLYNVTTMATTWHTVATRDVRLLKKQLDI-V-NSLPKDYVFLNYLRCHDDIGWG 780
+                 88888888887.7***************************9985546689******************6 PP
+
+  == domain 4  score: -1.3 bits;  conditional E-value: 0.87
+   SH_train9 467 llllyalalalgglpllY.............mGDElalendesyrdd 500
+                  ++l+a +++  g+p++Y              GDE+++ nd sy+ d
+  CCY32293.1 924 DVMLHAYMFMQSGIPVIY-------------SGDEIGQVNDYSYKLD 957
+                 56777777777777777777777777777777999999999999876 PP
+
+>> APX04080.1  amylosucrase [Arthrobacter sp. QXT31]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  113.4   0.0   1.7e-35   1.7e-35      75     190 ..     382     517 ..     368     550 .. 0.92
+   2 !  118.3   0.5   5.6e-37   5.6e-37     243     330 ..     632     719 ..     611     722 .. 0.94
+   3 !   39.3   0.0   4.5e-13   4.5e-13     339     428 ..     741     835 ..     741     846 .. 0.79
+   4 !    5.3   0.0    0.0091    0.0091     463     500 ..     920     970 ..     920     971 .. 0.91
+   5 ?   -0.0   0.1      0.37      0.37     504     517 ..     994    1007 ..     992    1009 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 113.4 bits;  conditional E-value: 1.7e-35
+   SH_train9  75 raaepd.WfleqemlgYsaYvdrfa.......gtlagvaervdyLqeLgvryLHlLpllkar..agdnDGGfAVadyeevePrlGsnad.......... 153
+                 r++++d Wf++++mlg  +Yvdr+a        +l+gv++r++y++eLg++yLHl+pl+ a   +  +DGG+AV++y++v+P+lG++++          
+  APX04080.1 382 REDNSD-WFQSNRMLGGVCYVDRYA-------ADLEGVRARIPYFKELGLTYLHLMPLFLAP--EPLSDGGYAVSSYRKVNPKLGTMDQ---------- 460
+                 6666777******************************************************************************************** PP
+
+   SH_train9 154 lealtarlreagisLcaDlvlNHvaddhaWAqaaraG 190
+                 l+al+a+lr++gisL++D++ NH++++h+WAq a aG
+  APX04080.1 461 LRALAAELRANGISLVVDFIFNHTSNEHEWAQRAAAG 497
+                 **********************************998 PP
+
+  == domain 2  score: 118.3 bits;  conditional E-value: 5.6e-37
+   SH_train9 243 yqWDLnyanpavfaemaeallrlanrGveafRLDStafLWKregtdcrnqpeahtilqalravldivaPgvllkaEaivptaelppyf 330
+                 +qWDLny+np+vf +ma  +l lan Gv+ +R+D++af+WK+ gt c  +peaht+lqa+ av+ ++aP+ l+k+Eaiv+ +e+  y+
+  APX04080.1 632 FQWDLNYSNPEVFRAMAGEMLFLANLGVDILRMDAVAFIWKQLGTPCESLPEAHTLLQAFNAVCRLAAPSLLFKSEAIVHPDEVALYI 719
+                 9***********************************************************************************9997 PP
+
+  == domain 3  score: 39.3 bits;  conditional E-value: 4.5e-13
+   SH_train9 339 echlaYhsslmaagWvalaeqdadllraviaa...tpalpeaaaWlsYvRCHDDigWnvlraeaa.geaaaaeerlarvarfy..agavagsyarG 428
+                 ec+l+Y+   ma +W ala+++ +ll++ +++    +   ++++W++YvR HDDigW+   ++aa + + +  ++ + + +fy   ++ +gs+a+G
+  APX04080.1 741 ECQLSYNPLQMALTWEALATRNVSLLAQALER-r-HNI-APGTSWVNYVRSHDDIGWTFADEDAA-EFGINGFDHRRFLNSFY--VNRFPGSFAHG 830
+                 8*****************************98866555.5589***************99998876444444444555556666666666666666 PP
+
+  == domain 4  score: 5.3 bits;  conditional E-value: 0.0091
+   SH_train9 463 alrRllllyalalalgglpllY.............mGDElalendesyrdd 500
+                 a+rR+ll +++a+++gg+pllY             +GDE+++ nd  y+++
+  APX04080.1 920 AIRRVLLTHSVAFSTGGIPLLY-------------LGDEVGQLNDYGYAQE 957
+                 799*******************99999999999999999999999988775 PP
+
+  == domain 5  score: -0.0 bits;  conditional E-value: 0.37
+   SH_train9  504 aadgRwlhRpamdw 517 
+                  +ad+Rw+hRp++  
+  APX04080.1  994 EADSRWVHRPQFPA 1007
+                  78********9975 PP
+
+>> AOH44470.1  amylosucrase [Anaerolineaceae bacterium oral taxon 439]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  108.7   0.0   4.5e-34   4.5e-34      74     190 ..     381     517 ..     368     549 .. 0.96
+   2 ?    0.6   0.1      0.24      0.24     213     229 ..     571     587 ..     571     588 .. 0.91
+   3 !  107.8   0.3   8.1e-34   8.1e-34     235     330 ..     611     719 ..     611     722 .. 0.93
+   4 !   50.1   0.0   2.5e-16   2.5e-16     340     433 ..     742     842 ..     741     858 .. 0.86
+   5 !   10.5   0.0   0.00023   0.00023     462     501 ..     919     971 ..     918     971 .. 0.97
+   6 ?   -0.4   0.1      0.47      0.47     503     518 ..     993    1008 ..     992    1009 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 108.7 bits;  conditional E-value: 4.5e-34
+   SH_train9  74 araaepd.WfleqemlgYsaYvdrfa.......gtlagvaervdyLqeLgvryLHlLpllkar..agdnDGGfAVadyeevePrlGsnad......... 153
+                 ar++++d Wf ++em+g  +Yvd +a       gtl+ + +r++y++eLg++yLHl+p+++    ag+nDGG+A+++y+ev+PrlGs+ d         
+  AOH44470.1 381 AREKSAD-WFRSNEMVGGVCYVDLYA-------GTLKQLIKRIPYFKELGLTYLHLMPIFRCP--AGENDGGYAISSYREVDPRLGSTRD--------- 460
+                 67777788******************************************************************************************* PP
+
+   SH_train9 154 .lealtarlreagisLcaDlvlNHvaddhaWAqaaraG 190
+                  +++l+++l +agi L++D+v NH++d+h+WA +araG
+  AOH44470.1 461 -VAKLAEALADAGIILVMDFVFNHTSDEHEWALKARAG 497
+                 ************************************98 PP
+
+  == domain 2  score: 0.6 bits;  conditional E-value: 0.24
+   SH_train9 213 tlgqvFPqtAPGnFtlv 229
+                 tl+++FP+  PG Ft+ 
+  AOH44470.1 571 TLREIFPDEHPGAFTYF 587
+                 699************86 PP
+
+  == domain 3  score: 107.8 bits;  conditional E-value: 8.1e-34
+   SH_train9 235 wvWttFyp.............yqWDLnyanpavfaemaeallrlanrGveafRLDStafLWKregtdcrnqpeahtilqalravldivaPgvllkaEai 320
+                 wvWttF+              yqWDLny np+vf++m+e +l++an Gv+++RLD++af+WK++gt+c  +p a ++++a+  ++ i aP+ l+k+Eai
+  AOH44470.1 611 WVWTTFHS-------------YQWDLNYQNPEVFVRMMEEMLSIANLGVDVLRLDAVAFIWKEMGTTCETRPTAMKLIEAFNLTARISAPSLLFKSEAI 696
+                 777777777777777777777****************************************************************************** PP
+
+   SH_train9 321 vptaelppyf 330
+                 v+ +++++++
+  AOH44470.1 697 VHPDQVVQFI 706
+                 ******9997 PP
+
+  == domain 4  score: 50.1 bits;  conditional E-value: 2.5e-16
+   SH_train9 340 chlaYhsslmaagWvalaeqdadllraviaat...palpeaaaWlsYvRCHDDigWnvlraeaa.geaaaaeerlarvarfy..agavagsyarGea.. 430
+                 c+l+Y+  lma +W ala++d++ll+  +a t    alpe++aW++Y RCHDDigW+   ++a  + + +++ + a + +fy  +g+ +gs+a+G    
+  AOH44470.1 742 CQLSYNPLLMALSWEALATRDTKLLALSMA-T-r-FALPEHTAWVNYTRCHDDIGWTFSDEDAW-SVGIDPQGHRAFLNQFY--TGRFPGSFASGLP-- 832
+                 ***********************9976554.555779********************9999887877899999999999*****9*99*****997766 PP
+
+   SH_train9 431 Fqs 433
+                 Fq 
+  AOH44470.1 833 FQE 835
+                 665 PP
+
+  == domain 5  score: 10.5 bits;  conditional E-value: 0.00023
+   SH_train9 462 lalrRllllyalalalgglpllY.............mGDElalendesyrddp 501
+                 la+ R+++l+++al++gg+pllY             +GDEl+l+nd  yrddp
+  AOH44470.1 919 LAIGRMTVLFGVALTIGGIPLLY-------------LGDELGLTNDYGYRDDP 958
+                 6899**********************************************997 PP
+
+  == domain 6  score: -0.4 bits;  conditional E-value: 0.47
+   SH_train9  503 raadgRwlhRpamdwa 518 
+                  +a+d+Rw+hR a+d++
+  AOH44470.1  993 HAEDSRWVHRHAFDKE 1008
+                  689**********986 PP
+
+>> OLA07016.1  amylosucrase [Eubacterium sp. 38_16]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  108.7   0.0   4.6e-34   4.6e-34      75     190 ..     382     517 ..     371     517 .. 0.97
+   2 !   10.3   0.9   0.00028   0.00028     213     229 ..     571     587 ..     571     588 .. 0.89
+   3 !  155.3   0.2   3.4e-48   3.4e-48     243     393 ..     632     797 ..     611     803 .. 0.90
+   4 ?    1.1   0.0      0.17      0.17     462     501 ..     919     971 ..     918     971 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 108.7 bits;  conditional E-value: 4.6e-34
+   SH_train9  75 raaepd.WfleqemlgYsaYvdrfa.......gtlagvaervdyLqeLgvryLHlLpllkar..agdnDGGfAVadyeevePrlGsnad.......... 153
+                 r++e++ W+++++mlg + Y+d+fa       g+++gv+e+++yL+e +++ LHl+p+l +   +g +DGG+AVad+++v P+lG+++d          
+  OLA07016.1 382 REQEAG-WYHRKDMLGMMLYIDNFA-------GNMQGVKEKIPYLKECNINCLHLMPFLDTP--EGRSDGGYAVADFRKVRPNLGTMKD---------- 460
+                 5555666******************************************************************************************** PP
+
+   SH_train9 154 lealtarlreagisLcaDlvlNHvaddhaWAqaaraG 190
+                 l++l+++ +e++i +c+D+v+NH+++dh+WA+ ar+G
+  OLA07016.1 461 LAELAEKCHEEDINVCMDFVMNHTSEDHEWAKRARDG 497
+                 ***********************************98 PP
+
+  == domain 2  score: 10.3 bits;  conditional E-value: 0.00028
+   SH_train9 213 tlgqvFPqtAPGnFtlv 229
+                 t+ qvFP+tAPGnFt+ 
+  OLA07016.1 571 TVPQVFPTTAPGNFTYL 587
+                 578************96 PP
+
+  == domain 3  score: 155.3 bits;  conditional E-value: 3.4e-48
+   SH_train9 243 yqWDLnyanpavfaemaeallrlanrGveafRLDStafLWKregtdcrnqpeahtilqalravldivaPgvllkaEaivptaelppyfgsgaee..... 336
+                 yqWDLny np+vf em+  +l l+n+G++  R+D+++++WK+ gt+crn+ ++hti++ +r +++iv+P+vll  E +++ ++++pyfg+ + +     
+  OLA07016.1 632 YQWDLNYRNPRVFNEMMYNFLYLTNQGIDIVRIDAVPYIWKELGTTCRNLKQVHTIVRMMRMIAEIVCPSVLLLGEVVMEPEKVVPYFGTIE-K----- 724
+                 *****************************************************************************************966.788888 PP
+
+   SH_train9 337 ..........akechlaYhsslmaagWvalaeqdadllraviaa.t.palpeaaaWlsYvRCHDDigWn 393
+                             ech+ Y+ + ma++W ++a +d +ll++ ++    ++lp++  +l+Y+RCHDDigW 
+  OLA07016.1 725 ----------P-ECHMLYNVTTMATTWNSIAARDIRLLKKQMDI-L-NHLPKQYVFLNYLRCHDDIGWG 780
+                 88888888887.7**************************98864436689******************6 PP
+
+  == domain 4  score: 1.1 bits;  conditional E-value: 0.17
+   SH_train9 462 lalrRllllyalalalgglpllY.............mGDElalendesyrddp 501
+                 +a+r  l+l+a +l+  g+p+lY              GDEl++ nd sy++dp
+  OLA07016.1 919 TAVREDLMLHAYMLTQSGIPMLY-------------SGDELGQVNDYSYKEDP 958
+                 5677778888888888888888888888888888889************9986 PP
+
+>> ODU11059.1  alphaamylase [Thiobacillus sp. SCN 6435]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   98.9   3.9   4.2e-31   4.2e-31      81     229 ..     389     587 ..     381     588 .. 0.98
+   2 !  171.9   1.2   3.2e-53   3.2e-53     243     391 ..     632     795 ..     632     803 .. 0.97
+   3 ?    3.8   0.1     0.026     0.026     462     484 ..     919     941 ..     918     941 .. 0.95
+   4 ?    0.8   0.1       0.2       0.2     504     518 ..     994    1008 ..     992    1009 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 98.9 bits;  conditional E-value: 4.2e-31
+   SH_train9  81 WfleqemlgYsaYvdrfa.......gtlagvaervdyLqeLgvryLHlLpllkar..agdnDGGfAVadyeevePrlGsnad..........lealtar 160
+                 Wfl+q+ +g + Y drfa       ++l+g++++++yLqeLg++ LH++p+l       + DGG+AV+d+ +++Pr+G+++d          +eal+++
+  ODU11059.1 389 WFLSQKWVGMALYCDRFA-------DDLKGLHDHLPYLQELGINLLHVMPILDCP--PAHRDGGYAVRDFYRIDPRFGTTED----------VEALATT 468
+                 *****************************************************999999**************************************** PP
+
+   SH_train9 161 lreagisLcaDlvlNHvaddhaWAqaaraG.....d....aryrd..fyhvladreevdayer....................tlgqvFPqtAPGnFtl 228
+                 l+++++ L++D+v+NH++++h+WA+ ar+G     d    ++y+d  +y v++dre +d ye+                    t+ ++FP tAPGnFt+
+  ODU11059.1 469 LKRRDMLLVLDVVVNHTSNEHEWARLARQG-----D----KHYQD--YYYVFDDREIPDIYEE--------------------TMPEIFPVTAPGNFTW 536
+                 **************************************************************************************************9 PP
+
+   SH_train9 229 v 229
+                 +
+  ODU11059.1 537 D 537
+                 7 PP
+
+  == domain 2  score: 171.9 bits;  conditional E-value: 3.2e-53
+   SH_train9 243 yqWDLnyanpavfaemaeallrlanrGveafRLDStafLWKregtdcrnqpeahtilqalravldivaPgvllkaEaivptaelppyfgsgaeeak... 338
+                 yqWDLny npav++em++++l +anrG + +RLD++afLWK++g++c+n+ eah +lq ++ ++++ aPgvl+ aEaiv+ +e+++yfg++a +ak   
+  ODU11059.1 632 YQWDLNYRNPAVLTEMINIILFWANRGADILRLDAVAFLWKKMGSTCQNEREAHLLLQLMKDCCQVTAPGVLFIAEAIVAPSEISKYFGEDAINAK--- 727
+                 9*******************************************************************************************9988999 PP
+
+   SH_train9 339 ..........echlaYhsslmaagWvalaeqdadllraviaa.t.palpeaaaWlsYvRCHDDig 391
+                           ec++aY+ +lma +W a+a+++a+ll++ i++   pa+ e+a+Wl+YvRCHDDig
+  ODU11059.1 728 ----------ECEIAYNATLMALLWDAVATKNAALLNQGIKN-L-PAKLERATWLNYVRCHDDIG 780
+                 99999999999*****************************98868788899*************8 PP
+
+  == domain 3  score: 3.8 bits;  conditional E-value: 0.026
+   SH_train9 462 lalrRllllyalalalgglpllY 484
+                 +a+r ++ll++++l++gg+pllY
+  ODU11059.1 919 AAVRTIVLLHSVILSFGGIPLLY 941
+                 69999*****************9 PP
+
+  == domain 4  score: 0.8 bits;  conditional E-value: 0.2
+   SH_train9  504 aadgRwlhRpamdwa 518 
+                  aad+Rw+hR  +dw+
+  ODU11059.1  994 AADNRWMHRSYFDWN 1008
+                  789***********7 PP
+
+>> OGS73035.1  alphaamylase [Gallionellales bacterium GWA2_60_142]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  103.9   0.2   1.2e-32   1.2e-32      81     190 ..     389     517 ..     381     550 .. 0.94
+   2 !    6.0   0.1    0.0053    0.0053     214     229 ..     572     587 ..     571     588 .. 0.89
+   3 !  170.0   0.9   1.3e-52   1.3e-52     243     392 ..     632     796 ..     632     804 .. 0.95
+   4 ?    1.2   0.0      0.15      0.15     462     484 ..     919     941 ..     918     971 .. 0.81
+   5 ?   -2.2   1.2       1.7       1.7     503     518 ..     993    1008 ..     992    1009 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 103.9 bits;  conditional E-value: 1.2e-32
+   SH_train9  81 WfleqemlgYsaYvdrfa.......gtlagvaervdyLqeLgvryLHlLpllkar..agdnDGGfAVadyeevePrlGsnad..........lealtar 160
+                 Wfl+q+ +g + Y drfa       g+l+g+++r++yLqeLg++ +H++p+l     +g +DGG+AV+d+++v+ r+Gsn+d          leal+a+
+  OGS73035.1 389 WFLSQKWVGMALYCDRFA-------GDLKGLRARLPYLQELGINLVHVMPILDCP--EGASDGGYAVRDFHRVDARFGSNED----------LEALAAT 468
+                 *************************************************************************************************** PP
+
+   SH_train9 161 lreagisLcaDlvlNHvaddhaWAqaaraG 190
+                 l+++++ L++D+v+NH++d+h+WAq ar G
+  OGS73035.1 469 LKKRDMLLVLDVVVNHTSDEHEWAQRARMG 498
+                 ****************************88 PP
+
+  == domain 2  score: 6.0 bits;  conditional E-value: 0.0053
+   SH_train9 214 lgqvFPqtAPGnFtlv 229
+                 + +vFP+tAP nFt++
+  OGS73035.1 572 MPEVFPETAPENFTWN 587
+                 679***********97 PP
+
+  == domain 3  score: 170.0 bits;  conditional E-value: 1.3e-52
+   SH_train9 243 yqWDLnyanpavfaemaeallrlanrGveafRLDStafLWKregtdcrnqpeahtilqalravldivaPgvllkaEaivptaelppyfgsgaeeak... 338
+                 yqWDLny npav+ em++++l +an+Gv+ +RLD++afLWK+ g++c+n+ eah +lq ++ ++++ aPgvl+ aEaiv+  e+++yfg++a  ak   
+  OGS73035.1 632 YQWDLNYHNPAVLIEMVDIILFWANKGVDILRLDAVAFLWKKPGSTCQNEREAHLLLQLMKDCCQVTAPGVLFIAEAIVSPGEITKYFGDDAIMAK--- 727
+                 9*******************************************************************************************9988999 PP
+
+   SH_train9 339 ..........echlaYhsslmaagWvalaeqdadllraviaa.t.palpeaaaWlsYvRCHDDigW 392
+                           ec++aY+ +lma +W a+a+++a+ll+  +++   pa+ e+a+Wl+YvRCHDDig 
+  OGS73035.1 728 ----------ECEIAYNATLMALLWDAVATRNARLLNLGVQH-L-PAKLERATWLNYVRCHDDIGL 781
+                 99999999999*************************999988868888899*************95 PP
+
+  == domain 4  score: 1.2 bits;  conditional E-value: 0.15
+   SH_train9 462 lalrRllllyalalalgglpllY 484
+                 +a+r ++ll+a +l++gglpl Y
+  OGS73035.1 919 TAIRTIVLLHATILSFGGLPLFY 941
+                 68999****************99 PP
+
+  == domain 5  score: -2.2 bits;  conditional E-value: 1.7
+   SH_train9  503 raadgRwlhRpamdwa 518 
+                  +++d+Rw hR  +dw+
+  OGS73035.1  993 QRDDNRWAHRSRFDWD 1008
+                  5789***********7 PP
+
+>> OIP71579.1  alphaamylase [Oscillatoriales cyanobacterium CG2_30_44_21]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   78.3   0.0   7.2e-25   7.2e-25      76     190 ..     383     517 ..     380     517 .. 0.96
+   2 !    8.2   0.3    0.0011    0.0011     214     230 ..     572     588 ..     571     588 .. 0.90
+   3 !  175.9   0.4   2.1e-54   2.1e-54     243     392 ..     632     796 ..     632     803 .. 0.96
+   4 !    8.4   0.0    0.0011    0.0011     462     484 ..     919     941 ..     918     968 .. 0.97
+   5 ?    3.4   0.2     0.034     0.034     504     518 ..     994    1008 ..     992    1009 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 78.3 bits;  conditional E-value: 7.2e-25
+   SH_train9  76 aaepd.WfleqemlgYsaYvdrfa.......gtlagvaervdyLqeLgvryLHlLpllkar..agdnDGGfAVadyeevePrlGsnad..........l 154
+                 +++ + Wfl+q+ +g + Y + fa       ++l+ + ++ +y+qeLg++ +H++p+lk    +g++DGG+A++d+++++ r+G+ +d          +
+  OIP71579.1 383 EQDHN-WFLSQKWVGMALYSNGFA-------DNLRDLVSKTNYFQELGINMVHIMPILKCP--EGKSDGGYAISDFRQIDDRVGDLED----------V 461
+                 555556********************************************************************************************* PP
+
+   SH_train9 155 ealtarlreagisLcaDlvlNHvaddhaWAqaaraG 190
+                 + ++++ r+++i L++D+vlNH++d+h+WA++a +G
+  OIP71579.1 462 RLIAEDFRKRDILLVLDIVLNHTSDEHEWAKKAIKG 497
+                 ********************************9876 PP
+
+  == domain 2  score: 8.2 bits;  conditional E-value: 0.0011
+   SH_train9 214 lgqvFPqtAPGnFtlve 230
+                 + qvFP+t PGnFt+++
+  OIP71579.1 572 MPQVFPETDPGNFTWNP 588
+                 68************975 PP
+
+  == domain 3  score: 175.9 bits;  conditional E-value: 2.1e-54
+   SH_train9 243 yqWDLnyanpavfaemaeallrlanrGveafRLDStafLWKregtdcrnqpeahtilqalravldivaPgvllkaEaivptaelppyfgsgaeeak... 338
+                 yqWDLny+npavf em++++l +an+Gv+ +RLD++afLWK+ gt+c+n+ +ah ilq ++ ++++ aPgvl+ aEaiv+  e+ +yfg++a +ak   
+  OIP71579.1 632 YQWDLNYSNPAVFIEMLDIILFWANQGVDILRLDAVAFLWKKIGTSCQNERKAHLILQLMKDCCQVSAPGVLFIAEAIVAPIEVIKYFGEDAIAAK--- 727
+                 9*******************************************************************************************9988999 PP
+
+   SH_train9 339 ..........echlaYhsslmaagWvalaeqdadllraviaa.t.palpeaaaWlsYvRCHDDigW 392
+                           ec++aY+ +lma +W ++a+++++ll++ i++   p++ e+a+Wl+YvRCHDDig+
+  OIP71579.1 728 ----------ECEIAYNATLMALLWDSVATKNTKLLSQGIKS-L-PNKLERATWLNYVRCHDDIGF 781
+                 99999999999****************************986648888899*************97 PP
+
+  == domain 4  score: 8.4 bits;  conditional E-value: 0.0011
+   SH_train9 462 lalrRllllyalalalgglpllY 484
+                 +a++R+lll++++l++gg+pl+Y
+  OIP71579.1 919 AAINRILLLHGIILSFGGIPLIY 941
+                 799*******************9 PP
+
+  == domain 5  score: 3.4 bits;  conditional E-value: 0.034
+   SH_train9  504 aadgRwlhRpamdwa 518 
+                  ++d+Rw+hRp++dw+
+  OIP71579.1  994 SNDNRWVHRPKIDWE 1008
+                  689***********7 PP
+
+>> OIO71076.1  alphaamylase [Zetaproteobacteria bacterium CG1_02_55_237]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   92.8   0.1   2.8e-29   2.8e-29      81     190 ..     389     517 ..     371     517 .. 0.97
+   2 !    5.6   0.1     0.007     0.007     213     229 ..     571     587 ..     571     588 .. 0.88
+   3 !  171.9   1.3   3.3e-53   3.3e-53     243     391 ..     632     795 ..     632     802 .. 0.96
+   4 ?    0.2   0.0      0.32      0.32     465     484 ..     922     941 ..     918     971 .. 0.76
+   5 ?    3.5   0.1     0.032     0.032     505     519 ..     995    1009 ..     992    1009 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 92.8 bits;  conditional E-value: 2.8e-29
+   SH_train9  81 WfleqemlgYsaYvdrfa.......gtlagvaervdyLqeLgvryLHlLpllkar..agdnDGGfAVadyeevePrlGsnad..........lealtar 160
+                 Wfl+qe +g + Y d fa       g+l+g++ r+ yLqeLgv+ +H++p+l+    +g +DGG+AV+++++v+ r+G+ +d          l+al+++
+  OIO71076.1 389 WFLSQEWVGMALYSDGFA-------GNLQGMRGRLSYLQELGVNMVHVMPILQCP--QGASDGGYAVSNFRDVDERIGTLDD----------LRALSSD 468
+                 *************************************************************************************************** PP
+
+   SH_train9 161 lreagisLcaDlvlNHvaddhaWAqaaraG 190
+                 +r+++i L +D+v+NH++d+h+WA  araG
+  OIO71076.1 469 MRRRNILLTLDVVVNHTSDEHDWAARARAG 498
+                 ****************************98 PP
+
+  == domain 2  score: 5.6 bits;  conditional E-value: 0.007
+   SH_train9 213 tlgqvFPqtAPGnFtlv 229
+                 t+ ++FP+t PGnFtl+
+  OIO71076.1 571 TMPEIFPETSPGNFTLN 587
+                 5789***********86 PP
+
+  == domain 3  score: 171.9 bits;  conditional E-value: 3.3e-53
+   SH_train9 243 yqWDLnyanpavfaemaeallrlanrGveafRLDStafLWKregtdcrnqpeahtilqalravldivaPgvllkaEaivptaelppyfgsgaeeak... 338
+                 yqWDLny+npavf em++++l +an+G + +RLD++afLWK+ gt c+n+ eah ilq ++ ++++ aPgvl+ aEaiv+  e+++yfg++a  ak   
+  OIO71076.1 632 YQWDLNYSNPAVFIEMIDIILFWANQGADILRLDAVAFLWKKIGTLCQNEREAHLILQMMKDCCQVTAPGVLFIAEAIVAPVEITKYFGEDAVIAK--- 727
+                 9*******************************************************************************************9988999 PP
+
+   SH_train9 339 ..........echlaYhsslmaagWvalaeqdadllraviaa.t.palpeaaaWlsYvRCHDDig 391
+                           ec++aY+ + ma +W a+a+++a+ll++ i +   p++ ++a+Wl+YvRCHDDig
+  OIO71076.1 728 ----------ECEIAYNATFMALLWDAMATKNAKLLNQGILN-L-PSKLDRATWLNYVRCHDDIG 780
+                 99999999999****************************9988566777899************8 PP
+
+  == domain 4  score: 0.2 bits;  conditional E-value: 0.32
+   SH_train9 465 rRllllyalalalgglpllY 484
+                 + +lll+++++++gg+pllY
+  OIO71076.1 922 NLILLLHSMVMSFGGIPLLY 941
+                 6689***************9 PP
+
+  == domain 5  score: 3.5 bits;  conditional E-value: 0.032
+   SH_train9  505 adgRwlhRpamdwar 519 
+                   d+Rw+hRp++dw+r
+  OIO71076.1  995 GDSRWIHRPVIDWER 1009
+                  69***********85 PP
+
+>> GAU77909.1  sucrose phosphorylase [Fusibacter sp. 3D3]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   86.6   0.1   2.2e-27   2.2e-27      81     190 ..     389     517 ..     389     517 .. 0.97
+   2 !    8.3   0.2    0.0011    0.0011     214     229 ..     572     587 ..     571     588 .. 0.91
+   3 !  160.0   0.0   1.3e-49   1.3e-49     243     393 ..     632     797 ..     611     835 .. 0.90
+   4 !    6.8   0.0    0.0031    0.0031     462     501 ..     919     971 ..     918     971 .. 0.94
+   5 ?    0.3   0.4       0.3       0.3     503     517 ..     993    1007 ..     992    1007 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 86.6 bits;  conditional E-value: 2.2e-27
+   SH_train9  81 WfleqemlgYsaYvdrfa.......gtlagvaervdyLqeLgvryLHlLpllkar..agdnDGGfAVadyeevePrlGsnad..........lealtar 160
+                 W ++ e++g + Yvd f+       ++l+ ++++vd++++Lg++ +Hl+p+l +r  +g+nDGG+AV++y++++Pr+G+ +d           +a+ ++
+  GAU77909.1 389 WIASGETVGMMLYVDLFS-------ENLKHLKTHVDHFSNLGISLIHLMPILMPR--EGENDGGYAVKNYRAIDPRVGNLED----------FKAVVSE 468
+                 8889999999999999999999999************************************************************************** PP
+
+   SH_train9 161 lreagisLcaDlvlNHvaddhaWAqaaraG 190
+                  +++gi +c+D v+NH+a+dh+WA +a  G
+  GAU77909.1 469 FHQKGIKICLDYVINHTANDHEWAVKALMG 498
+                 *************************99766 PP
+
+  == domain 2  score: 8.3 bits;  conditional E-value: 0.0011
+   SH_train9 214 lgqvFPqtAPGnFtlv 229
+                 lg+vFP+ APGnFt++
+  GAU77909.1 572 LGEVFPTIAPGNFTFN 587
+                 89************86 PP
+
+  == domain 3  score: 160.0 bits;  conditional E-value: 1.3e-49
+   SH_train9 243 yqWDLnyanpavfaemaeallrlanrGveafRLDStafLWKregtdcrnqpeahtilqalravldivaPgvllkaEaivptaelppyfgsgaee..... 336
+                 yqWDLny np+vf em++ ll lan Gv++ RLD+++++WK+ gtdcrn+pe+h+il+ +r ++++ aP+++l  Eaiv+ + +++yfg+++ +     
+  GAU77909.1 632 YQWDLNYKNPRVFHEMVSNLLFLANIGVDMIRLDAIPYIWKTLGTDCRNLPEVHVILSLFRDIISVCAPSTALLGEAIVSPNVIVRYFGKEE-R----- 724
+                 *****************************************************************************************976.899999 PP
+
+   SH_train9 337 ..........akechlaYhsslmaagWvalaeqdadllraviaatp....alpeaaaWlsYvRCHDDigWn 393
+                             ech  Y+ s m+  W ++a++da+ ++  +  +      lp+++ W++Y+RCHDDigW 
+  GAU77909.1 725 ----------L-ECHSLYNASYMVEIWNSIATRDARHMA--LMPQY----DLPQKSVWINYARCHDDIGWG 778
+                 99999999998.7********************998653..33344666669******************7 PP
+
+  == domain 4  score: 6.8 bits;  conditional E-value: 0.0031
+   SH_train9 462 lalrRllllyalalalgglpllY.............mGDElalendesyrddp 501
+                 la +R+ll++al+l  +g+p+lY              GDE+++ nd +y++dp
+  GAU77909.1 919 LAHKRILLIHALILLRKGIPMLY-------------AGDEMGQLNDYAYKHDP 958
+                 799********************999999999999999999999999999886 PP
+
+  == domain 5  score: 0.3 bits;  conditional E-value: 0.3
+   SH_train9  503 raadgRwlhRpamdw 517 
+                  + +d+RwlhR  +dw
+  GAU77909.1  993 KMKDSRWLHRGRFDW 1007
+                  578***********9 PP
+
+>> KPQ20099.1  amylosucrase AmsA [Algoriphagus marincola HL49]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   92.3   0.0     4e-29     4e-29      81     190 ..     389     517 ..     389     517 .. 0.99
+   2 !    5.6   0.0    0.0072    0.0072     214     229 ..     572     587 ..     571     588 .. 0.89
+   3 !  151.2   0.1   6.1e-47   6.1e-47     243     391 ..     632     795 ..     632     798 .. 0.94
+   4 ?    0.1   0.0      0.35      0.35     463     501 ..     920     971 ..     918     971 .. 0.84
+   5 ?    2.0   0.2      0.09      0.09     504     518 ..     994    1008 ..     992    1009 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 92.3 bits;  conditional E-value: 4e-29
+   SH_train9  81 WfleqemlgYsaYvdrfa.......gtlagvaervdyLqeLgvryLHlLpllkar..agdnDGGfAVadyeevePrlGsnad..........lealtar 160
+                 Wfl+++ +g s Yvdrfa       g++a +++++ yL+eLgv++LHl+pl+++   +g++DGG+AV+d+++v+ r+G+ ++          l++l ++
+  KPQ20099.1 389 WFLSNNLVGMSLYVDRFA-------GSIAQMESKLAYLDELGVNFLHLMPLFESP--QGESDGGYAVSDFRKVDDRFGTLEE----------LSSLRRK 468
+                 *************************************************************************************************** PP
+
+   SH_train9 161 lreagisLcaDlvlNHvaddhaWAqaaraG 190
+                 ++e+g+ L++D+vlNH+++ h+WA++a++G
+  KPQ20099.1 469 MHEEGMYLMLDIVLNHTSHRHEWAEKAKSG 498
+                 ***************************987 PP
+
+  == domain 2  score: 5.6 bits;  conditional E-value: 0.0072
+   SH_train9 214 lgqvFPqtAPGnFtlv 229
+                 + ++FP++ PGnFt++
+  KPQ20099.1 572 MPEIFPESSPGNFTWS 587
+                 679***********97 PP
+
+  == domain 3  score: 151.2 bits;  conditional E-value: 6.1e-47
+   SH_train9 243 yqWDLnyanpavfaemaeallrlanrGveafRLDStafLWKregtdcrnqpeahtilqalravldivaPgvllkaEaivptaelppyfgsgaeeak... 338
+                 yqWDLny np+v+ em++ +l  an Gv+  R+D+ af+WK++gt+c+n+p+aht+lq ++ +++i++Pg+++  Eaiv+ + ++ yfg+g+++++   
+  KPQ20099.1 632 YQWDLNYRNPEVLREMLDNILFYANLGVDLIRIDAPAFIWKETGTSCQNLPQAHTLLQLIKQAVQIASPGMAILGEAIVAPNFIMEYFGKGDRAGN--- 727
+                 9*******************************************************************************************9988999 PP
+
+   SH_train9 339 ..........echlaYhsslmaagWvalaeqdadllraviaatp.....alpeaaaWlsYvRCHDDig 391
+                           ec+ aY+ + ma  W  la++d++++   ++a+p     ++p++++W++Y RCHDDig
+  KPQ20099.1 728 ----------ECDFAYNATQMALQWDMLASGDTRVM---LEAQPi-l-qQKPPGTSWIAYTRCHDDIG 780
+                 99999999999*********************9886...55565444448*****************8 PP
+
+  == domain 4  score: 0.1 bits;  conditional E-value: 0.35
+   SH_train9 463 alrRllllyalalalgglpllY.............mGDElalendesyrddp 501
+                 +++++ll++a +++ gglp+lY              GDEl+  nd s+++dp
+  KPQ20099.1 920 SIQKILLMQAFSIFQGGLPMLY-------------YGDELGYLNDYSFQHDP 958
+                 6889999**************9888888888888888888888888888775 PP
+
+  == domain 5  score: 2.0 bits;  conditional E-value: 0.09
+   SH_train9  504 aadgRwlhRpamdwa 518 
+                  + d+Rw+hRp +dw+
+  KPQ20099.1  994 SYDNRWMHRPLIDWE 1008
+                  579***********7 PP
+
+>> GAK52864.1  alpha amylase catalytic region [Candidatus Moduliflexus flocculans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   40.5   0.0     2e-13     2e-13      88     189 ..     396     516 ..     394     518 .. 0.81
+   2 !  124.6   0.0   6.8e-39   6.8e-39     244     390 ..     633     794 ..     632     798 .. 0.92
+   3 ?   -2.3   0.0       1.8       1.8     464     484 ..     921     941 ..     919     970 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 40.5 bits;  conditional E-value: 2e-13
+   SH_train9  88 lgYsaYvdrfa.......gtlagvaervdyLqeLgvryLHlLpllkaragd....nDGGfAVadyeevePrl.G.....snad....lealtarlreag 165
+                 + YsaY+d f         +l+gv+++++ Lq+Lg++ L lLp+l++         D Gf ++++e++   l G     s+++     ++  a+ +++g
+  GAK52864.1 396 VVYSAYADLFN-------RDLNGVKAKLPELQALGISCLWLLPILESP--M----KDAGFDISNFEDIRADLlGlpataSTEEkdrvFAEFIAEAHARG 481
+                 789999999999999999***************************753..35555589**********876434332223333123345678899**** PP
+
+   SH_train9 166 isLcaDlvlNHvaddhaWAqaara 189
+                 i L+ D+ +NH++d+h+W q+ar+
+  GAK52864.1 482 IRLIFDIAINHTSDEHPWFQEARQ 505
+                 **********************97 PP
+
+  == domain 2  score: 124.6 bits;  conditional E-value: 6.8e-39
+   SH_train9 244 qWDLnyanpavfaemaeallrlanrGveafRLDStafLWKregtdcrnqpeahtilqalravldivaPgvllkaEaivptaelppyfgsgaee...... 336
+                 q DLny np+v+ +m ++l+++  +Gv+  R D+++fLWK+ gt+c  +p++h i++ +ra+ld   Pg+ll aEa  p +++++yfg+          
+  GAK52864.1 633 QPDLNYQNPDVLLDMTRMLIHWKIKGVDGIRADAVPFLWKEDGTTCESLPQVHLIVKFFRAALDYLQPGTLLLAEACQPPNDVVAYFGD---G------ 722
+                 77**************************************************************************************5...6666666 PP
+
+   SH_train9 337 ...........akechlaYhsslmaagWvalaeqdadllravi..aatpalpeaaaWlsYvRCHDDi 390
+                              ec+ aYh  +m   + alae++ad+++ v+  a tpa p++++W +++RCHD++
+  GAK52864.1 723 -----------D-ECQGAYHFPVMPRIYRALAEERADAIEMVLdpAFTPAIPDSCQWFTFLRCHDEL 777
+                 666666666666.8*****************************43469*****************97 PP
+
+  == domain 3  score: -2.3 bits;  conditional E-value: 1.8
+   SH_train9 464 lrRllllyalalalgglpllY 484
+                 lr+++l y+++++l+g p++Y
+  GAK52864.1 921 LRKIRLAYSIMFTLPGTPIIY 941
+                 6889999*************9 PP
+
+>> GAK54911.1  alpha amylase catalytic region [Candidatus Vecturithrix granuli]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.3   0.0   2.9e-14   2.9e-14      88     189 ..     396     516 ..     394     518 .. 0.80
+   2 !  121.9   0.0   4.6e-38   4.6e-38     244     390 ..     633     794 ..     632     798 .. 0.93
+   3 ?   -3.1   0.0       3.1       3.1     465     484 ..     922     941 ..     919     970 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 43.3 bits;  conditional E-value: 2.9e-14
+   SH_train9  88 lgYsaYvdrfa.......gtlagvaervdyLqeLgvryLHlLpllkaragd....nDGGfAVadyeevePr.lG......snad...lealtarlreag 165
+                 + Ys+Y+d fa        + +g++++++yLqeLgv+ L lLp+l++         D Gf ++d+ee+  + lG      + +     ++  ++ +++g
+  GAK54911.1 396 IVYSTYADFFA-------RDFKGLQAKLPYLQELGVTCLWLLPILQSP--M----KDAGFDISDFEEIRAEvLGlppeasKAEKdraFAEFLEDAHTRG 481
+                 789******************************************864..35555589*********9864355333332333211145556778999* PP
+
+   SH_train9 166 isLcaDlvlNHvaddhaWAqaara 189
+                 i L+ D+ +NH++++h+W  +ar+
+  GAK54911.1 482 IRLIFDIAINHTSNEHPWFLEARQ 505
+                 *******************99997 PP
+
+  == domain 2  score: 121.9 bits;  conditional E-value: 4.6e-38
+   SH_train9 244 qWDLnyanpavfaemaeallrlanrGveafRLDStafLWKregtdcrnqpeahtilqalravldivaPgvllkaEaivptaelppyfgsgaee...... 336
+                 q DLny np+v+++m ++l+r+  +G++  R D+++fLWK+egt+c  +pe+hti++ +r++ld   Pg+ll aEa  p +++++yfg+          
+  GAK54911.1 633 QPDLNYHNPNVLVDMTTMLIRWKIKGIDGIRADAVPFLWKEEGTTCESLPETHTIVKFFRTALDYLEPGTLLLAEACQPPKDVVAYFGE---G------ 722
+                 77**************************************************************************************5...6777777 PP
+
+   SH_train9 337 ...........akechlaYhsslmaagWvalaeqdadllraviaa..tpalpeaaaWlsYvRCHDDi 390
+                              ec+ aYh  +m   + alae+++++++ v++   tpa pe+a+W  ++RCHD++
+  GAK54911.1 723 -----------D-ECQGAYHFPVMPRIYRALAEEKGQAIEMVMHPdfTPAIPESAQWFMFLRCHDEL 777
+                 777777777776.8*****************************74349*****************97 PP
+
+  == domain 3  score: -3.1 bits;  conditional E-value: 3.1
+   SH_train9 465 rRllllyalalalgglpllY 484
+                 r+++l y+++++l+g p++Y
+  GAK54911.1 922 RKITLAYSIMFTLPGTPIIY 941
+                 6789999***********99 PP
+
+>> GBD22423.1  Trehalose synthase/amylase TreS [bacterium HR29]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   47.0   0.0   2.2e-15   2.2e-15      99     189 ..     414     516 ..     402     518 .. 0.92
+   2 !   92.8   0.0   2.8e-29   2.8e-29     244     391 ..     633     795 ..     632     798 .. 0.96
+   3 ?   -0.9   0.0       0.7       0.7     463     484 ..     920     941 ..     918     941 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 47.0 bits;  conditional E-value: 2.2e-15
+   SH_train9  99 gtlagvaervdyLqeLgvryLHlLpllkaragd.....nDGGfAVadyeevePrlGsnad..........lealtarlreagisLcaDlvlNHvaddha 182
+                 g++ g+ e++dy+++Lgv+ + lLp+ ++          DGG+ ++dy+++ P +G+ +d           ++l ++ +e+gi ++++lvlNH++d+h+
+  GBD22423.1 414 GDIPGLIEKLDYIHSLGVTCIWLLPFYQS---Pl----RDGGYDISDYRSLHPDFGTIED----------FKRLVHEAHERGIRIMTELVLNHTSDQHP 495
+                 8999**********************875...32555559*********************************************************** PP
+
+   SH_train9 183 WAqaara 189
+                 W qaar+
+  GBD22423.1 496 WFQAARK 502
+                 *****96 PP
+
+  == domain 2  score: 92.8 bits;  conditional E-value: 2.8e-29
+   SH_train9 244 qWDLnyanpavfaemaeallrlanrGveafRLDStafLWKregtdcrnqpeahtilqalravldivaPgvllkaEaivptaelppyfgsgaee...... 336
+                 q DLny np+v +e+++++  + ++Gv+ +RLD++++L+ regt+c n+pe+h+ l+ lr  +d    + +l aEa    +++++yfg+g+        
+  GBD22423.1 633 QPDLNYDNPKVQQEILDIVAYWLDMGVDGLRLDAVPYLFEREGTNCENLPETHQFLKKLRKFVDERWEARALLAEANQWPEDVVAYFGDGD-G------ 724
+                 88**************************************************************************************988.8999999 PP
+
+   SH_train9 337 .........akechlaYhsslmaagWvalaeqdadllraviaa.t.palpeaaaWlsYvRCHDDig 391
+                            ech+aYh  lm  ++ al  ++a+ + +++++ t p+ p++++W  ++R HD++ 
+  GBD22423.1 725 ---------D-ECHMAYHFPLMPRLYIALRREEAKPIVEIMQR-T-PQPPKNGQWCLFLRNHDELT 778
+                 9999999998.8******************************999******************975 PP
+
+  == domain 3  score: -0.9 bits;  conditional E-value: 0.7
+   SH_train9 463 alrRllllyalalalgglpllY 484
+                 + rR+ l+++l ++l+g p++Y
+  GBD22423.1 920 SRRRIELMNSLLFSLPGTPIIY 941
+                 579******************9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (622 nodes)
+Target sequences:                           30  (46440 residues searched)
+Passed MSV filter:                        30  (1); expected 0.6 (0.02)
+Passed bias filter:                       30  (1); expected 0.6 (0.02)
+Passed Vit filter:                        30  (1); expected 0.0 (0.001)
+Passed Fwd filter:                        30  (1); expected 0.0 (1e-05)
+Initial search space (Z):                 30  [actual number of targets]
+Domain search space  (domZ):              30  [number of targets reported over threshold]
+# CPU time: 0.47u 0.02s 00:00:00.49 Elapsed: 00:00:00.50
+# Mc/sec: 57.77
+//
+[ok]

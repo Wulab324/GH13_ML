@@ -1,0 +1,1407 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  hmm_train_test/ncbi_kfold/SH2.hmm
+# target sequence database:        hmm_train_test/ncbi_kfold/SH_test2.fasta
+# sequence reporting threshold:    score >= 0
+# sequence inclusion threshold:    score >= 0
+# biased composition HMM filter:   off
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       SH_train2  [M=620]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+   3.3e-253  832.6   7.9   6.1e-253  831.7   7.9    1.4  1  WP_046344237.1  amylosucrase [Xanthomonas arboricola]
+   3.8e-253  832.3  10.3   7.2e-253  831.4  10.3    1.4  1  WP_057682104.1  alphaamylase family protein [Xanthomonas euve
+   1.7e-252  830.2  10.7   3.2e-252  829.3  10.7    1.4  1  WP_014091021.1  amylosucrase [Xanthomonas euvesicatoria]
+   1.8e-252  830.1   9.7   3.5e-252  829.2   9.7    1.4  1  AQS77780.1      amylosucrase [Xanthomonas perforans 91118]
+   3.5e-252  829.2  10.4   6.6e-252  828.3  10.4    1.4  1  WP_007963297.1  MULTISPECIES: alphaamylase family protein [Xa
+   8.7e-252  827.9   7.9   1.6e-251  827.0   7.9    1.4  1  WP_074058232.1  amylosucrase [Xanthomonas hortorum]
+   1.1e-251  827.5  10.2   2.2e-251  826.6  10.2    1.4  1  ASK97811.1      amylosucrase [Xanthomonas citri pv. vignicola
+   1.3e-251  827.3  10.3   2.5e-251  826.3  10.3    1.4  1  WP_031424290.1  alphaamylase family protein [Xanthomonas euve
+   1.1e-250  824.3  12.1     2e-250  823.3  12.1    1.4  1  WP_042823641.1  amylosucrase [Xanthomonas axonopodis]
+   3.3e-250  822.6  11.2   6.2e-250  821.7  11.2    1.4  1  WP_039572581.1  MULTISPECIES: amylosucrase [Xanthomonas]
+   1.1e-238  784.5  10.3   2.3e-238  783.5  10.3    1.4  1  WP_058362464.1  alphaamylase family protein, partial [Xanthom
+   7.1e-238  781.9   5.4   1.1e-237  781.3   5.4    1.2  1  WP_082551546.1  amylosucrase [Massilia sp. Root351]
+   1.4e-237  780.9   8.6   1.9e-236  777.2   8.6    2.0  1  PTW77827.1      maltopentaoseforming alphaamylase [Massilia s
+   2.1e-237  780.3   7.5   2.6e-198  651.2   1.7    2.1  2  TDY33468.1      maltopentaoseforming alphaamylase [Janthinoba
+   6.3e-236  775.5   6.1   2.9e-198  651.1   0.6    2.1  2  SDM23887.1      amylosucrase [Janthinobacterium sp. OK676]
+   7.2e-235  772.0   8.7     2e-198  651.6   1.6    2.1  2  OEZ48142.1      amylosucrase [Janthinobacterium sp. MP5059B]
+   8.8e-234  768.4   8.0   9.6e-198  649.4   1.8    2.1  2  WP_092608575.1  amylosucrase [Janthinobacterium sp. YR213]
+   6.5e-232  762.2   8.4   5.7e-196  643.5   2.7    2.1  2  WP_065307052.1  amylosucrase [Janthinobacterium psychrotolera
+   4.5e-229  752.8   4.8   1.1e-228  751.5   4.8    1.6  1  PZQ29656.1      amylosucrase [Stenotrophomonas acidaminiphila
+   3.9e-208  683.7   6.9   5.3e-208  683.2   6.9    1.2  1  KQN28447.1      hypothetical protein ASF00_11450 [Sphingomona
+     4e-208  683.6   5.8   5.8e-208  683.1   5.8    1.2  1  WP_056678735.1  hypothetical protein [Sphingomonas sp. Leaf30
+     9e-207  679.2   4.4   1.2e-206  678.7   4.4    1.2  1  RKE50582.1      maltopentaoseforming alphaamylase [Sphingomon
+   1.2e-206  678.7   6.4   3.2e-206  677.3   6.4    1.6  1  OYY19617.1      hypothetical protein B7Y59_00440 [Burkholderi
+   1.3e-202  665.5   4.1     8e-202  662.8   4.1    2.1  2  PKM08830.1      amylosucrase, partial [Gammaproteobacteria ba
+   1.6e-202  665.1   3.6   6.8e-202  663.1   3.6    1.8  1  WP_042082630.1  MULTISPECIES: alphaamylase family protein [Al
+   4.6e-202  663.6   9.1   6.2e-202  663.2   9.1    1.2  1  PZU78933.1      amylosucrase [Sphingomonas sp.]
+   1.8e-194  638.6  14.3   5.6e-169  554.3  12.5    2.1  2  TWB36463.1      maltopentaoseforming alphaamylase [Nitrospiri
+   4.3e-185  607.6  15.6   2.2e-159  522.6   7.2    3.9  3  ALL15239.1      amylosucrase [Caulobacter henricii]
+   5.5e-184  603.9   8.7   5.2e-160  524.7   1.3    3.0  3  WP_023457211.1  hypothetical protein [Asticcacaulis sp. AC466
+   3.7e-167  548.3  16.5   2.8e-154  505.8   8.1    3.1  3  WP_033963675.1  MULTISPECIES: DUF3459 domaincontaining protei
+
+
+Domain annotation for each sequence (and alignments):
+>> WP_046344237.1  amylosucrase [Xanthomonas arboricola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  831.7   7.9  6.1e-253  6.1e-253      30     585 ..     121     796 ..     106     797 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 831.7 bits;  conditional E-value: 6.1e-253
+       SH_train2  30 arllealaslYgera....dlaalleelleelgelaaaRpaalraldaaread....pdWfleqemlgYsaYvdrfagtlagvaervdyLqeLgv 116
+                     +rll+al++lYg+r+    d+a++l+++l++lg++a++Rp+ l++ld++r  +    p+Wf eq+mlgYsaYvdrfagtl+gvaerv+yLqeLgv
+  WP_046344237.1 121 SRLLNALQALYGQRP----DYASWLTQWLSALGSSAQQRPQPLQQLDTTR--Q----PGWFGEQHMLGYSAYVDRFAGTLQGVAERVPYLQELGV 205
+                     6899*******************************************987..899999************************************* PP
+
+       SH_train2 117 ryLHlLpllraragdnDGGFAVadyeevePrlGsnadlealtarLreagisLcaDlvlNHvaddhaWAqaaraGdaryrdfyhvladreevdaye 211
+                     ryLHlLp+lraragdnDGGFAV+dy++veP+lGsn+dl alt+rLreagisLcaD+vlNH+addhaWAqaaraGdary+d+yh++adr+++d+ye
+  WP_046344237.1 206 RYLHLLPFLRARAGDNDGGFAVSDYGQVEPSLGSNDDLVALTTRLREAGISLCADFVLNHTADDHAWAQAARAGDARYLDYYHHFADRTQPDQYE 300
+                     *********************************************************************************************** PP
+
+       SH_train2 212 rtlgqvFPqtAPGnFtlveel.....ggwvWttFypyqWDLnyanpavfaemaeallrlankGveaFRLDStafLWKregtdcrnqpeahtilqa 301
+                     +tlgqvFP+tAPGnFt+v+++     g+w+WttFypyqWDLn++npavf ema a+l+lan GveaFRLDSta+LWKr+gtdc+nqpeaht+l a
+  WP_046344237.1 301 ATLGQVFPHTAPGNFTWVDAT-----GQWMWTTFYPYQWDLNWSNPAVFGEMALAMLQLANLGVEAFRLDSTAYLWKRTGTDCMNQPEAHTLLVA 390
+                     *********************************************************************************************** PP
+
+       SH_train2 302 lravldivaPgvllkAEaivptaelppyfg......sga.............akechlaYhsslmaagWvalaeqdadllraviaatpalpeaaa 377
+                     lrav+divaP+v++kAEaivp+++lppyfg      sga             ++echlaYhs+lmaagW+ala q++d+l++vi ++p+lp+++a
+  WP_046344237.1 391 LRAVTDIVAPSVVMKAEAIVPMTQLPPYFG------SGAdq-----------GHECHLAYHSTLMAAGWSALALQRGDILHNVIVHSPPLPANCA 468
+                     ************************************66667****************************************************** PP
+
+       SH_train2 378 WlsYvRCHDDigWnvlreeaa...................aeaa.......aaeerlarvarfyagave..gsya.....rGeaFqssd.davhg 438
+                     WlsYvRCHDDigWnvl++eaa                   + aa       +++++l++varfya++v+  gsya     rGe+Fqss+ d+vhg
+  WP_046344237.1 469 WLSYVRCHDDIGWNVLQHEAA-----------------g-N-AA-------QPPFALRDVARFYANEVP--GSYA-----RGESFQSSG-DGVHG 529
+                     **************************************884.56777777779****************************************** PP
+
+       SH_train2 439 tnGmaaaLaGle....................aaed..aaaeelalrRllllyalalalgglpllYmGDElalendesyrddperaadgRwlhRp 511
+                     tnGmaaaLaG++                    a++d  +aa ++a++Rl+llya+ala++g+pl+YmGDElal nd syrddp+r+++gRwlhRp
+  WP_046344237.1 530 TNGMAAALAGIQ-----aaq------------ASGD--TAALRMAVDRLVLLYAIALAMPGVPLIYMGDELALPNDGSYRDDPQRRHEGRWLHRP 605
+                     *********************************************************************************************** PP
+
+       SH_train2 512 amdwara.aqre..................daesla.....grvyaalraliaarralaalaadaplel.lalad..pallalarg........e 571
+                     amdw++a +qre                  da sl+     g+vy++lr li++r+al+alaad++l + lal+d  p+l+al+rg        +
+  WP_046344237.1 606 AMDWQLA-TQRE------------------DAGSLS-----GTVYRRLRGLIRQRAALPALAADQALGS-LALGD--PRLFALTRG--------D 665
+                     *********************************************************************************************** PP
+
+       SH_train2 572 eflalanfseeave 585
+                     +fla++nf+e+ ++
+  WP_046344237.1 666 RFLAVHNFGEQLLT 679
+                     *********98765 PP
+
+>> WP_057682104.1  alphaamylase family protein [Xanthomonas euvesicatoria]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  831.4  10.3  7.2e-253  7.2e-253      30     585 ..     121     796 ..     106     797 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 831.4 bits;  conditional E-value: 7.2e-253
+       SH_train2  30 arllealaslYgera....dlaalleelleelgelaaaRpaalraldaar.....eadpdWfleqemlgYsaYvdrfagtlagvaervdyLqeLg 115
+                     +rll+al++lYg+ra    d+a++l+++l e+g++a++Rp+al++ld++r     +   +Wf eq+mlgYsaY+drfagtl+gvaerv+yLqeLg
+  WP_057682104.1 121 SRLLDALHALYGQRA----DYASWLAQWLGEVGTIARQRPQALQTLDSTRh----A---GWFGEQHMLGYSAYADRFAGTLQGVAERVPYLQELG 204
+                     6899********************************************99444443...8*********************************** PP
+
+       SH_train2 116 vryLHlLpllraragdnDGGFAVadyeevePrlGsnadlealtarLreagisLcaDlvlNHvaddhaWAqaaraGdaryrdfyhvladreevday 210
+                     vryLHlLp+lraragdnDGGFAV+dy++veP+lG+n+dl alt+rLreagisLcaD+vlNH+addhaWAqaaraGdary+d+yh++adr+ +d+y
+  WP_057682104.1 205 VRYLHLLPFLRARAGDNDGGFAVSDYGQVEPSLGTNDDLIALTTRLREAGISLCADFVLNHTADDHAWAQAARAGDARYLDYYHHFADRSLPDRY 299
+                     *********************************************************************************************** PP
+
+       SH_train2 211 ertlgqvFPqtAPGnFtlveel.....ggwvWttFypyqWDLnyanpavfaemaeallrlankGveaFRLDStafLWKregtdcrnqpeahtilq 300
+                     e+tlgqvFP+tAPGnFt+v+++     ++w+WttFypyqWDLn++npavf +ma a+lrlan GveaFRLDSta+LWKr gtdc+nqpeaht+l 
+  WP_057682104.1 300 EATLGQVFPHTAPGNFTWVDDT-----AQWMWTTFYPYQWDLNWSNPAVFGDMALAMLRLANLGVEAFRLDSTAYLWKRIGTDCMNQPEAHTLLV 389
+                     *********************************************************************************************** PP
+
+       SH_train2 301 alravldivaPgvllkAEaivptaelppyfg......sga.............akechlaYhsslmaagWvalaeqdadllraviaatpalpeaa 376
+                     alrav+divaP+v++kAEaivp+++lppyfg      sg+             ++echlaYhsslmaagW+ala q++d+l++via++p+lp+++
+  WP_057682104.1 390 ALRAVTDIVAPAVVMKAEAIVPMTQLPPYFG------SGTdq-----------GHECHLAYHSSLMAAGWSALALQRGDILHNVIAHSPPLPRHC 467
+                     *************************************55446***************************************************** PP
+
+       SH_train2 377 aWlsYvRCHDDigWnvlreeaa...................aeaa.......aaeerlarvarfyagave..gsya.....rGeaFqssd.davh 437
+                     aWlsYvRCHDDigWnvl++ea+                   + aa       +++++l++varfya+av+  gsya     rGe+Fqss+ d+vh
+  WP_057682104.1 468 AWLSYVRCHDDIGWNVLQHEAS-----------------g-N-AA-------QPPFSLRDVARFYANAVP--GSYA-----RGESFQSSG-DGVH 528
+                     ***************************************884.56777777779***************************************** PP
+
+       SH_train2 438 gtnGmaaaLaGle....................aaed..aaaeelalrRllllyalalalgglpllYmGDElalendesyrddperaadgRwlhR 510
+                     gtnGmaaaLaG++                    +a+d  aaa ++a++Rl+llya+ala++g+pl+YmGDEla+ nd  yrddp r+++gRwlhR
+  WP_057682104.1 529 GTNGMAAALAGIQ-----aaq------------EAGD--AAALAVAVDRLVLLYAIALAMPGVPLIYMGDELAMVNDPGYRDDPLRQHEGRWLHR 604
+                     *********************************************************************************************** PP
+
+       SH_train2 511 pamdwara.aqre..................daesla.....grvyaalraliaarralaalaadaplel.lalad..pallalarg........ 570
+                     pamdw++a aqr+                  da+sl+     g+vy++lr li++r+al+alaad++l + +al+d  ++++al+rg        
+  WP_057682104.1 605 PAMDWQLA-AQRH------------------DANSLS-----GKVYRRLRGLIRKRTALTALAADQALGS-IALND--ARVFALTRG-------- 664
+                     *********************************************************************************************** PP
+
+       SH_train2 571 eeflalanfseeave 585
+                     e+f+al+nfs+++++
+  WP_057682104.1 665 ESFIALHNFSDQPLD 679
+                     ************987 PP
+
+>> WP_014091021.1  amylosucrase [Xanthomonas euvesicatoria]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  829.3  10.7  3.2e-252  3.2e-252      30     585 ..     121     796 ..     106     797 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 829.3 bits;  conditional E-value: 3.2e-252
+       SH_train2  30 arllealaslYgera....dlaalleelleelgelaaaRpaalraldaar.....eadpdWfleqemlgYsaYvdrfagtlagvaervdyLqeLg 115
+                     +rll+al++lYg+ra    d+a++l+++l e+g++a++Rp+al++ld++r     +   +Wf eq+mlgYsaY+drfagtl+gvaerv+yLqeLg
+  WP_014091021.1 121 SRLLDALHALYGQRA----DYASWLAQWLGEVGTIARQRPQALQTLDSTRh----A---GWFGEQHMLGYSAYADRFAGTLQGVAERVPYLQELG 204
+                     6899********************************************99444443...8*********************************** PP
+
+       SH_train2 116 vryLHlLpllraragdnDGGFAVadyeevePrlGsnadlealtarLreagisLcaDlvlNHvaddhaWAqaaraGdaryrdfyhvladreevday 210
+                     vryLHlLp+lraragdnDGGFAV+dy++v P+lG+n+dl alt+rLreagisLcaD+vlNH+addhaWAqaaraGdary+d+yh++adr+ +d+y
+  WP_014091021.1 205 VRYLHLLPFLRARAGDNDGGFAVSDYGQVAPSLGTNDDLIALTTRLREAGISLCADFVLNHTADDHAWAQAARAGDARYLDYYHHFADRSLPDRY 299
+                     *********************************************************************************************** PP
+
+       SH_train2 211 ertlgqvFPqtAPGnFtlveel.....ggwvWttFypyqWDLnyanpavfaemaeallrlankGveaFRLDStafLWKregtdcrnqpeahtilq 300
+                     e+tlgqvFP+tAPGnFt+v+++     ++w+WttFypyqWDLn++npavf +ma a+lrlan GveaFRLDSta+LWKr gtdc+nqpeaht+l 
+  WP_014091021.1 300 EATLGQVFPHTAPGNFTWVDDT-----AQWMWTTFYPYQWDLNWSNPAVFGDMALAMLRLANLGVEAFRLDSTAYLWKRIGTDCMNQPEAHTLLV 389
+                     *********************************************************************************************** PP
+
+       SH_train2 301 alravldivaPgvllkAEaivptaelppyfg......sga.............akechlaYhsslmaagWvalaeqdadllraviaatpalpeaa 376
+                     alrav+divaP+v++kAEaivp+++lppyfg      sg+             ++echlaYhsslmaagW+ala q++d+l++via++p+lp+++
+  WP_014091021.1 390 ALRAVTDIVAPAVVMKAEAIVPMTQLPPYFG------SGTdq-----------GHECHLAYHSSLMAAGWSALALQRGDILHNVIAHSPPLPRHC 467
+                     *************************************55446***************************************************** PP
+
+       SH_train2 377 aWlsYvRCHDDigWnvlreeaa...................aeaa.......aaeerlarvarfyagave..gsya.....rGeaFqssd.davh 437
+                     aWlsYvRCHDDigWnvl++ea+                   + aa       +++++l++varfya+av+  gsya     rGe+Fqss+ d+vh
+  WP_014091021.1 468 AWLSYVRCHDDIGWNVLQHEAS-----------------g-N-AA-------QPPFSLRDVARFYANAVP--GSYA-----RGESFQSSG-DGVH 528
+                     ***************************************884.56777777779***************************************** PP
+
+       SH_train2 438 gtnGmaaaLaGle....................aaed..aaaeelalrRllllyalalalgglpllYmGDElalendesyrddperaadgRwlhR 510
+                     gtnGmaaaLaG++                    +a+d  aaa ++a++Rl+llya+ala++g+pl+YmGDEla+ nd  yrddp r+++gRwlhR
+  WP_014091021.1 529 GTNGMAAALAGIQ-----aaq------------EAGD--AAALAVAVDRLVLLYAIALAMPGVPLIYMGDELAMVNDPGYRDDPLRQHEGRWLHR 604
+                     *********************************************************************************************** PP
+
+       SH_train2 511 pamdwara.aqre..................daesla.....grvyaalraliaarralaalaadaplel.lalad..pallalarg........ 570
+                     pamdw++a aqr+                  da+sl+     g+vy++lr li++r+al+alaad++l + +al+d  ++++al+rg        
+  WP_014091021.1 605 PAMDWQLA-AQRH------------------DANSLS-----GTVYRRLRGLIRQRTALTALAADQALGS-IALND--ARVFALTRG-------- 664
+                     *********************************************************************************************** PP
+
+       SH_train2 571 eeflalanfseeave 585
+                     e+f+al+nfs+++++
+  WP_014091021.1 665 ESFIALHNFSDQPLD 679
+                     ************987 PP
+
+>> AQS77780.1  amylosucrase [Xanthomonas perforans 91118]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  829.2   9.7  3.5e-252  3.5e-252      30     585 ..     121     796 ..     105     797 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 829.2 bits;  conditional E-value: 3.5e-252
+   SH_train2  30 arllealaslYgera....dlaalleelleelgelaaaRpaalraldaar.....eadpdWfleqemlgYsaYvdrfagtlagvaervdyLqeLgvryL 119
+                 +rll+al++lYg+ra    d+a++l+++l e+g++a++Rp+al+ald++r     +   +Wf eq+mlgYsaY+drfagtl+gvaerv+yLqeLgvryL
+  AQS77780.1 121 SRLLDALHALYGQRA----DYASWLAQWLGEVGTIARQRPQALQALDSTRh----A---GWFGEQHMLGYSAYADRFAGTLQGVAERVPYLQELGVRYL 208
+                 6899********************************************99444443...8*************************************** PP
+
+   SH_train2 120 HlLpllraragdnDGGFAVadyeevePrlGsnadlealtarLreagisLcaDlvlNHvaddhaWAqaaraGdaryrdfyhvladreevdayertlgqvF 218
+                 HlLp+lraragdnDGGFAV+dy++veP+lG+n+dl alt+rLreagisLcaD+vlNH+addhaWAqaaraGdary+d+yh++adr+ +d+ye+tlgqvF
+  AQS77780.1 209 HLLPFLRARAGDNDGGFAVSDYGQVEPSLGTNDDLIALTTRLREAGISLCADFVLNHTADDHAWAQAARAGDARYLDYYHHFADRSLPDRYEATLGQVF 307
+                 *************************************************************************************************** PP
+
+   SH_train2 219 PqtAPGnFtlveel.....ggwvWttFypyqWDLnyanpavfaemaeallrlankGveaFRLDStafLWKregtdcrnqpeahtilqalravldivaPg 312
+                 P+tAPGnFt+v+++     ++w+WttFypyqWDLn++npavf +ma a+lrlan GveaFRLDSta+LWKr gtdc+nqpeaht+l alrav+divaP+
+  AQS77780.1 308 PHTAPGNFTWVDDT-----AQWMWTTFYPYQWDLNWSNPAVFGDMALAMLRLANLGVEAFRLDSTAYLWKRIGTDCMNQPEAHTLLVALRAVTDIVAPA 401
+                 *************************************************************************************************** PP
+
+   SH_train2 313 vllkAEaivptaelppyfg......sga.............akechlaYhsslmaagWvalaeqdadllraviaatpalpeaaaWlsYvRCHDDigWnv 392
+                 v++kAEaivp+++lppyfg      sg+             ++echlaYhsslmaagW+ala q++d+l++via++p+lp+++aWlsYvRCHDDigWnv
+  AQS77780.1 402 VVMKAEAIVPMTQLPPYFG------SGTdq-----------GHECHLAYHSSLMAAGWSALALQRGDILHNVIAHSPPLPRHCAWLSYVRCHDDIGWNV 483
+                 *************************55446********************************************************************* PP
+
+   SH_train2 393 lreeaa...................aeaa.......aaeerlarvarfyagave..gsya.....rGeaFqssd.davhgtnGmaaaLaGle....... 450
+                 l++ea+                   + aa       +++++l++v rfya+av+  gsya     rGe+Fqss+ d+vhgtnGmaaaLaG++       
+  AQS77780.1 484 LQHEAS-----------------g-N-AA-------QPPFSLRDVVRFYANAVP--GSYA-----RGESFQSSG-DGVHGTNGMAAALAGIQ-----aa 543
+                 ***********************884.56777777779************************************************************* PP
+
+   SH_train2 451 .............aaed..aaaeelalrRllllyalalalgglpllYmGDElalendesyrddperaadgRwlhRpamdwara.aqre........... 522
+                              +a+d  aaa ++a++Rl+llya+ala++g+pl+YmGDEla+ nd  yrddp r+++gRwlhRpamdw++a aqr+           
+  AQS77780.1 544 q------------EAGD--AAALAVAVDRLVLLYAIALAMPGVPLIYMGDELAMVNDPGYRDDPLRQHEGRWLHRPAMDWQLA-AQRH----------- 616
+                 *************************************************************************************************** PP
+
+   SH_train2 523 .......daesla.....grvyaalraliaarralaalaadaplel.lalad..pallalarg........eeflalanfseeave 585
+                        da+sl+     g+vy++lr li++r+al+alaad++l + +al+d  ++++al+rg        e+f+al+nfs+++++
+  AQS77780.1 617 -------DANSLS-----GTVYRRLRGLIRQRTALTALAADRALGS-IALND--ARVFALTRG--------ESFIALHNFSDQPLD 679
+                 ***********************************************************************************987 PP
+
+>> WP_007963297.1  MULTISPECIES: alphaamylase family protein [Xanthomonas]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  828.3  10.4  6.6e-252  6.6e-252      30     585 ..     121     796 ..     106     797 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 828.3 bits;  conditional E-value: 6.6e-252
+       SH_train2  30 arllealaslYgera....dlaalleelleelgelaaaRpaalraldaar.....eadpdWfleqemlgYsaYvdrfagtlagvaervdyLqeLg 115
+                     +rlleal++lYg+ra    d+a++l+++l e+g++a++Rp+al++ld++r     +   +Wf e++mlgYsaY+drfagtl+gvae+v+yLqeLg
+  WP_007963297.1 121 SRLLEALHALYGQRA----DYASWLAQWLGEVGDIARQRPQALQTLDSTRh----A---GWFGEPHMLGYSAYADRFAGTLQGVAEHVPYLQELG 204
+                     6899********************************************99444443...8*********************************** PP
+
+       SH_train2 116 vryLHlLpllraragdnDGGFAVadyeevePrlGsnadlealtarLreagisLcaDlvlNHvaddhaWAqaaraGdaryrdfyhvladreevday 210
+                     vryLHlLp+l+aragdnDGGFAV+dy++veP+lGsn+dl alt+rLreagisLcaD+vlNH+addhaWAqaaraGdary+d+yh++adr+ +d+y
+  WP_007963297.1 205 VRYLHLLPFLQARAGDNDGGFAVSDYGQVEPSLGSNDDLIALTSRLREAGISLCADFVLNHTADDHAWAQAARAGDARYLDYYHHFADRTLPDRY 299
+                     *********************************************************************************************** PP
+
+       SH_train2 211 ertlgqvFPqtAPGnFtlveel.....ggwvWttFypyqWDLnyanpavfaemaeallrlankGveaFRLDStafLWKregtdcrnqpeahtilq 300
+                     e+tlgqvFP+tAPGnFt+v+++     ++w+WttFypyqWDLn++npavf +ma a+lrlan GveaFRLDSta+LWKr gtdc+nqpeaht+l 
+  WP_007963297.1 300 EATLGQVFPHTAPGNFTWVDDT-----AQWMWTTFYPYQWDLNWSNPAVFGDMALAMLRLANLGVEAFRLDSTAYLWKRIGTDCMNQPEAHTLLV 389
+                     *********************************************************************************************** PP
+
+       SH_train2 301 alravldivaPgvllkAEaivptaelppyfg......sga.............akechlaYhsslmaagWvalaeqdadllraviaatpalpeaa 376
+                     alrav+divaP+v++kAEaivp+++lppyfg      sg+             ++echlaYhs+lmaagW+ala q++d+l++via++p+lp+++
+  WP_007963297.1 390 ALRAVTDIVAPAVVMKAEAIVPMTQLPPYFG------SGTdq-----------GHECHLAYHSTLMAAGWSALALQRGDILHHVIAHSPPLPRHC 467
+                     *************************************55446***************************************************** PP
+
+       SH_train2 377 aWlsYvRCHDDigWnvlreeaa...................aeaa.......aaeerlarvarfyagave..gsya.....rGeaFqssd.davh 437
+                     aWlsYvRCHDDigWnvl++ea+                   + aa       +++++l++varfya+av+  gsya     rGe+Fqss+ d+vh
+  WP_007963297.1 468 AWLSYVRCHDDIGWNVLQHEAS-----------------g-N-AA-------QPPFSLRDVARFYANAVP--GSYA-----RGESFQSSG-DGVH 528
+                     ***************************************884.56777777779***************************************** PP
+
+       SH_train2 438 gtnGmaaaLaGle....................aaed..aaaeelalrRllllyalalalgglpllYmGDElalendesyrddperaadgRwlhR 510
+                     gtnGmaaaLaG++                    +a+d  aaa e+a++Rl+llya+ala++g+pl+YmGDEla+ nd  yrddp+r+++gRwlhR
+  WP_007963297.1 529 GTNGMAAALAGIQ-----aaq------------EAGD--AAALEVAVDRLVLLYAVALAMPGVPLIYMGDELAMVNDPGYRDDPHRQHEGRWLHR 604
+                     *********************************************************************************************** PP
+
+       SH_train2 511 pamdwara.aqre..................daesla.....grvyaalraliaarralaalaadaplel.lalad..pallalarg........ 570
+                     pamdw++a +qr+                  da+sl+     g+vy++lr li++r+al alaad++l++ +al+d  p+l+alarg        
+  WP_007963297.1 605 PAMDWQLA-SQRH------------------DAKSLS-----GTVYRRLRGLIRQRAALGALAADQALAS-IALND--PRLFALARG-------- 664
+                     *********************************************************************************************** PP
+
+       SH_train2 571 eeflalanfseeave 585
+                     ++f+al+nfs+++++
+  WP_007963297.1 665 DSFIALHNFSDQPLD 679
+                     ************987 PP
+
+>> WP_074058232.1  amylosucrase [Xanthomonas hortorum]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  827.0   7.9  1.6e-251  1.6e-251      30     585 ..     121     796 ..     106     797 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 827.0 bits;  conditional E-value: 1.6e-251
+       SH_train2  30 arllealaslYgera....dlaalleelleelgelaaaRpaalraldaaread....pdWfleqemlgYsaYvdrfagtlagvaervdyLqeLgv 116
+                     +rll+al++lYg+r+    d+a++l+++l++lg++a++Rp+ l++ld++r  +    p+Wf eq+mlgYsaYvdrfagtl+gvaerv+yLqeLgv
+  WP_074058232.1 121 PRLLDALQALYGQRP----DYASWLTQWLSALGNTAQQRPQPLQQLDTTR--Q----PGWFGEQHMLGYSAYVDRFAGTLQGVAERVPYLQELGV 205
+                     799********************************************987..899999************************************* PP
+
+       SH_train2 117 ryLHlLpllraragdnDGGFAVadyeevePrlGsnadlealtarLreagisLcaDlvlNHvaddhaWAqaaraGdaryrdfyhvladreevdaye 211
+                     ryLHlLp+lraragdnDGGFAV+dy++veP+lG+n+dl alt+rLreagisLcaD+vlNH+addhaWAqaaraGdary+d+yh++adr+ +d+ye
+  WP_074058232.1 206 RYLHLLPFLRARAGDNDGGFAVSDYGQVEPSLGDNDDLIALTTRLREAGISLCADFVLNHTADDHAWAQAARAGDARYLDYYHHFADRTLPDQYE 300
+                     *********************************************************************************************** PP
+
+       SH_train2 212 rtlgqvFPqtAPGnFtlveel.....ggwvWttFypyqWDLnyanpavfaemaeallrlankGveaFRLDStafLWKregtdcrnqpeahtilqa 301
+                     +tlgqvFP+tAPGnFt+v+++     ++w+WttFypyqWDLn++npavf ema a+l+lan GveaFRLDSta+LWKr+gtdc+nqpeaht+l a
+  WP_074058232.1 301 TTLGQVFPHTAPGNFTWVDDT-----AHWMWTTFYPYQWDLNWSNPAVFGEMALAMLQLANLGVEAFRLDSTAYLWKRTGTDCMNQPEAHTLLVA 390
+                     *********************************************************************************************** PP
+
+       SH_train2 302 lravldivaPgvllkAEaivptaelppyfg......sga.............akechlaYhsslmaagWvalaeqdadllraviaatpalpeaaa 377
+                     lrav+divaP+v++kAEaivp+++lppyfg      +ga             ++echlaYhs+lmaagW+ala q++d+l++via++p+lp+++a
+  WP_074058232.1 391 LRAVTDIVAPSVVMKAEAIVPMTQLPPYFG------TGAdq-----------GHECHLAYHSTLMAAGWSALALQRGDILHTVIAHSPPLPHNCA 468
+                     ************************************55557****************************************************** PP
+
+       SH_train2 378 WlsYvRCHDDigWnvlreeaa...................aeaa.......aaeerlarvarfyagave..gsya.....rGeaFqssd.davhg 438
+                     WlsYvRCHDDigWnvl++eaa                   + a+       +++++l++varfya++v+  gsya     rGe+Fqss+ d+vhg
+  WP_074058232.1 469 WLSYVRCHDDIGWNVLQHEAA-----------------g-N-AE-------QPPFALRDVARFYANDVP--GSYA-----RGESFQSSG-DGVHG 529
+                     **************************************884.56777777779****************************************** PP
+
+       SH_train2 439 tnGmaaaLaGle....................aaed..aaaeelalrRllllyalalalgglpllYmGDElalendesyrddperaadgRwlhRp 511
+                     tnGmaaaLaG++                    +a+d  a a ++a++Rl+llya+ala++g+pl+YmGDElal nd syr dp r+++gRwlhRp
+  WP_074058232.1 530 TNGMAAALAGIQ-----aaq------------EAGD--AVALDTAVDRLVLLYAIALAMPGVPLIYMGDELALPNDISYRGDPLRQHEGRWLHRP 605
+                     *********************************************************************************************** PP
+
+       SH_train2 512 amdwara.aqre..................daesla.....grvyaalraliaarralaalaadaplel.lalad..pallalarg........e 571
+                     amdw+ a aqre                   a+sl+     g+vy++lrali++r+al+alaad++l + +al+d  p+l+al+rg        +
+  WP_074058232.1 606 AMDWQVA-AQRE------------------TADSLS-----GKVYRRLRALIRQRAALSALAADQALGS-VALGD--PRLFALTRG--------D 665
+                     *********************************************************************************************** PP
+
+       SH_train2 572 eflalanfseeave 585
+                      fla++nf++++++
+  WP_074058232.1 666 GFLAVHNFGDQPLT 679
+                     **********9986 PP
+
+>> ASK97811.1  amylosucrase [Xanthomonas citri pv. vignicola]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  826.6  10.2  2.2e-251  2.2e-251      30     585 ..     121     796 ..     106     797 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 826.6 bits;  conditional E-value: 2.2e-251
+   SH_train2  30 arllealaslYgera....dlaalleelleelgelaaaRpaalraldaar.....eadpdWfleqemlgYsaYvdrfagtlagvaervdyLqeLgvryL 119
+                 +rlleal++lYg+ra    d+a++l+++l e+g++a++Rp+al++ld++r     +   +Wf e++mlgYsaY+drfagtl+gvae+v+yLqeLgvryL
+  ASK97811.1 121 SRLLEALHALYGQRA----DYASWLAQWLGEVGDIARQRPQALQTLDSTRh----A---GWFGEPHMLGYSAYADRFAGTLQGVAEHVPYLQELGVRYL 208
+                 6899********************************************99444443...8*************************************** PP
+
+   SH_train2 120 HlLpllraragdnDGGFAVadyeevePrlGsnadlealtarLreagisLcaDlvlNHvaddhaWAqaaraGdaryrdfyhvladreevdayertlgqvF 218
+                 HlLp+lraragdnDGGFAV+dy++veP+lGsn+dl alt+rLreagisLcaD+vlNH+addhaWAqaaraGdary+d+yh++adr+ +d+ye+tlgqvF
+  ASK97811.1 209 HLLPFLRARAGDNDGGFAVSDYGQVEPSLGSNDDLIALTSRLREAGISLCADFVLNHTADDHAWAQAARAGDARYLDYYHHFADRTLPDRYEATLGQVF 307
+                 *************************************************************************************************** PP
+
+   SH_train2 219 PqtAPGnFtlveel.....ggwvWttFypyqWDLnyanpavfaemaeallrlankGveaFRLDStafLWKregtdcrnqpeahtilqalravldivaPg 312
+                 P+tAPGnFt+v+++     ++w+WttFypyqWDLn++npavf +ma a+lrlan GveaFRLDSta+LWKr gtdc+nqpeaht+l alrav+divaP+
+  ASK97811.1 308 PHTAPGNFTWVDDT-----AQWMWTTFYPYQWDLNWSNPAVFGDMALAMLRLANLGVEAFRLDSTAYLWKRIGTDCMNQPEAHTLLVALRAVTDIVAPA 401
+                 *************************************************************************************************** PP
+
+   SH_train2 313 vllkAEaivptaelppyfg......sga.............akechlaYhsslmaagWvalaeqdadllraviaatpalpeaaaWlsYvRCHDDigWnv 392
+                 v++kAEaivp+++lppyfg      sg+             ++echlaYhs+lmaagW+ala q++d+l++via++p+lp+++aWlsYvRCHDDigWnv
+  ASK97811.1 402 VVMKAEAIVPMTQLPPYFG------SGTdq-----------GHECHLAYHSTLMAAGWSALALQRGDILHHVIAHSPPLPRHCAWLSYVRCHDDIGWNV 483
+                 *************************55446********************************************************************* PP
+
+   SH_train2 393 lreeaa...................aeaa.......aaeerlarvarfyagave..gsya.....rGeaFqssd.davhgtnGmaaaLaGle....... 450
+                 l++ea+                   + aa       +++++l++varfya+av+  gsya     rGe+Fqss+ d+vhgtnGmaaaLaG++       
+  ASK97811.1 484 LQHEAS-----------------g-N-AA-------QPPFSLRDVARFYANAVP--GSYA-----RGESFQSSG-DGVHGTNGMAAALAGIQ-----aa 543
+                 ***********************884.56777777779************************************************************* PP
+
+   SH_train2 451 .............aaed..aaaeelalrRllllyalalalgglpllYmGDElalendesyrddperaadgRwlhRpamdwara.aqre........... 522
+                              +a+d  aaa e+a++Rl+llya+ala++g+pl+YmGDEla+ nd   rddp+r+++gRwlhRpamdw++a +qr+           
+  ASK97811.1 544 q------------EAGD--AAALEVAVDRLVLLYAVALAMPGVPLIYMGDELAMVNDPGSRDDPHRQHEGRWLHRPAMDWQLA-SQRH----------- 616
+                 *************************************************************************************************** PP
+
+   SH_train2 523 .......daesla.....grvyaalraliaarralaalaadaplel.lalad..pallalarg........eeflalanfseeave 585
+                        da+sl+     g+vy++lr li++r+al alaad++l++ +al+d  p+l+alarg        ++f+a++nfs+++++
+  ASK97811.1 617 -------DAKSLS-----GTVYRRLRGLIRQRAALGALAADQALAS-IALND--PRLFALARG--------DSFIAVHNFSDQPLD 679
+                 ***********************************************************************************987 PP
+
+>> WP_031424290.1  alphaamylase family protein [Xanthomonas euvesicatoria]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  826.3  10.3  2.5e-251  2.5e-251      30     585 ..     121     796 ..     105     797 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 826.3 bits;  conditional E-value: 2.5e-251
+       SH_train2  30 arllealaslYgera....dlaalleelleelgelaaaRpaalraldaar.....eadpdWfleqemlgYsaYvdrfagtlagvaervdyLqeLg 115
+                     +rll+al++lYg+ra    d+a++l+++l e+g++a++Rp+al+ald++r     +   +Wf eq+mlgYsaY+drfagtl+gvaerv+yLqeLg
+  WP_031424290.1 121 SRLLDALHALYGQRA----DYASWLAQWLGEVGTIARQRPQALQALDSTRh----A---GWFGEQHMLGYSAYADRFAGTLQGVAERVPYLQELG 204
+                     6899********************************************99444443...8*********************************** PP
+
+       SH_train2 116 vryLHlLpllraragdnDGGFAVadyeevePrlGsnadlealtarLreagisLcaDlvlNHvaddhaWAqaaraGdaryrdfyhvladreevday 210
+                     vryLHlLp+lraragdnDGGFAV+dy++veP+ G+n+dl alt+rLreagisLcaD+vlNH+addhaWAqaaraGdary+d+yh++adr+ +d+y
+  WP_031424290.1 205 VRYLHLLPFLRARAGDNDGGFAVSDYGQVEPSQGTNDDLIALTTRLREAGISLCADFVLNHTADDHAWAQAARAGDARYLDYYHHFADRSLPDRY 299
+                     *********************************************************************************************** PP
+
+       SH_train2 211 ertlgqvFPqtAPGnFtlveel.....ggwvWttFypyqWDLnyanpavfaemaeallrlankGveaFRLDStafLWKregtdcrnqpeahtilq 300
+                     e+tlgqvFP+tAPGnFt+v+++     ++w+WttFypyqWDLn++npavf +ma a+lrlan GveaFRLDSta+LWKr gtdc+nqpeaht+l 
+  WP_031424290.1 300 EATLGQVFPHTAPGNFTWVDDT-----AQWMWTTFYPYQWDLNWSNPAVFGDMALAMLRLANLGVEAFRLDSTAYLWKRIGTDCMNQPEAHTLLV 389
+                     *********************************************************************************************** PP
+
+       SH_train2 301 alravldivaPgvllkAEaivptaelppyfg......sga.............akechlaYhsslmaagWvalaeqdadllraviaatpalpeaa 376
+                     alrav+divaP+v++kAEaivp+++lppyfg      sg+             ++echlaYhsslmaagW+ala q++d+l++via++p+lp+++
+  WP_031424290.1 390 ALRAVTDIVAPAVVMKAEAIVPMTQLPPYFG------SGTdq-----------GHECHLAYHSSLMAAGWSALALQRGDILHNVIAHSPPLPRHC 467
+                     *************************************55446***************************************************** PP
+
+       SH_train2 377 aWlsYvRCHDDigWnvlreeaa...................aeaa.......aaeerlarvarfyagave..gsya.....rGeaFqssd.davh 437
+                     aWlsYvRCHDDigWnvl++ea+                   + aa       +++++l++varfya+av+  gsya     rGe+Fqss+ d+vh
+  WP_031424290.1 468 AWLSYVRCHDDIGWNVLQHEAS-----------------g-N-AA-------QPPFSLRDVARFYANAVP--GSYA-----RGESFQSSG-DGVH 528
+                     ***************************************884.56777777779***************************************** PP
+
+       SH_train2 438 gtnGmaaaLaGle....................aaed..aaaeelalrRllllyalalalgglpllYmGDElalendesyrddperaadgRwlhR 510
+                     gtnGmaaaL+G++                     a+d  aaa ++a++Rl+llya+ala++g+pl+YmGDEla+ nd  yrddp r+++gRwlhR
+  WP_031424290.1 529 GTNGMAAALTGIQ-----aaq------------DAGD--AAALAVAVDRLVLLYAIALAMPGVPLIYMGDELAMVNDPGYRDDPLRQHEGRWLHR 604
+                     *********************************************************************************************** PP
+
+       SH_train2 511 pamdwara.aqre..................daesla.....grvyaalraliaarralaalaadaplel.lalad..pallalarg........ 570
+                     pamdw++a aqr+                  da+sl+     g+vy++lr li++r+al+alaad++l + +al+d  ++++al+rg        
+  WP_031424290.1 605 PAMDWQLA-AQRH------------------DANSLS-----GTVYRRLRGLIRQRTALTALAADRALGS-IALND--ARVFALTRG-------- 664
+                     *********************************************************************************************** PP
+
+       SH_train2 571 eeflalanfseeave 585
+                     e+f+al+nfs+++++
+  WP_031424290.1 665 ESFIALHNFSDQPLD 679
+                     ************987 PP
+
+>> WP_042823641.1  amylosucrase [Xanthomonas axonopodis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  823.3  12.1    2e-250    2e-250      30     585 ..     121     796 ..     105     797 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 823.3 bits;  conditional E-value: 2e-250
+       SH_train2  30 arllealaslYgera....dlaalleelleelgelaaaRpaalraldaar.....eadpdWfleqemlgYsaYvdrfagtlagvaervdyLqeLg 115
+                     +rll+al++lYg+ra    d+a++++++l e++++a++Rp+al++ld++r     +   +Wf eq+mlgYsaY+drfagtl+gvae+v+yLqeLg
+  WP_042823641.1 121 SRLLDALHALYGQRA----DYASWMAQWLGEVANIARQRPQALQTLDSTRh----A---GWFGEQHMLGYSAYADRFAGTLQGVAEHVPYLQELG 204
+                     6899********************************************99444443...8*********************************** PP
+
+       SH_train2 116 vryLHlLpllraragdnDGGFAVadyeevePrlGsnadlealtarLreagisLcaDlvlNHvaddhaWAqaaraGdaryrdfyhvladreevday 210
+                     vryLHlLp+lraragdnDGGFAV+dy++veP+lGsn+dl alt+rLreagisLcaD+vlNH+addhaWA+aaraGdary+d+yh++adr+ +d+y
+  WP_042823641.1 205 VRYLHLLPFLRARAGDNDGGFAVSDYGQVEPSLGSNDDLIALTTRLREAGISLCADFVLNHTADDHAWARAARAGDARYLDYYHHFADRTLPDRY 299
+                     *********************************************************************************************** PP
+
+       SH_train2 211 ertlgqvFPqtAPGnFtlveel.....ggwvWttFypyqWDLnyanpavfaemaeallrlankGveaFRLDStafLWKregtdcrnqpeahtilq 300
+                     e+tlgqvFP+tAPGnFt+v+++     ++w+WttFypyqWDLn++npavf +ma a+lrlan GveaFRLDSta+LWKr gtdc+nqpeaht+l 
+  WP_042823641.1 300 EATLGQVFPHTAPGNFTWVDDA-----AQWMWTTFYPYQWDLNWSNPAVFGDMALAMLRLANLGVEAFRLDSTAYLWKRIGTDCMNQPEAHTLLV 389
+                     *********************************************************************************************** PP
+
+       SH_train2 301 alravldivaPgvllkAEaivptaelppyfg......sga.............akechlaYhsslmaagWvalaeqdadllraviaatpalpeaa 376
+                     alrav+divaP+v++kAEaivp+++lppyfg      sg+             ++echlaYhsslmaagW+ala q++d+l++via++p+lp+++
+  WP_042823641.1 390 ALRAVTDIVAPAVVMKAEAIVPMTQLPPYFG------SGTdq-----------GHECHLAYHSSLMAAGWSALALQRGDILHNVIAHSPPLPRNC 467
+                     *************************************55446***************************************************** PP
+
+       SH_train2 377 aWlsYvRCHDDigWnvlreeaa...................aeaa.......aaeerlarvarfyagave..gsya.....rGeaFqssd.davh 437
+                     aWlsYvRCHDDigW+vl++ea+                   + aa       +++++l++varfya+av+  gsya     rGe+Fqss+ d+vh
+  WP_042823641.1 468 AWLSYVRCHDDIGWHVLQHEAS-----------------g-N-AA-------QPPFSLRDVARFYANAVP--GSYA-----RGESFQSSG-DGVH 528
+                     ***************************************884.56777777779***************************************** PP
+
+       SH_train2 438 gtnGmaaaLaGle....................aaed..aaaeelalrRllllyalalalgglpllYmGDElalendesyrddperaadgRwlhR 510
+                     gtnGmaaaLaG++                     a++  aaa ++a++Rl+llya+ala++g+pl+YmGDEla+ nd syrd+p+r+++gRwlhR
+  WP_042823641.1 529 GTNGMAAALAGIQ-----aaq------------DAGN--AAALAVAVDRLVLLYAIALAMPGVPLIYMGDELAMINDPSYRDNPHRRHEGRWLHR 604
+                     *********************************************************************************************** PP
+
+       SH_train2 511 pamdwara.aqre..................daesla.....grvyaalraliaarralaalaadaplel.lalad..pallalarg........ 570
+                     pamdw++a a+r+                  da+sl+     g+vy++lr li++r+al+alaad++l + +al+d  ++++al+rg        
+  WP_042823641.1 605 PAMDWQLA-ARRH------------------DAKSLS-----GTVYRRLRGLIRQRAALTALAADQALGS-IALND--SRVFALTRG-------- 664
+                     *********************************************************************************************** PP
+
+       SH_train2 571 eeflalanfseeave 585
+                     ++f+al+nfs+++++
+  WP_042823641.1 665 DSFIALHNFSDQSLK 679
+                     ************987 PP
+
+>> WP_039572581.1  MULTISPECIES: amylosucrase [Xanthomonas]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  821.7  11.2  6.2e-250  6.2e-250      30     585 ..     121     796 ..     105     797 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 821.7 bits;  conditional E-value: 6.2e-250
+       SH_train2  30 arllealaslYgera....dlaalleelleelgelaaaRpaalraldaar.....eadpdWfleqemlgYsaYvdrfagtlagvaervdyLqeLg 115
+                     +rll+al++lYg+ra    d+a++l+++l e+g++a++R++al++ld++r     +   +Wf eq+mlgYsaY+drfagtl+gvae+v+yLqeLg
+  WP_039572581.1 121 SRLLDALDALYGQRA----DYASWLAQWLGEVGTIARQRTQALQTLDSTRh----A---GWFGEQHMLGYSAYADRFAGTLQGVAEHVPYLQELG 204
+                     6899********************************************99444443...8*********************************** PP
+
+       SH_train2 116 vryLHlLpllraragdnDGGFAVadyeevePrlGsnadlealtarLreagisLcaDlvlNHvaddhaWAqaaraGdaryrdfyhvladreevday 210
+                     vryLHlLp+lraragdnDGGFAV+dy++veP+lGsn+dl alt+rLr+agisLcaD+vlNH+addhaWA+aaraGdary+d+yh++adr  +d+y
+  WP_039572581.1 205 VRYLHLLPFLRARAGDNDGGFAVSDYGQVEPSLGSNDDLVALTTRLRDAGISLCADFVLNHTADDHAWARAARAGDARYLDYYHHFADRILPDRY 299
+                     *********************************************************************************************** PP
+
+       SH_train2 211 ertlgqvFPqtAPGnFtlveel.....ggwvWttFypyqWDLnyanpavfaemaeallrlankGveaFRLDStafLWKregtdcrnqpeahtilq 300
+                     e tlgqvFP+tAPGnFt+v+++     + w+WttFypyqWDLn++npavf +ma a+l+lan GveaFRLDSta+LWKr gtdc+nqpeaht+l 
+  WP_039572581.1 300 EVTLGQVFPHTAPGNFTWVDDA-----ASWMWTTFYPYQWDLNWSNPAVFGDMALAMLQLANLGVEAFRLDSTAYLWKRLGTDCMNQPEAHTLLV 389
+                     *********************************************************************************************** PP
+
+       SH_train2 301 alravldivaPgvllkAEaivptaelppyfg......sga.............akechlaYhsslmaagWvalaeqdadllraviaatpalpeaa 376
+                     alrav+divaP+v++kAEaivp+++lppyfg      sg+             ++echlaYhs+lmaagW+ala q++d+l++via++p+lp+++
+  WP_039572581.1 390 ALRAVTDIVAPAVVMKAEAIVPMTQLPPYFG------SGTdq-----------GHECHLAYHSTLMAAGWSALALQRGDILHNVIAHSPPLPRNC 467
+                     *************************************55446***************************************************** PP
+
+       SH_train2 377 aWlsYvRCHDDigWnvlreeaa...................aeaa.......aaeerlarvarfyagave..gsya.....rGeaFqssd.davh 437
+                     aWlsYvRCHDDigWnvl++ea+                   + aa       +++++l++varfya+av+  gsya     rGe+Fqss+ d+vh
+  WP_039572581.1 468 AWLSYVRCHDDIGWNVLQHEAS-----------------g-N-AA-------QPPFSLRDVARFYANAVP--GSYA-----RGESFQSSG-DGVH 528
+                     ***************************************884.56777777779***************************************** PP
+
+       SH_train2 438 gtnGmaaaLaGle....................aaed..aaaeelalrRllllyalalalgglpllYmGDElalendesyrddperaadgRwlhR 510
+                     gtnGmaaaLaG++                    +a+d  aaa ++a++Rl+llya+ala++g+pl+YmGDEla+ nd  yrddp+r+++gRwlhR
+  WP_039572581.1 529 GTNGMAAALAGIQ-----saq------------EAGD--AAALAVAVDRLVLLYAIALAMPGVPLIYMGDELAMVNDPGYRDDPQRRHEGRWLHR 604
+                     *********************************************************************************************** PP
+
+       SH_train2 511 pamdwara.aqre..................daesla.....grvyaalraliaarralaalaadaplel.lalad..pallalarg........ 570
+                     pamdw+ra aqr+                  da+sl+     g+vy++lr li++r+al+alaad++l + +al+d  ++++al+rg        
+  WP_039572581.1 605 PAMDWQRA-AQRH------------------DAKSLS-----GTVYRRLRGLIRQRAALTALAADQALGS-IALND--SRVFALTRG-------- 664
+                     *********************************************************************************************** PP
+
+       SH_train2 571 eeflalanfseeave 585
+                     ++f+al+nfs+++++
+  WP_039572581.1 665 DSFIALHNFSDQSLD 679
+                     ***********9986 PP
+
+>> WP_058362464.1  alphaamylase family protein, partial [Xanthomonas translucens]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  783.5  10.3  2.3e-238  2.3e-238      30     518 ..     121     694 ..     120     699 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 783.5 bits;  conditional E-value: 2.3e-238
+       SH_train2  30 arllealaslYgera....dlaalleelleelgelaaaRpaalraldaaread....pdWfleqemlgYsaYvdrfagtlagvaervdyLqeLgv 116
+                     arl +al+ lYg+++    ++a++l ++l++++++++aRp al++ldaar       pdWf +++mlgYsaYvdrfagtlagv erv+yLqeLgv
+  WP_058362464.1 121 ARLFAALHVLYGAHP----HYAQWLPRWLDAVAATIRARPPALAELDAAR--A----PDWFGTPSMLGYSAYVDRFAGTLAGVGERVPYLQELGV 205
+                     68999******************************************986..7888889************************************ PP
+
+       SH_train2 117 ryLHlLpllraragdnDGGFAVadyeevePrlGsnadlealtarLreagisLcaDlvlNHvaddhaWAqaaraGdaryrdfyhvladreevdaye 211
+                     ryLHlLp+lr+r+gdnDGGFAV+dy++vePrlG+nadl+altarLr+agisLcaD+vlNH+addh+WA aar+Gdary+d+yh++a+r+ +d+ye
+  WP_058362464.1 206 RYLHLLPFLRMREGDNDGGFAVSDYGQVEPRLGDNADLAALTARLRDAGISLCADFVLNHTADDHPWALAARQGDARYLDYYHHFAERDLPDRYE 300
+                     *********************************************************************************************** PP
+
+       SH_train2 212 rtlgqvFPqtAPGnFtlveel.....ggwvWttFypyqWDLnyanpavfaemaeallrlankGveaFRLDStafLWKregtdcrnqpeahtilqa 301
+                     rtl++vFP+tAPGnFt+ve++     ++w+WttFypyqWDL+++npavf ema all+lan Gve+FRLDSta+LWKreg+dc+nqpeahtil+a
+  WP_058362464.1 301 RTLREVFPHTAPGNFTWVEDA-----QAWLWTTFYPYQWDLDWSNPAVFGEMALALLHLANLGVEVFRLDSTAYLWKREGSDCMNQPEAHTILEA 390
+                     *********************************************************************************************** PP
+
+       SH_train2 302 lravldivaPgvllkAEaivptaelppyfg......sga.............akechlaYhsslmaagWvalaeqdadllraviaatpalpeaaa 377
+                     lra++di+aP+vllkAEaivp+a+lppyfg      s++             ++echlaYhs+lmaagWvala q++d+++ via+tpalp+a+a
+  WP_058362464.1 391 LRALTDIAAPAVLLKAEAIVPMAQLPPYFG------SDQar-----------GHECHLAYHSTLMAAGWVALAAQRGDIVHGVIAQTPALPPACA 468
+                     ************************************65558****************************************************** PP
+
+       SH_train2 378 WlsYvRCHDDigWnvlreeaa.............................aeaaaaeerlarvarfyagave..gsya.....rGeaFqssd.da 435
+                     WlsYvRCHDDigWnvl++eaa                             +    a+++la++arf+ag+v+  gsya     rGeaFqss+ d+
+  WP_058362464.1 469 WLSYVRCHDDIGWNVLQHEAA-----------------g-gng-------S----APFDLAQAARFFAGDVA--GSYA-----RGEAFQSSG-DG 526
+                     ****************************************66666666664....79************************************** PP
+
+       SH_train2 436 vhgtnGmaaaLaGle....................aaed..aaaeelalrRllllyalalalgglpllYmGDElalendesyrddperaadgRwl 508
+                     vhg+nGm+aaL+G+e                    a++d  a+a ela+rRlllly++ala++g+pllYmGDElal nd++yr+dp r+++gRwl
+  WP_058362464.1 527 VHGSNGMSAALVGIE-----aal------------ADGD--AEALELAIRRLLLLYGVALAIPGVPLLYMGDELALGNDADYRRDPLRRHEGRWL 602
+                     *********************************************************************************************** PP
+
+       SH_train2 509 hRpamdwara 518
+                     +Rpamdw+ra
+  WP_058362464.1 603 QRPAMDWERA 612
+                     *******997 PP
+
+>> WP_082551546.1  amylosucrase [Massilia sp. Root351]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  781.3   5.4  1.1e-237  1.1e-237      30     584 ..     121     795 ..     120     797 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 781.3 bits;  conditional E-value: 1.1e-237
+       SH_train2  30 arllealaslYgera....dlaalleelleelgelaaaRpaalraldaaread..pdWfleqemlgYsaYvdrfagtlagvaervdyLqeLgvry 118
+                     a+l+++l+ lYg+ +     +a++++el++++g+laaaRpa+l+a+d++r a+  pdWf++q+mlgY+aY+drf+g+lagva+r+++L+eLgvry
+  WP_082551546.1 121 AVLHQRLSGLYGTLP----GFARWYAELAAQVGRLAAARPAELQAQDEQRLAN--PDWFQDQSMLGYCAYADRFGGSLAGVAQRIPHLRELGVRY 209
+                     689******************************************************************************************** PP
+
+       SH_train2 119 LHlLpllraragdnDGGFAVadyeevePrlGsnadlealtarLreagisLcaDlvlNHvaddhaWAqaaraGdaryrdfyhvladreevdayert 213
+                     LHlLp+lr+rag+nDGGFAVa++++v+P+lG nadl+altarLr+agisLc+D++lNHvaddh+WA++ar+Gd+++r+++hv++dr+++d+yert
+  WP_082551546.1 210 LHLLPFLRPRAGENDGGFAVASFDDVDPKLGGNADLDALTARLRAAGISLCSDFILNHVADDHPWARGARRGDSALRAYFHVFPDRRMPDRYERT 304
+                     *********************************************************************************************** PP
+
+       SH_train2 214 lgqvFPqtAPGnFtlveel.....ggwvWttFypyqWDLnyanpavfaemaeallrlankGveaFRLDStafLWKregtdcrnqpeahtilqalr 303
+                     lgqvFPq+APGnF++ve++     ggwvWttFypyqWDLnyanpavfa+ma+allrlan+G+e+FRLDStafLWKreg++c+nqpeah++lqalr
+  WP_082551546.1 305 LGQVFPQVAPGNFSYVEDM-----GGWVWTTFYPYQWDLNYANPAVFADMAAALLRLANRGIEVFRLDSTAFLWKREGSNCMNQPEAHALLQALR 394
+                     *********************************************************************************************** PP
+
+       SH_train2 304 avldivaPgvllkAEaivptaelppyfg......sga.............akechlaYhsslmaagWvalaeqdadllraviaatpalpeaaaWl 379
+                     a+++i+aPgvllkAEaivpt+elp+yfg      +++             a+ech+aYhsslmaagW+alaeqda+llrav+a+tp+lp++++Wl
+  WP_082551546.1 395 AIVAIAAPGVLLKAEAIVPTRELPAYFG------DAQ-------------APECHIAYHSSLMAAGWGALAEQDAALLRAVLARTPELPPHTSWL 470
+                     *********************************************************************************************** PP
+
+       SH_train2 380 sYvRCHDDigWnvlreeaa......................aeaa....aaeerlarvarfyaga.......vegsyarGeaFqssd.davhgtn 440
+                     sYvRCHDDigWnvlr+ea                       a+ a    +a++rla++a+fy+g+       ++g   +G+aFqssd +a+hg+n
+  WP_082551546.1 471 SYVRCHDDIGWNVLRAEAG-----------------e-adgAD-Ag-peRARARLAAIANFYSGS-a--gqyADGARPSGAAFQSSDpHAAHGSN 542
+                     **************************************87533.24776999***********8555555446777779********9******* PP
+
+       SH_train2 441 GmaaaLaGle....................aaed..aaaeelalrRllllyalalalgglpllYmGDElalendesyrddperaadgRwlhRpam 513
+                     Gmaa+LaGl                      a+d   +++++alrR lll++lal++g+lp+lYmGDEla++nd+syr ++e+a+d+Rwl+Rp++
+  WP_082551546.1 543 GMAASLAGLAgvpaqvapppspqhpsrpqpLAQD--LERQQAALRRALLLHGLALSAGALPVLYMGDELAQRNDDSYRGRSEHAMDSRWLQRPVF 635
+                     *************************9998888999999********************************************************* PP
+
+       SH_train2 514 dwara.aqre..................daesla.....grvyaalraliaarralaalaadaplel.lalad...pallalarg........ee 572
+                     d+ ++ aqr                   d ++ a     g++y  lral+ arr+l+alaa ap+++ la+     +a+lalarg         +
+  WP_082551546.1 636 DEYAF-AQRG------------------DPATPA-----GQMYGGLRALLGARRRLDALAAGAPRTV-LAS-A---AAVLALARG--------PR 693
+                     ****************************************************************9988764.45555899999999999999999 PP
+
+       SH_train2 573 flalanfseeav 584
+                     f+al+nfs++++
+  WP_082551546.1 694 FVALFNFSGSMQ 705
+                     999999998765 PP
+
+>> PTW77827.1  maltopentaoseforming alphaamylase [Massilia sp. GV016]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  777.2   8.6  1.9e-236  1.9e-236      30     585 ..     121     796 ..     120     797 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 777.2 bits;  conditional E-value: 1.9e-236
+   SH_train2  30 arllealaslYgera....dlaalleelleelgelaaaRpaalraldaaread..pdWfleqemlgYsaYvdrfagtlagvaervdyLqeLgvryLHlL 122
+                 a+l+++l+ lYg+++     +a+++++l++++g+laaaRpa+l+a+d++r a+  pdWf++q+mlgY+aY+drf+gtlagvaer+++L+eLgvryLHlL
+  PTW77827.1 121 AVLHQRLSGLYGQQP----GFAQWYADLAAQVGRLAAARPAELQAQDEQRLAR--PDWFQHQSMLGYCAYADRFGGTLAGVAERIPHLRELGVRYLHLL 213
+                 689************************************************************************************************ PP
+
+   SH_train2 123 pllraragdnDGGFAVadyeevePrlGsnadlealtarLreagisLcaDlvlNHvaddhaWAqaaraGdaryrdfyhvladreevdayertlgqvFPqt 221
+                 p+lr+rag+nDGGFAVa++++v+PrlG nadl+altarLr+agisLc+D++lNHvaddh+WA++ar+Gd+++r ++hv++dr+++d++e+tlgqvFPq+
+  PTW77827.1 214 PFLRPRAGENDGGFAVASFDDVDPRLGGNADLDALTARLRAAGISLCSDFILNHVADDHPWARGARHGDQALRGYFHVFPDRSMPDRHEATLGQVFPQV 312
+                 *************************************************************************************************** PP
+
+   SH_train2 222 APGnFtlveel.....ggwvWttFypyqWDLnyanpavfaemaeallrlankGveaFRLDStafLWKregtdcrnqpeahtilqalravldivaPgvll 315
+                 APGnF+ v+e+     ggwvWttFypyqWDLnyanpavfaema+allrlan+G+e+FRLDStafLWKregt+c+nqpeah++lqalra+++i+aPgvll
+  PTW77827.1 313 APGNFSRVDEM-----GGWVWTTFYPYQWDLNYANPAVFAEMAAALLRLANRGIEVFRLDSTAFLWKREGTNCMNQPEAHALLQALRAIVAIAAPGVLL 406
+                 *************************************************************************************************** PP
+
+   SH_train2 316 kAEaivptaelppyfg......sga.............akechlaYhsslmaagWvalaeqdadllraviaatpalpeaaaWlsYvRCHDDigWnvlre 395
+                 kAEaivpt+elp+yfg      ++a             a+ech+aYhsslmaagW+alaeqda+llrav+a+tp+lp++++WlsYvRCHDDigWnvlr+
+  PTW77827.1 407 KAEAIVPTRELPAYFG------DAA-------------APECHIAYHSSLMAAGWGALAEQDASLLRAVLARTPELPPHTSWLSYVRCHDDIGWNVLRA 486
+                 *************************************************************************************************** PP
+
+   SH_train2 396 eaa......................aeaa...aaeerlarvarfyaga.......vegsyarGeaFqssd.davhgtnGmaaaLaGle........... 450
+                 ea                       a+a    +a++rla++a+fy+g+       ++g   +G+aFqssd +a+hg+nGmaa+LaGl+           
+  PTW77827.1 487 EAG-----------------e-ddgADAG-peRARARLAAIANFYSGS-a--gayADGALPHGAAFQSSDpTAAHGSNGMAASLAGLT------ap--- 554
+                 **********************985333377699************966566555789999*********9**************************** PP
+
+   SH_train2 451 ................aaedaaaeelalrRllllyalalalgglpllYmGDElalendesyrddperaadgRwlhRpamdwara.aqre.......... 522
+                                 a+     +++alrR lll++lal++g+lp+lYmGDEla++nd syrd+pe+a+d+Rwl+Rp++d++++ aqr+          
+  PTW77827.1 555 ----------------AQ-----QHAALRRALLLHGLALSAGALPVLYMGDELAQRNDGSYRDRPEHAMDSRWLQRPVFDDHAF-AQRH---------- 621
+                 ****************95.....5789************************************************************************ PP
+
+   SH_train2 523 ........daesla.....grvyaalraliaarralaalaadaplel.lalad...pallalarg........eeflalanfseeave 585
+                         d ++ a     g++y  lral++ar++l+alaa ap+++ l++     pa+lalarg         +flal+nfs++a++
+  PTW77827.1 622 --------DPATPA-----GEMYGGLRALLSARTRLDALAAGAPRSV-LPS-A---PAVLALARG--------PRFLALFNFSGAAQQ 683
+                 *********************************************988874.6777799**************99*******998876 PP
+
+>> TDY33468.1  maltopentaoseforming alphaamylase [Janthinobacterium sp. 75]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  651.2   1.7  2.6e-198  2.6e-198      30     397 ..     121     518 ..     120     519 .. 0.99
+   2 !  132.6   0.4   2.7e-41   2.7e-41     407     585 ..     553     796 ..     552     797 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 651.2 bits;  conditional E-value: 2.6e-198
+   SH_train2  30 arllealaslYgera....dlaalleelleelgelaaaRpaalraldaaread..pdWfleqemlgYsaYvdrfagtlagvaervdyLqeLgvryLHlL 122
+                 a+ll++l slYg+r+    d+  +l +l+e++g+l+aaR+ al ++da+rea+  pdWf++q+mlgYsaYv+rf+g+l+gva+r+ +L+eLgv+yLHlL
+  TDY33468.1 121 AVLLDRLGSLYGQRP----DFLPWLGDLMESVGRLYAARAPALLRQDAQREAQ--PDWFASQSMLGYSAYVQRFGGSLQGVAARIGHLRELGVTYLHLL 213
+                 6899*********************************************************************************************** PP
+
+   SH_train2 123 pllraragdnDGGFAVadyeevePrlGsnadlealtarLreagisLcaDlvlNHvaddhaWAqaaraGdaryrdfyhvladreevdayertlgqvFPqt 221
+                 p+lr+rag++DGGFAVa++eev+P+lGsnadl+alta+Lr+agisLc+Dl+lNHvaddhaWA +a+aGd+ +rdf+h+++dr+++d+yert+gqvFPq+
+  TDY33468.1 214 PFLRPRAGESDGGFAVASFEEVDPALGSNADLQALTAQLRAAGISLCSDLILNHVADDHAWALGAKAGDPLLRDFFHTYPDRAQPDRYERTVGQVFPQA 312
+                 *************************************************************************************************** PP
+
+   SH_train2 222 APGnFtlveel.....ggwvWttFypyqWDLnyanpavfaemaeallrlankGveaFRLDStafLWKregtdcrnqpeahtilqalravldivaPgvll 315
+                 APGnFt+v+el     ++wvWttFypyqWDLnyanpavfa+ma a+l lankG+e+FRLDStafLWKregtdc+nqpeah++lqalra++++vaPgvll
+  TDY33468.1 313 APGNFTFVPEL-----QRWVWTTFYPYQWDLNYANPAVFAAMACAMLGLANKGIEVFRLDSTAFLWKREGTDCMNQPEAHSLLQALRAIAALVAPGVLL 406
+                 *************************************************************************************************** PP
+
+   SH_train2 316 kAEaivptaelppyfg......sga.............akechlaYhsslmaagWvalaeqdadllraviaatpalpeaaaWlsYvRCHDDigWnvlre 395
+                 kAEaivpt +lp+yfg      s+a             a+ech+aYhsslmaagW+alae+++dll++viaatp+lp+aa+WlsYvRCHDDigWnvl +
+  TDY33468.1 407 KAEAIVPTPKLPAYFG------SDA-------------APECHIAYHSSLMAAGWGALAEESTDLLQQVIAATPPLPPAASWLSYVRCHDDIGWNVLLN 486
+                 *************************************************************************************************99 PP
+
+   SH_train2 396 ea 397
+                 ea
+  TDY33468.1 487 EA 488
+                 87 PP
+
+  == domain 2  score: 132.6 bits;  conditional E-value: 2.7e-41
+   SH_train2 407 rlarvarfyaga..vegsya.....rGeaFqssd.davhgtnGmaaaLaGle....................aaed..aaaeelalrRllllyalalal 475
+                 rlar+a+f+ag+   +gsya     rG+aFqss+ d++hg+nGm+a+LaGle                    +a++   +++e+alrRllll++lal++
+  TDY33468.1 553 RLARIAQFFAGT-pGTGSYA-----RGAAFQSSSaDKAHGSNGMSASLAGLE--------------------SATT--VQEQEYALRRLLLLHGLALSF 623
+                 89*********77789*****************99**************************************************************** PP
+
+   SH_train2 476 gglpllYmGDElalendesyrddperaadgRwlhRpamdwara.aqre..................daesla.....grvyaalraliaarralaalaa 550
+                 g+lp+lYmGDEl+++nd sy+++++ra+d+Rwl+Rpa+d++++ a+r+                  d  s++     gr+y alr+li++rr+l+alaa
+  TDY33468.1 624 GALPVLYMGDELGMTNDYSYTQRADRAMDSRWLQRPAFDDSLL-AWRH------------------DGVSAS-----GRLYLALRQLIDTRRRLPALAA 698
+                 *************************************************************************************************** PP
+
+   SH_train2 551 daplel.lalad..pallalarg........eeflalanfseeave 585
+                 +ap+++ l++++  pa+lal rg        ++fl l nfs+++++
+  TDY33468.1 699 AAPRSV-LPADT--PAVLALLRG--------DAFLNLSNFSGASQR 733
+                 *****************************************98875 PP
+
+>> SDM23887.1  amylosucrase [Janthinobacterium sp. OK676]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  651.1   0.6  2.9e-198  2.9e-198      30     397 ..     121     518 ..     120     519 .. 0.99
+   2 !  127.4   0.6     1e-39     1e-39     407     585 ..     553     796 ..     552     797 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 651.1 bits;  conditional E-value: 2.9e-198
+   SH_train2  30 arllealaslYgera....dlaalleelleelgelaaaRpaalraldaaread..pdWfleqemlgYsaYvdrfagtlagvaervdyLqeLgvryLHlL 122
+                 a+ll++l slYg+r+    d+  +l +l+e++g+l+aaR+ +l ++da+rea+  pdWf++q+mlgYsaYv+rf+g+l+gva+r+ +L+eLgv+yLHlL
+  SDM23887.1 121 AVLLDRLGSLYGQRP----DFLPWLGDLMESVGRLYAARAPELLRQDAQREAQ--PDWFASQSMLGYSAYVQRFGGSLQGVAARIAHLRELGVTYLHLL 213
+                 6899*********************************************************************************************** PP
+
+   SH_train2 123 pllraragdnDGGFAVadyeevePrlGsnadlealtarLreagisLcaDlvlNHvaddhaWAqaaraGdaryrdfyhvladreevdayertlgqvFPqt 221
+                 p+lr+rag++DGGFAVa++eev+P+lGsnadl alta+Lr+agisLc+Dl+lNHvaddhaWA +a+aGd+ +rdf+h+++dr+++d+yertlgqvFPq+
+  SDM23887.1 214 PFLRPRAGESDGGFAVASFEEVDPALGSNADLLALTAQLRTAGISLCSDLILNHVADDHAWALGAKAGDPLLRDFFHTYPDRAQPDRYERTLGQVFPQA 312
+                 *************************************************************************************************** PP
+
+   SH_train2 222 APGnFtlveel.....ggwvWttFypyqWDLnyanpavfaemaeallrlankGveaFRLDStafLWKregtdcrnqpeahtilqalravldivaPgvll 315
+                 APGnFt+v+el     g+wvWttFypyqWDLnyanpavfa+ma a+l lankG+e+FRLDStafLWKreg+dc+nqpeah++lqalra+++ivaPgvll
+  SDM23887.1 313 APGNFTFVPEL-----GRWVWTTFYPYQWDLNYANPAVFAAMAGAMLGLANKGIEVFRLDSTAFLWKREGSDCMNQPEAHSLLQALRAIAAIVAPGVLL 406
+                 *************************************************************************************************** PP
+
+   SH_train2 316 kAEaivptaelppyfg......sga.............akechlaYhsslmaagWvalaeqdadllraviaatpalpeaaaWlsYvRCHDDigWnvlre 395
+                 kAEaivpt +lp+yfg      s++             a+ech+aYhsslmaagW+alae+++dll++viaatp+lp++a+WlsYvRCHDDigWnvl +
+  SDM23887.1 407 KAEAIVPTPKLPAYFG------SDS-------------APECHIAYHSSLMAAGWGALAEESTDLLQQVIAATPPLPPSASWLSYVRCHDDIGWNVLLN 486
+                 ***********************9*************************************************************************99 PP
+
+   SH_train2 396 ea 397
+                 ea
+  SDM23887.1 487 EA 488
+                 87 PP
+
+  == domain 2  score: 127.4 bits;  conditional E-value: 1e-39
+   SH_train2 407 rlarvarfyagave....gsya.....rGeaFqssd.davhgtnGmaaaLaGle....................aaed..aaaeelalrRllllyalal 473
+                 rlar+arf+ag  +    gsya     rG+aFqss+ d++hg+nGmaa+LaGle                    +a++   +++e+alrRllll++lal
+  SDM23887.1 553 RLARIARFFAG--A-s--GSYA-----RGAAFQSSSaDKAHGSNGMAASLAGLE--------------------SAAT--VQEQEYALRRLLLLHGLAL 619
+                 78888999987..44455599999999********99************************************************************** PP
+
+   SH_train2 474 algglpllYmGDElalendesyrddperaadgRwlhRpamdwara.aqre..................daesla.....grvyaalraliaarralaal 548
+                 ++g+lp+lYmGDEl+++nd+sy+++++ra+d+Rwl+Rpa+d++++ a+r+                  d  s++     gr+y alr+li++rr+l+al
+  SDM23887.1 620 SFGALPVLYMGDELGMTNDHSYTQRADRAMDSRWLQRPAFDDSLL-AWRH------------------DGVSAS-----GRLYPALRQLIDVRRRLPAL 694
+                 *************************************************************************************************** PP
+
+   SH_train2 549 aadaplel.lalad..pallalarg........eeflalanfseeave 585
+                 aa+ap+++ l++++  pa+lal+rg        ++fl l nfs+++++
+  SDM23887.1 695 AAAAPRSV-LPADT--PAVLALSRG--------DAFLSLSNFSGASQR 731
+                 *******************************************99875 PP
+
+>> OEZ48142.1  amylosucrase [Janthinobacterium sp. MP5059B]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  651.6   1.6    2e-198    2e-198      30     397 ..     121     518 ..     107     519 .. 0.99
+   2 !  124.7   0.8   6.5e-39   6.5e-39     407     585 ..     553     796 ..     552     797 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 651.6 bits;  conditional E-value: 2e-198
+   SH_train2  30 arllealaslYgera....dlaalleelleelgelaaaRpaalraldaaread..pdWfleqemlgYsaYvdrfagtlagvaervdyLqeLgvryLHlL 122
+                 a+ll++l slYg+r+    d+  +l +l+e++g+l+aaR+ al ++da+rea+  pdWf++q+mlgYsaYv+rf+g+l+gva+r+ +L+eLgv+yLHlL
+  OEZ48142.1 121 AVLLDRLGSLYGQRP----DFLPWLGDLMESVGRLYAARAPALLRQDAQREAQ--PDWFASQSMLGYSAYVQRFGGSLQGVAARIAHLRELGVTYLHLL 213
+                 6899*********************************************************************************************** PP
+
+   SH_train2 123 pllraragdnDGGFAVadyeevePrlGsnadlealtarLreagisLcaDlvlNHvaddhaWAqaaraGdaryrdfyhvladreevdayertlgqvFPqt 221
+                 p+lr+rag++DGGFAVa++eev+P+lGsnadl alta+Lr+agisLc+Dl+lNHvaddhaWA +a+aGd+ +rdf+h+++dr+++d+yert+gqvFPq+
+  OEZ48142.1 214 PFLRPRAGESDGGFAVASFEEVDPALGSNADLLALTAQLRAAGISLCSDLILNHVADDHAWALGAKAGDPLLRDFFHTYPDRAQPDRYERTVGQVFPQA 312
+                 *************************************************************************************************** PP
+
+   SH_train2 222 APGnFtlveel.....ggwvWttFypyqWDLnyanpavfaemaeallrlankGveaFRLDStafLWKregtdcrnqpeahtilqalravldivaPgvll 315
+                 APGnFt+v+el     ++wvWttFypyqWDLnyanpavfa+ma a+l lankG+e+FRLDStafLWKregtdc+nqpeah++lqalra+++ivaPgvll
+  OEZ48142.1 313 APGNFTFVPEL-----QRWVWTTFYPYQWDLNYANPAVFAAMAGAMLGLANKGIEVFRLDSTAFLWKREGTDCMNQPEAHSLLQALRAIAAIVAPGVLL 406
+                 *************************************************************************************************** PP
+
+   SH_train2 316 kAEaivptaelppyfg......sga.............akechlaYhsslmaagWvalaeqdadllraviaatpalpeaaaWlsYvRCHDDigWnvlre 395
+                 kAEaivpt +lp+yfg      s++             a+ech+aYhsslmaagW+alae+++dllr+viaatp+lp+aa+WlsYvRCHDDigWnvl +
+  OEZ48142.1 407 KAEAIVPTPKLPAYFG------SDS-------------APECHIAYHSSLMAAGWGALAEESTDLLRQVIAATPPLPPAASWLSYVRCHDDIGWNVLLN 486
+                 ***********************9*************************************************************************99 PP
+
+   SH_train2 396 ea 397
+                 ea
+  OEZ48142.1 487 EA 488
+                 87 PP
+
+  == domain 2  score: 124.7 bits;  conditional E-value: 6.5e-39
+   SH_train2 407 rlarvarfyagave....gsya.....rGeaFqssd.davhgtnGmaaaLaGle....................aaed..aaaeelalrRllllyalal 473
+                 rlar+a+f+ag  +    gsya     rG+aFqss+ d++hg+nGmaa+LaGl+                    +a++   +++e+alrRllll++lal
+  OEZ48142.1 553 RLARIAQFFAG--A-a--GSYA-----RGAAFQSSSaDKAHGSNGMAASLAGLQ--------------------SATT--VQEQEYALRRLLLLHGLAL 619
+                 78888888887..44444599999999********99************************************************************** PP
+
+   SH_train2 474 algglpllYmGDElalendesyrddperaadgRwlhRpamdwara.aqre..................daesla.....grvyaalraliaarralaal 548
+                 ++g+lp+lYmGDEl+++nd+sy+++++ra+d+Rwl+Rpa+d++++ a+r+                  d  s++     gr+y alr+li+ar +l+al
+  OEZ48142.1 620 SFGALPVLYMGDELGMTNDDSYTQRADRAMDSRWLQRPAFDDSLL-AWRH------------------DGVSAS-----GRLYLALRQLIDARGRLPAL 694
+                 *************************************************************************************************** PP
+
+   SH_train2 549 aadaplel.lalad..pallalarg........eeflalanfseeave 585
+                 aa+ap+++ l++++  pa+lal rg        ++fl l nfs+++++
+  OEZ48142.1 695 AAAAPRSV-LPADT--PAVLALLRG--------DAFLNLSNFSGASQR 731
+                 *******************************************98875 PP
+
+>> WP_092608575.1  amylosucrase [Janthinobacterium sp. YR213]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  649.4   1.8  9.6e-198  9.6e-198      30     397 ..     121     518 ..     107     519 .. 0.99
+   2 !  122.8   0.5   2.5e-38   2.5e-38     407     585 ..     553     796 ..     552     797 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 649.4 bits;  conditional E-value: 9.6e-198
+       SH_train2  30 arllealaslYgera....dlaalleelleelgelaaaRpaalraldaaread..pdWfleqemlgYsaYvdrfagtlagvaervdyLqeLgvry 118
+                     a+ll++l slYg+r+    d+  +l +l+e++g+l+aaR+ al ++da+rea+  pdWf++q+mlgYsaYv+rf+g+l+gva+r+ +L+eLgv+y
+  WP_092608575.1 121 AVLLDRLGSLYGQRP----DFLPWLGDLMESVGRLYAARAPALLRQDAQREAQ--PDWFASQSMLGYSAYVQRFGGSLQGVAARIAHLRELGVTY 209
+                     6899******************************************************************************************* PP
+
+       SH_train2 119 LHlLpllraragdnDGGFAVadyeevePrlGsnadlealtarLreagisLcaDlvlNHvaddhaWAqaaraGdaryrdfyhvladreevdayert 213
+                     LHlLp+lr+rag++DGGFAVa++eev+P+lGsnadl alta+Lr+agisLc+Dl+lNHvaddhaWA +a+aGd+ +rdf+h+++dr ++d+yert
+  WP_092608575.1 210 LHLLPFLRPRAGESDGGFAVASFEEVDPALGSNADLLALTAQLRAAGISLCSDLILNHVADDHAWALGAKAGDPLLRDFFHTYPDRVQPDRYERT 304
+                     *********************************************************************************************** PP
+
+       SH_train2 214 lgqvFPqtAPGnFtlveel.....ggwvWttFypyqWDLnyanpavfaemaeallrlankGveaFRLDStafLWKregtdcrnqpeahtilqalr 303
+                     +gqvFPq+APGnFt+v+el     ++wvWttFypyqWDLnyanpavfa+ma a+l lankG+e+FRLDStafLWKregtdc+nqpeah++lqalr
+  WP_092608575.1 305 VGQVFPQAAPGNFTFVPEL-----QRWVWTTFYPYQWDLNYANPAVFAAMAGAMLGLANKGIEVFRLDSTAFLWKREGTDCMNQPEAHSLLQALR 394
+                     *********************************************************************************************** PP
+
+       SH_train2 304 avldivaPgvllkAEaivptaelppyfg......sga.............akechlaYhsslmaagWvalaeqdadllraviaatpalpeaaaWl 379
+                     a+++i+aPgvllkAEaivpt +lp+yfg      s++             a+ech+aYhsslmaagW+alae+++dll++viaatp+lp+aa+Wl
+  WP_092608575.1 395 AIAAIAAPGVLLKAEAIVPTPKLPAYFG------SDS-------------APECHIAYHSSLMAAGWGALAEESTDLLQQVIAATPPLPPAASWL 470
+                     ***********************************9*********************************************************** PP
+
+       SH_train2 380 sYvRCHDDigWnvlreea 397
+                     sYvRCHDDigWnvl +ea
+  WP_092608575.1 471 SYVRCHDDIGWNVLLNEA 488
+                     **************9987 PP
+
+  == domain 2  score: 122.8 bits;  conditional E-value: 2.5e-38
+       SH_train2 407 rlarvarfyagave....gsya.....rGeaFqssd.davhgtnGmaaaLaGle....................aaed..aaaeelalrRlllly 469
+                     rlar+a+f+ag  +    gsya     rG+aFqss+ d++hg+nGmaa+LaGl+                    +a++   +++e+alrRllll+
+  WP_092608575.1 553 RLARIAQFFAG--T-a--GSYA-----RGAAFQSSSaDKAHGSNGMAASLAGLQ--------------------SATT--VQEQEYALRRLLLLH 615
+                     68888888877..34444599999999********99********************************************************** PP
+
+       SH_train2 470 alalalgglpllYmGDElalendesyrddperaadgRwlhRpamdwara.aqre..................daesla.....grvyaalralia 540
+                     +lal++g+lp+lYmGDEl+++nd+sy+++++ra+d+Rwl+Rpa+d++++ a+r+                  d  s++     gr+y alr+li+
+  WP_092608575.1 616 GLALSFGALPVLYMGDELGMTNDDSYTQRADRAMDSRWLQRPAFDDSLL-AWRH------------------DGVSAS-----GRLYLALRQLID 686
+                     *********************************************************************************************** PP
+
+       SH_train2 541 arralaalaadaplel.lalad..pallalarg........eeflalanfseeave 585
+                     ar +l+ laa+ap+++ l++++  pa+lal rg        ++fl l nfs+++++
+  WP_092608575.1 687 ARGRLPPLAAAAPRSV-LPADT--PAVLALLRG--------DAFLNLSNFSGASQR 731
+                     ***************************************************98875 PP
+
+>> WP_065307052.1  amylosucrase [Janthinobacterium psychrotolerans]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  643.5   2.7  5.7e-196  5.7e-196      30     397 ..     121     518 ..     120     519 .. 0.99
+   2 !  122.1   0.3     4e-38     4e-38     407     584 ..     553     795 ..     552     797 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 643.5 bits;  conditional E-value: 5.7e-196
+       SH_train2  30 arllealaslYgera....dlaalleelleelgelaaaRpaalraldaaread..pdWfleqemlgYsaYvdrfagtlagvaervdyLqeLgvry 118
+                     a+ll++l +lYg+ra     ++a+l el+e++g+l+aaR+ +l ++daarea+  p+Wf++q+mlgYs+Yv+rf+g+l+gva+r+ +L+eLgv+y
+  WP_065307052.1 121 AVLLDRLGALYGQRA----GFTAWLGELMESIGRLHAARSPELLRQDAAREAQ--PGWFASQSMLGYSTYVQRFGGNLRGVAARIAHLRELGVTY 209
+                     6899******************************************************************************************* PP
+
+       SH_train2 119 LHlLpllraragdnDGGFAVadyeevePrlGsnadlealtarLreagisLcaDlvlNHvaddhaWAqaaraGdaryrdfyhvladreevdayert 213
+                     LHlLp+lrarag++DGGFAVa++e+veP+lGsnadl +lta+Lr+agisLc+Dl+lNHvaddh+WA +a+aGda++r+f+h+++dr ++d+yert
+  WP_065307052.1 210 LHLLPFLRARAGESDGGFAVASFEQVEPQLGSNADLLDLTAQLRAAGISLCSDLILNHVADDHPWALGAKAGDAQLRAFFHTFPDRVQPDRYERT 304
+                     *********************************************************************************************** PP
+
+       SH_train2 214 lgqvFPqtAPGnFtlveel.....ggwvWttFypyqWDLnyanpavfaemaeallrlankGveaFRLDStafLWKregtdcrnqpeahtilqalr 303
+                     +gqvFPq+APGnFt+v+el     ++wvWttFypyqWDLnyanpavfa+ma a+l lankGve FRLDStafLWKr g+dc+nqpeah++lqalr
+  WP_065307052.1 305 VGQVFPQAAPGNFTFVPEL-----QRWVWTTFYPYQWDLNYANPAVFAAMAGAMLGLANKGVEIFRLDSTAFLWKRDGSDCMNQPEAHHLLQALR 394
+                     *********************************************************************************************** PP
+
+       SH_train2 304 avldivaPgvllkAEaivptaelppyfg......sga.............akechlaYhsslmaagWvalaeqdadllraviaatpalpeaaaWl 379
+                     a+++i+aPgvllkAEaivpt +lp+yfg      s+a             a+ech+aYhsslmaagW+alaeqd+dllr+v+aatp+lp+aa Wl
+  WP_065307052.1 395 AIAAIAAPGVLLKAEAIVPTPKLPAYFG------SDA-------------APECHIAYHSSLMAAGWGALAEQDTDLLRQVVAATPPLPPAACWL 470
+                     *********************************************************************************************** PP
+
+       SH_train2 380 sYvRCHDDigWnvlreea 397
+                     sYvRCHDDigWnvl +ea
+  WP_065307052.1 471 SYVRCHDDIGWNVLLHEA 488
+                     ***************997 PP
+
+  == domain 2  score: 122.1 bits;  conditional E-value: 4e-38
+       SH_train2 407 rlarvarfyagave....gsya.....rGeaFqssd.davhgtnGmaaaLaGle....................aaed..aaaeelalrRlllly 469
+                     rlar+arfy+g  +    gsya     rG+aFqss+ d++hg+nGmaa+LaGle                    +a +    ++e+alrRllll+
+  WP_065307052.1 553 RLARIARFYSG--A-p--GSYA-----RGAAFQSSSaDQAHGSNGMAASLAGLE--------------------SAVT--VVEHEYALRRLLLLH 615
+                     78999999987..4445569***************99********************************************************** PP
+
+       SH_train2 470 alalalgglpllYmGDElalendesyrddperaadgRwlhRpamdwara.aqre..................daesla.....grvyaalralia 540
+                     +lal++g+lp+lYmGDEl+++nd sy+++++ra+d+Rwl+Rp++d++++ ++r+                  d  s++     gr+y alr+l++
+  WP_065307052.1 616 GLALSFGALPVLYMGDELGMTNDYSYTQRADRAMDSRWLQRPEFDDSLL-DWRH------------------DGVSAS-----GRLYMALRQLVE 686
+                     *********************************************************************************************** PP
+
+       SH_train2 541 arralaalaadaplel.lalad..pallalarg........eeflalanfseeav 584
+                     +r++l+alaadap++l l++++  pa+lal rg        e+fl l nfs++ +
+  WP_065307052.1 687 VRARLPALAADAPRQL-LPAQS--PAVLALLRG--------ERFLSLSNFSGTGQ 730
+                     ***************************************************8765 PP
+
+>> PZQ29656.1  amylosucrase [Stenotrophomonas acidaminiphila]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  751.5   4.8  1.1e-228  1.1e-228      31     585 ..     122     796 ..     120     797 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 751.5 bits;  conditional E-value: 1.1e-228
+   SH_train2  31 rllealaslYgera....dlaalleelleelgelaaaRpaalraldaaread....pdWfleqemlgYsaYvdrfagtlagvaervdyLqeLgvryLHl 121
+                 rl +al++lYg+++    ++a++l ++l++l+e++ +R+a+l +ld +r       p+Wf +++mlgYsaY+drfag+l+gva+rv+yLqeLgvryLHl
+  PZQ29656.1 122 RLFNALDALYGAHP----AYAQWLPAWLTALAEVIGERSAELVRLDLER--A----PGWFGDPSMLGYSAYADRFAGDLRGVATRVPYLQELGVRYLHL 210
+                 7899******************************************876..788888****************************************** PP
+
+   SH_train2 122 LpllraragdnDGGFAVadyeevePrlGsnadlealtarLreagisLcaDlvlNHvaddhaWAqaaraGdaryrdfyhvladreevdayertlgqvFPq 220
+                 Lp+lr+r+gdnDGGFAV+dy++ve rlG+n dl+altarLreagisLcaD+vlNH+addh+WA aaraGd+ryr +yh+++dr+ ++ayertlgqvFP+
+  PZQ29656.1 211 LPFLRMREGDNDGGFAVSDYGQVESRLGDNRDLQALTARLREAGISLCADFVLNHTADDHPWAVAARAGDERYRRYYHLYPDRDVPNAYERTLGQVFPH 309
+                 *************************************************************************************************** PP
+
+   SH_train2 221 tAPGnFtlveel.....ggwvWttFypyqWDLnyanpavfaemaeallrlankGveaFRLDStafLWKregtdcrnqpeahtilqalravldivaPgvl 314
+                 tAPGnF++ +e+     ++w WttFyp+qWDL+++np+vf ema allrlan G+e+FRLDSta+LWKr gtdc+nqpeahtilqalra++di aP+v 
+  PZQ29656.1 310 TAPGNFSWIPEA-----RAWAWTTFYPFQWDLDWSNPQVFGEMALALLRLANLGIEVFRLDSTAYLWKRPGTDCMNQPEAHTILQALRALVDIGAPSVA 403
+                 *************************************************************************************************** PP
+
+   SH_train2 315 lkAEaivptaelppyfg......sga.............akechlaYhsslmaagWvalaeqdadllraviaatpalpeaaaWlsYvRCHDDigWnvlr 394
+                 lkAEaivp+a+lppyfg      +g              ++echlaYhs+lmaagW+al  q++dll++v+a++p+lp+++aWlsYvRCHDDigW+vlr
+  PZQ29656.1 404 LKAEAIVPMAQLPPYFG------EGPqq-----------GQECHLAYHSTLMAAGWSALVLQRGDLLHDVVARSPPLPADCAWLSYVRCHDDIGWTVLR 485
+                 ***********************65557*********************************************************************** PP
+
+   SH_train2 395 eeaa.............................aeaaaaeerlarvarfyagave..gsya.....rGeaFqssd..davhgtnGmaaaLaGle..... 450
+                 +ea+                             +    ++++l++va+f++g+++  g ya     rG++Fq ++  d++hgtnGmaaaL+G+e     
+  PZQ29656.1 486 TEAS-----------------g-rdg-------T----TPFSLEDVAHFLDGRAA--GAYA-----RGASFQ-NG--DNAHGTNGMAAALTGIE----- 540
+                 *********************9977777777775....79*************99*****************.5899899******************* PP
+
+   SH_train2 451 ...............aaed..aaaeelalrRllllyalalalgglpllYmGDElalendesyrddperaadgRwlhRpamdwara.aqre......... 522
+                                a++d  a+a ++a++Rl+lly++ala++g+pl+YmGDEl+l ndes+rddp r+++gRwl+Rp+mdw++a +qr+         
+  PZQ29656.1 541 aaq------------AQGD--ASALAHAIDRLVLLYGVALAMPGVPLIYMGDELGLGNDESFRDDPVRQHEGRWLQRPVMDWTLA-QQRH--------- 615
+                 *************************************************************************************************** PP
+
+   SH_train2 523 .........daesla.....grvyaalraliaarralaalaadaplel.lalad..pallalarg........eeflalanfseeave 585
+                          d+ s+a     g+v+++lr+li+ar++++alaa+++l++  +++d  p l+alarg        ++f+a++nf+++++e
+  PZQ29656.1 616 ---------DTGSVA-----GQVFSRLRQLIRARATTPALAAAQRLAS-WKMQD--PVLFALARG--------DDFVAIYNFGNHPME 678
+                 ***********************************************************************************99987 PP
+
+>> KQN28447.1  hypothetical protein ASF00_11450 [Sphingomonas sp. Leaf34]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  683.2   6.9  5.3e-208  5.3e-208      30     517 ..     121     693 ..     120     694 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 683.2 bits;  conditional E-value: 5.3e-208
+   SH_train2  30 arllealaslYgera.....dlaalleelleelgelaaaRpaalraldaaread..pdWfleqemlgYsaYvdrfagtlagvaervdyLqeLgvryLHl 121
+                 arl+++l++lYg+       +laal+ ++++ l+++aa+Rp+al+ald+ar ad  pdWf++++mlgYs+Yvdrfagt++g++ervd+L++LgvryLHl
+  KQN28447.1 121 ARLKRQLERLYGA-D-----RLAALWPRMEQILRDRAAERPDALAALDTARLAD--PDWFVAPDMLGYSTYVDRFAGTVDGLTERVDHLESLGVRYLHL 211
+                 6789999999996.45555558999************************************************************************** PP
+
+   SH_train2 122 LpllraragdnDGGFAVadyeevePrlGsnadlealtarLreagisLcaDlvlNHvaddhaWAqaaraGdaryrdfyhvl.adreevdayertlgqvFP 219
+                 L+ll+aragd+DGGFAVady ++ePrlG++ad+e+l+arLr+ +isLc+Dl lNH+addh+WA+aa+aGd++yr+fyhvl  d+ e++aye++l +vFP
+  KQN28447.1 212 LALLKARAGDSDGGFAVADYLAIEPRLGTMADVERLAARLRAGRISLCVDLALNHTADDHPWAKAAQAGDPHYRAFYHVL-GDD-EAQAYEAALPEVFP 308
+                 *******************************************************************************99664.5789********** PP
+
+   SH_train2 220 qtAPGnFtlveel.....ggwvWttFypyqWDLnyanpavfaemaeallrlankGveaFRLDStafLWKregtdcrnqpeahtilqalravldivaPgv 313
+                 +tAPGnFt v+++     gg+vWttFyp+qWDLn++np+v+ ++++++lrlan+G+eaFRLDS+afLWK+ gtdcrn+peah i++alra+ldivaP++
+  KQN28447.1 309 TTAPGNFTAVPAM-----GGQVWTTFYPFQWDLNWSNPEVMLAIVDTMLRLANHGFEAFRLDSIAFLWKQLGTDCRNRPEAHFIVRALRAALDIVAPAT 402
+                 *************************************************************************************************** PP
+
+   SH_train2 314 llkAEaivptaelppyfg......sga.............akechlaYhsslmaagWvalaeqdadllraviaatpalpeaaaWlsYvRCHDDigWnvl 393
+                 llkAEaivpta +ppyfg      +ga             ++echl+Y++slm+agWvalaeq+a+l +a++ a+  lp++a+WlsY+RCHDDigW ++
+  KQN28447.1 403 LLKAEAIVPTALVPPYFG----adEGAdwdggf-------EPECHLVYNNSLMVAGWVALAEQSATLPHAIVGASGGLPRGANWLSYARCHDDIGWGAV 490
+                 **********************7644478899******************************************************************* PP
+
+   SH_train2 394 reeaa..........................aeaaaaeerlarvarfyag....avegsya.....rGeaFqssd.davhgtnGmaaaLaGle...... 450
+                   ++a                            + ++ +rl+++arf++g    +  gs+a     rG+ Fqs++ + +hg+nG++a+LaGle      
+  KQN28447.1 491 IGDLA-----------------g--------I-DPDPVARLKTAARFLEGg---D--GSWA-----RGAPFQSDG-SVLHGSNGTMASLAGLE------ 546
+                 *******************************5.3689***********9944444..9***************************************** PP
+
+   SH_train2 451 ..............aaed..aaaeelalrRllllyalalalgglpllYmGDElalendesyrddperaadgRwlhRpamdwar 517
+                               aa+d  ++a+e+a+rR++ll+al++a ggl++ YmGDE +l nd+ y ddpera++gRwlhRp mdwa+
+  KQN28447.1 547 --------------AAAD--DDAREMAFRRIALLNALSIASGGLATTYMGDEAGLLNDTRYLDDPERAHEGRWLHRPDMDWAA 613
+                 *********************************************************************************86 PP
+
+>> WP_056678735.1  hypothetical protein [Sphingomonas sp. Leaf30]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  683.1   5.8  5.8e-208  5.8e-208      48     517 ..     143     693 ..     120     694 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 683.1 bits;  conditional E-value: 5.8e-208
+       SH_train2  48 alleelleelgelaaaRpaalraldaaread..pdWfleqemlgYsaYvdrfagtlagvaervdyLqeLgvryLHlLpllraragdnDGGFAVad 140
+                     a++ +l++ l+e+aa+Rpaa++ald+ar ad  pdWf++++mlgYs+Yvdrfagt++g+  +vd+L++LgvryLHlL+ll+ar+gd+DGGFAVad
+  WP_056678735.1 143 AIWPRLEAILRERAAERPAAMAALDEARLAD--PDWFVAHDMLGYSTYVDRFAGTVEGLIGHVDHLESLGVRYLHLLALLKAREGDSDGGFAVAD 235
+                     5788999**************************************************************************************** PP
+
+       SH_train2 141 yeevePrlGsnadlealtarLreagisLcaDlvlNHvaddhaWAqaaraGdaryrdfyhvl.adreevdayertlgqvFPqtAPGnFtlveel.. 232
+                     y +vePrlG++ad+e+l+arLre +isLc+Dl lNH+addhaWAqaar+Gd++yr+fyhvl +d+ e++aye++l qvFP+tAPGnFt+v+++  
+  WP_056678735.1 236 YLSVEPRLGTMADVERLAARLREGRISLCVDLALNHTADDHAWAQAARDGDPHYRAFYHVL-SDD-EAQAYEADLLQVFPTTAPGNFTHVPAM-- 326
+                     ************************************************************99775.5789************************* PP
+
+       SH_train2 233 ...ggwvWttFypyqWDLnyanpavfaemaeallrlankGveaFRLDStafLWKregtdcrnqpeahtilqalravldivaPgvllkAEaivpta 324
+                        gg+vWttFyp+qWDLn+anp+v+ ++++++lrlan+G+eaFRLDS+afLWK+ gtdcrn+p+ah+i++alra+ldivaP++llkAEaivpta
+  WP_056678735.1 327 ---GGQVWTTFYPFQWDLNWANPEVMLAIVDTMLRLANHGFEAFRLDSIAFLWKQLGTDCRNRPQAHYIVRALRAALDIVAPATLLKAEAIVPTA 418
+                     *********************************************************************************************** PP
+
+       SH_train2 325 elppyfg......sga.............akechlaYhsslmaagWvalaeqdadllraviaatpalpeaaaWlsYvRCHDDigWnvlreeaa.. 398
+                      +ppyfg      +g+             ++echl+Y++slm+agWv laeq+a+l +a++aa+  lp++a+WlsY+RCHDDigW ++  ++a  
+  WP_056678735.1 419 LVPPYFG----adEGSdwdggf-------EPECHLVYNNSLMVAGWVGLAEQSAALPHAIVAASGGLPRGANWLSYARCHDDIGWGAVIGDLA-- 500
+                     ***********7633378899************************************************************************** PP
+
+       SH_train2 399 .........................aeaaaaeerlarvarfyaga...vegsya.....rGeaFqssd.davhgtnGmaaaLaGle......... 450
+                                              +   ++ +rl+ +a+f++ga     gs+a     rGe Fqs++ + +hg+nG++a+LaGle         
+  WP_056678735.1 501 ---------------g--------iD--PDPVARLTIAAKFLDGA---D-GSWA-----RGEPFQSDG-SVLHGSNGTMASLAGLE--------- 551
+                     ************************53..689***********9944444.9******************************************** PP
+
+       SH_train2 451 ...........aaed..aaaeelalrRllllyalalalgglpllYmGDElalendesyrddperaadgRwlhRpamdwar 517
+                                aa++  ++++e+a+rR++ll+al++a ggl++lYmGDE +l nd+syrddp+ra++gRwlhRp+mdw++
+  WP_056678735.1 552 -----------AART--DEEREHAFRRIALLNALSIASGGLATLYMGDEAGLLNDHSYRDDPDRAHEGRWLHRPVMDWDA 618
+                     ******************************************************************************86 PP
+
+>> RKE50582.1  maltopentaoseforming alphaamylase [Sphingomonas sp. PPCC1A547]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  678.7   4.4  1.2e-206  1.2e-206      31     517 ..     122     693 ..     120     694 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 678.7 bits;  conditional E-value: 1.2e-206
+   SH_train2  31 rllealaslYgera.....dlaalleelleelgelaaaRpaalraldaaread..pdWfleqemlgYsaYvdrfagtlagvaervdyLqeLgvryLHlL 122
+                  l+++l++lYg+       +la+l+ ++++ l+++aa+Rpaa+ ald+ar ad  pdWf++++mlgYs+Yvdrfagt+ g++++vd+L++LgvryLHlL
+  RKE50582.1 122 LLKRQLERLYGT-D-----RLATLWLRMETILRDRAAERPAAMVALDEARLAD--PDWFVAPDMLGYSTYVDRFAGTVGGLTDKVDHLESLGVRYLHLL 212
+                 577888888885.44444447889999************************************************************************ PP
+
+   SH_train2 123 pllraragdnDGGFAVadyeevePrlGsnadlealtarLreagisLcaDlvlNHvaddhaWAqaaraGdaryrdfyhvl.adreevdayertlgqvFPq 220
+                 +ll+ar+gd+DGGFAVady ++eP lG++ad+e+l+arLre +isLc+Dl lNH+addhaWA+aa aGd++yr+fyhvl ++ +e++aye++l qvFP+
+  RKE50582.1 213 ALLKAREGDSDGGFAVADYLAIEPPLGTMADVERLAARLREGRISLCVDLALNHTADDHAWAKAALAGDPHYRAFYHVL-SE-DEAQAYEADLPQVFPT 309
+                 ******************************************************************************8854.45789*********** PP
+
+   SH_train2 221 tAPGnFtlveel.....ggwvWttFypyqWDLnyanpavfaemaeallrlankGveaFRLDStafLWKregtdcrnqpeahtilqalravldivaPgvl 314
+                 tAPGnFt v+++     gg+vWttFyp+qWDLn++np+v+ ++++++lrlan+G+eaFRLDS+afLWK+ gtdcrn+peah i++alra+ldivaP++l
+  RKE50582.1 310 TAPGNFTEVPAM-----GGQVWTTFYPFQWDLNWSNPEVMLAIVDTMLRLANHGFEAFRLDSIAFLWKQIGTDCRNRPEAHFIVRALRAALDIVAPATL 403
+                 *************************************************************************************************** PP
+
+   SH_train2 315 lkAEaivptaelppyfg......sga.............akechlaYhsslmaagWvalaeqdadllraviaatpalpeaaaWlsYvRCHDDigWnvlr 394
+                 lkAEaivpta +ppyfg      +ga             ++echl+Y++slm+agWvalaeq+a+l +a++ a+  lp++a+WlsY+RCHDDigW ++ 
+  RKE50582.1 404 LKAEAIVPTALVPPYFG----adEGAdwdggf-------EPECHLVYNNSLMVAGWVALAEQSATLPHAIVGASGGLPRGANWLSYARCHDDIGWGAVI 491
+                 *********************7644478899******************************************************************** PP
+
+   SH_train2 395 eeaa..........................aeaaaaeerlarvarfyag....avegsya.....rGeaFqssd.davhgtnGmaaaLaGle....... 450
+                  ++a                            + ++ +rl+ +arf++g    +  gs+a     rG+ Fqs++ + +hg+nG++a+LaGle       
+  RKE50582.1 492 GDLA-----------------g--------I-DPDPVARLKMAARFLEGg---D--GSWA-----RGAPFQSDG-SVLHGSNGTMASLAGLE------- 546
+                 ******************************5.3689***********9944444..9****************************************** PP
+
+   SH_train2 451 .............aaed..aaaeelalrRllllyalalalgglpllYmGDElalendesyrddperaadgRwlhRpamdwar 517
+                              aa+d  ++a+e+a+rR++ll+al++a ggl++ YmGDE +l nd+sy +dpera++gRwlhRp+mdw++
+  RKE50582.1 547 -------------AAAD--DDAREMAFRRIALLNALSIASGGLATTYMGDEAGLLNDTSYLSDPERAHEGRWLHRPEMDWTA 613
+                 ********************************************************************************87 PP
+
+>> OYY19617.1  hypothetical protein B7Y59_00440 [Burkholderiales bacterium 355547]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  677.3   6.4  3.2e-206  3.2e-206      30     585 ..     121     796 ..     120     797 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 677.3 bits;  conditional E-value: 3.2e-206
+   SH_train2  30 arllealaslYgera....dlaalleelleelgelaaaRpaalraldaaread..pdWf.leqemlgYsaYvdrfagtlagvaervdyLqeLgvryLHl 121
+                 ++l+++la+lY  +     +++++l++++++  +la +Rp++l ald +r+++  p+W+ l+   lgY+aYvd+fag+l+gv++r+++LqeLgv+yLHl
+  OYY19617.1 121 PVLQDRLARLYDCHD----NFSDWLSQVVAQAVKLALSRPNDLWALDMQRASQ--PNWH-LN-GSLGYCAYVDKFAGNLSGVRQRIPHLQELGVTYLHL 211
+                 5799******************************************************8875.679********************************* PP
+
+   SH_train2 122 LpllraragdnDGGFAVadyeevePrlGsnadlealtarLreagisLcaDlvlNHvaddhaWAqaaraGdaryrdfyhvladreevdayertlgqvFPq 220
+                 Lp+l++ +  nDGGFAVa+y+ev+P+lG+n+dl++lt++Lr+agisLc+D+vlNHv+++h+WA +ar Gda++++++h  +  e+v+a+e++l q+FP+
+  OYY19617.1 212 LPFLKPGTPPNDGGFAVASYDEVDPALGNNHDLQTLTQELRAAGISLCSDFVLNHVSHEHEWALKARGGDAHHQSYFHWAKTPEDVAAHEKNLIQIFPN 310
+                 *************************************************************************************************** PP
+
+   SH_train2 221 tAPGnFtlveel.....ggwvWttFypyqWDLnyanpavfaemaeallrlankGveaFRLDStafLWKregtdcrnqpeahtilqalravldivaPgvl 314
+                 tAPGnFt+ +e+     ++w WttFypyqWDLny++p+vfaema++ll+lan GveaFRLDSt fLWKr gt+c+nqpe+h+ilqa+r++++i+aPgvl
+  OYY19617.1 311 TAPGNFTFIPEV-----KAWAWTTFYPYQWDLNYTQPDVFAEMAQSLLQLANLGVEAFRLDSTGFLWKRPGTNCMNQPEVHWILQAMRSLTNIAAPGVL 404
+                 *************************************************************************************************** PP
+
+   SH_train2 315 lkAEaivptaelppyfg........sga...........akechlaYhsslmaagWvalaeqdadllraviaatpalpeaaaWlsYvRCHDDigWnvlr 394
+                 lkAEai+pt++lppyfg        + +           ++ech+aYhsslm a+Wvalae++++++++v+++tpalp+++aW++YvRCHDDigWnvlr
+  OYY19617.1 405 LKAEAIMPTQDLPPYFG------lgETQ-----------GPECHVAYHSSLMSASWVALAEENTQIIQDVLSHTPALPDGCAWMTYVRCHDDIGWNVLR 486
+                 ***********************75555*********************************************************************** PP
+
+   SH_train2 395 eeaa.............................aeaaaaeerlarvarfyagave..gsya.....rGeaFqssd.davhgtnGmaaaLaGle...... 450
+                  e+                              +    +++rl ++++f+ag+v+  gsya     +G+aFq+sd + vhgtnGmaaaL+Gl+      
+  OYY19617.1 487 PEVD-----------------a-rga-------D----QRARLLHASQFFAGDVA--GSYA-----QGAAFQASDpTVVHGTNGMAAALVGLT------ 543
+                 *********************9976666666665....789**********************************9*********************** PP
+
+   SH_train2 451 ..............aaed..aaaeelalrRllllyalalalgglpllYmGDElalendesyrddperaadgRwlhRpamdwara.aqre.......... 522
+                               +a++   a++e+a +Rl++++al+l +gglpl+YmGDE ++ n+++ +  +++  dgR lhRp +d++ + a+r+          
+  OYY19617.1 544 --------------SAQT--PAEQEAAKSRLVMMQALSLFVGGLPLIYMGDEWGQGNTSAQEIAQRQGPDGRELHRPIFDEHSF-ANRH---------- 615
+                 *************************************************************************************************** PP
+
+   SH_train2 523 ........daesla.....grvyaalraliaarralaalaadaplel.lalad..pallalarg........eeflalanfseeave 585
+                         d+++++     g++yaalra+i+a++++++l+a++pl++  ++++  +a+l+l+rg        +++l l+nfs+++++
+  OYY19617.1 616 --------DESTMQ-----GQIYAALRAFIQAKKQHSSLSATHPLSV-WHTGT--SAVLGLKRG--------SHVLGLFNFSGQPQT 678
+                 ***********************************************************************************9986 PP
+
+>> PKM08830.1  amylosucrase, partial [Gammaproteobacteria bacterium HGWGammaproteobacteria5]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  662.8   4.1    8e-202    8e-202      50     517 ..     145     693 ..     140     694 .. 0.97
+   2 ?   -1.1   0.0      0.82      0.82     531     584 ..     731     795 ..     729     797 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 662.8 bits;  conditional E-value: 8e-202
+   SH_train2  50 leelleelgelaaaRpaalraldaar.....eadpdWfleqemlgYsaYvdrfagtlagvaervdyLqeLgvryLHlLpllraragdnDGGFAVadyee 143
+                 ++ ll+ l++++++Rp++l +ldaar     +   dW+ + +m+gYs+Yv+rfagtl+g++ rv+yL+eLg+ryLHlLp+l+aragdnDGGFAV+dy++
+  PKM08830.1 145 IRCLLAGLAHAINQRPDDLLELDAARp----A---DWLDRADMVGYSTYVERFAGTLEGLRGRVPYLHELGIRYLHLLPFLKARAGDNDGGFAVSDYGQ 236
+                 56788999***************998555555...9*************************************************************** PP
+
+   SH_train2 144 vePrlGsnadlealtarLreagisLcaDlvlNHvaddhaWAqaaraGdaryrdfyhvladreevdayertlgqvFPqtAPGnFtlveel.....ggwvW 237
+                 +eP+lGsn +leal+a+Lr ++isL+aD+vlNH+addh+WA aar+Gd+++r+f+hv++dr+++++ e++l qvFP++APGnF++v+el     ++wvW
+  PKM08830.1 237 IEPALGSNSELEALAASLRGHDISLAADFVLNHCADDHPWALAARSGDPHFRQFFHVYTDRAQIERLEADLPQVFPESAPGNFSFVPEL-----NAWVW 330
+                 *************************************************************************************************** PP
+
+   SH_train2 238 ttFypyqWDLnyanpavfaemaeallrlankGveaFRLDStafLWKregtdcrnqpeahtilqalravldivaPgvllkAEaivptaelppyfg..... 331
+                 ttF pyqWDLn++np++f++ma all lan+Gve+FRLDS+a+LWKr g+dcrn peah +lqalra++di+aP v lkAE ivp+ e++pyfg     
+  PKM08830.1 331 TTFNPYQWDLNWSNPELFQHMALALLGLANRGVEVFRLDSAAYLWKRDGSDCRNLPEAHEVLQALRAIIDIAAPCVALKAEVIVPLPEVSPYFG----- 424
+                 *************************************************************************************************** PP
+
+   SH_train2 332 .sga.............akechlaYhsslmaagWvalaeqdadllraviaatpalpeaaaWlsYvRCHDDigWnvlreeaa.................. 398
+                  +g+             +kec+laYhsslmaa+W+alaeq+a+++++vi +tpa p+++ Wl+YvRCHDDigW vlreeaa                  
+  PKM08830.1 425 -TGDqa-----------GKECQLAYHSSLMAASWAALAEQRAEIVADVIVRTPAPPAGCVWLNYVRCHDDIGWWVLREEAA-----------------g 494
+                 *55557********************************************************************************************9 PP
+
+   SH_train2 399 ...........aeaaaaeerlarvarfyagave..gsya.....rGeaFqssd.davhgtnGmaaaLaGle....................aaed..aa 456
+                            +      ++lar+arf+ag+++  gsya     +GeaFqs+d +  hg+nGm+a+L Gl+                    aa++  ++
+  PKM08830.1 495 -rtg-------H----RGFDLARIARFFAGSEA--GSYA-----EGEAFQSTDpHVFHGSNGMTASLLGLH-----ral------------AADN--DD 555
+                 988888888885....569************88********************99******************************************** PP
+
+   SH_train2 457 aeelalrRllllyalalalgglpllYmGDElalendesyrddpera..adgRwlhRpamdwar 517
+                 a ela+rR lllya++l++ g+p +YmGDE +l n+++yrd++     adgR lhRp+mdw++
+  PKM08830.1 556 AIELATRRHLLLYAITLSAAGIPQIYMGDEYGLGNNHEYRDTA--D--ADGRGLHRPTMDWKL 614
+                 ***************************************9875..45559***********97 PP
+
+  == domain 2  score: -1.1 bits;  conditional E-value: 0.82
+   SH_train2 531 vyaalraliaarralaalaadaplel.lalad..pallalarg........eeflalanfseeav 584
+                 + + +++li+arr++a+l+ ++p+++ l  ++  pall+++rg        e+f+ l+n++++++
+  PKM08830.1 731 LRSGIERLIQARRHCASLRPSTPMRA-LVFSQ--PALLGITRG--------EHFIGLYNLGAQPT 784
+                 5677899******************9999999999********9999999999999999999886 PP
+
+>> WP_042082630.1  MULTISPECIES: alphaamylase family protein [Alphaproteobacteria]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  663.1   3.6  6.8e-202  6.8e-202      33     585 ..     124     796 ..     120     800 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 663.1 bits;  conditional E-value: 6.8e-202
+       SH_train2  33 lealaslYgera....dlaalleelleelgelaaaRpaalraldaaread..pdWfleqemlgYsaYvdrfagtlagvaervdyLqeLgvryLHl 121
+                     +eal +lYg+++    d++++l+++ + ++e  aaRp++l++ld++r +   pdWf++++m+gYsaY+drf+gtlagva+r+dyL+++g++yLHl
+  WP_042082630.1 124 EEALFALYGQQP----DYDDWLSRFYDIIAEGFAARPDDLKKLDQQRVHI--PDWFQKPHMMGYSAYADRFGGTLAGVADRLDYLADMGITYLHL 212
+                     678999******************************************99********************************************* PP
+
+       SH_train2 122 LpllraragdnDGGFAVadyeevePrlGsnadlealtarLreagisLcaDlvlNHvaddhaWAqaaraGdaryrdfyhvladreevdayertlgq 216
+                     +p+ ++ ag+nDGG+AV+dye ++PrlG++adle+l+a+ r++gisL++Dl lNH+ad haWA+aa+aGd++y+++yh+++dr+ +d ye++l++
+  WP_042082630.1 213 MPITKPCAGENDGGYAVEDYEMIDPRLGTMADLERLAAACRDRGISLVSDLALNHTADSHAWAKAAKAGDPHYQAYYHCFPDRRLPDLYEQSLDE 307
+                     *********************************************************************************************** PP
+
+       SH_train2 217 vFPqtAPGnFtlveel.....ggwvWttFypyqWDLnyanpavfaemaeallrlankGveaFRLDStafLWKregtdcrnqpeahtilqalravl 306
+                     vFP  APGnFt+ +++     ++wvWttFypyqWDLny+npavfaem++ +l+lan+Gve+ RLDS+af+WK  gtdcrnqp+ah++l+a+ra+l
+  WP_042082630.1 308 VFPINAPGNFTHIPQM-----DRWVWTTFYPYQWDLNYSNPAVFAEMLRIMLQLANRGVEVLRLDSVAFMWKAMGTDCRNQPQAHQLLRAFRALL 397
+                     *********************************************************************************************** PP
+
+       SH_train2 307 divaPgvllkAEaivptaelppyfg......sga.............akechlaYhsslmaagWvalaeqdadllraviaatpalpeaaaWlsYv 382
+                      i+aP+  lkAEaiv+ ++l++y+g      +ga             +kec+l Yh++lm+ +W+alae++ad l++++++ p+ p++++W++Yv
+  WP_042082630.1 398 RIAAPALALKAEAIVAPEHLTAYLG------EGAha-----------GKECQLGYHNTLMVLLWSALAEGRADRLTRMLRRMPSPPANTSWITYV 475
+                     *******************************77778*********************************************************** PP
+
+       SH_train2 383 RCHDDigWnvlreeaa.............................aeaaaaeerlarvarfyagave..gsya.....rGeaFqssd.davhgtn 440
+                     RCHDDigW vl  e +                             +    ++++++ +++fyag+++  +s+a     rG++Fq+ + +avhgt+
+  WP_042082630.1 476 RCHDDIGWPVLDVERQ-----------------g-----d-----G----PSDHVRFLSDFYAGRSA--NSFA-----RGQSFQTGEdRAVHGTS 532
+                     *********************************************8....678999*********99999***************99899***** PP
+
+       SH_train2 441 GmaaaLaGle....................aaed..aaaeelalrRllllyalalalgglpllYmGDElalendesyrddperaadgRwlhRpam 513
+                     Gm a+LaGle                     a++  ++a ++a++R+ ll+++++a+gg+pllYmGDEl++ nd+s++ dp++aad+RwlhRp+m
+  WP_042082630.1 533 GMLASLAGLE-----sac------------DAGN--DQAITQAMARISLLHSIIFAFGGIPLLYMGDELGMLNDHSFEGDPQKAADTRWLHRPTM 608
+                     *********************************************************************************************** PP
+
+       SH_train2 514 dwara.aqre..................daesla.....grvyaalraliaarralaalaadaplel.lalad..pallalarg........eef 573
+                     dwa+a ++r+                  ++ sl+     +r+y+++r+li+ r++ +al+ d+p +  l++a+  p++++++r+         ++
+  WP_042082630.1 609 DWAKA-DERH------------------EKGSLT-----HRIYSTIRHLIDCRADFPALHGDTPSRP-LSAAN--PHIFVMRRSg-ar----GRL 671
+                     *****999999999999999999999999999999999999999999999999999999999999988888888888888888888888888888 PP
+
+       SH_train2 574 lalanfseeave 585
+                     l lanfs++++ 
+  WP_042082630.1 672 LLLANFSASPQI 683
+                     888888887765 PP
+
+>> PZU78933.1  amylosucrase [Sphingomonas sp.]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  663.2   9.1  6.2e-202  6.2e-202      48     517 ..     143     693 ..     140     694 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 663.2 bits;  conditional E-value: 6.2e-202
+   SH_train2  48 alleelleelgelaaaRpaalraldaaread..pdWfleqemlgYsaYvdrfagtlagvaervdyLqeLgvryLHlLpllraragdnDGGFAVadyeev 144
+                  l+++ ++ l+++aaaR+a+l ald+ar ad  pdWf++++mlgYs+Yvdrf+gt+agv+++vd+L++LgvryLHlL+ll+aragd+DGGFAVady +v
+  PZU78933.1 143 PLWDRTAAILRRAAAARAADLVALDTARLAD--PDWFVRPDMLGYSTYVDRFGGTVAGVEAHVDHLESLGVRYLHLLALLKARAGDSDGGFAVADYLAV 239
+                 577889999****************************************************************************************** PP
+
+   SH_train2 145 ePrlGsnadlealtarLreagisLcaDlvlNHvaddhaWAqaaraGdaryrdfyhvl..adreevdayertlgqvFPqtAPGnFtlveel.....ggwv 236
+                 ePrlG++ad+e+l+arLr+ +isLc+Dl lNH+addh WAqaaraGd+ yrdfy+v+  ad  e++a++++l qvFP+tAPGnFt v+e+     gg+v
+  PZU78933.1 240 EPRLGTMADVERLAARLRAGRISLCVDLALNHTADDHRWAQAARAGDPFYRDFYMVV-sAD--EAAARDAELPQVFPTTAPGNFTPVPEM-----GGHV 330
+                 *******************************************************977344..5677899***************************** PP
+
+   SH_train2 237 WttFypyqWDLnyanpavfaemaeallrlankGveaFRLDStafLWKregtdcrnqpeahtilqalravldivaPgvllkAEaivptaelppyfg.... 331
+                  ttFyp+qWDLn+ np+vf +m++++l+lan+G+eaFRLDStafLWK+ gtdcrn p +h+i++alra+ldi+aP++llkAEaivpta +ppyfg    
+  PZU78933.1 331 RTTFYPFQWDLNWRNPNVFLAMLDTMLTLANHGFEAFRLDSTAFLWKQDGTDCRNLPPSHYIVRALRAALDIAAPATLLKAEAIVPTAFVPPYFG---- 425
+                 *************************************************************************************************** PP
+
+   SH_train2 332 ..sga.............akechlaYhsslmaagWvalaeqdadllraviaatpalpeaaaWlsYvRCHDDigWnvlreeaa................. 398
+                   +g+             ++echl+Y++slm+agWvalaeq+a+l +a++aa+  lp++a+WlsY+RCHDDigW ++  ++a                 
+  PZU78933.1 426 adEGD----gf-------EPECHLVYNNSLMVAGWVALAEQSAQLPHAIVAASGGLPRGANWLSYARCHDDIGWGAVLGDLA----------------- 496
+                 75555********************************************************************************************** PP
+
+   SH_train2 399 .........aeaaaaeerlarvarfyaga...vegsya.....rGeaFqssd.davhgtnGmaaaLaGle....................aaed..aaa 457
+                            + a+++rl ++arf++g+     +s+a     rGe Fqs++  a+hgtnG+ a+LaGle                    aa+d  ++a
+  PZU78933.1 497 g--------I-DPAPTQRLVAAARFLHGE---G-DSWA-----RGEPFQSDG-AALHGTNGTLASLAGLE--------------------AAQD--DDA 554
+                 *********5.3679************955555.8**************************************************************** PP
+
+   SH_train2 458 eelalrRllllyalalalgglpllYmGDElalendesyrddperaadgRwlhRpamdwar 517
+                 +e+alrR++l++al++a ggl++lYmGDE +l nd+sy +d+++a++gRwlhRpamdw++
+  PZU78933.1 555 REAALRRIALVNALSIASGGLATLYMGDEAGLLNDRSYLADADHAHEGRWLHRPAMDWTA 614
+                 **********************************************************86 PP
+
+>> TWB36463.1  maltopentaoseforming alphaamylase [Nitrospirillum amazonense]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  554.3  12.5  5.6e-169  5.6e-169      31     394 ..     122     515 ..     106     516 .. 0.97
+   2 !   84.0   0.0   1.3e-26   1.3e-26     404     555 ..     550     755 ..     549     797 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 554.3 bits;  conditional E-value: 5.6e-169
+   SH_train2  31 rllealaslYgera....dlaalleelleelgelaaaRpaalraldaaread..pdWfleqemlgYsaYvdrfagtlagvaervdyLqeLgvryLHlLp 123
+                 + ++ l++lY+  +    d++++l ++ + ++++a +Rpa l++ d++r a+  pdWf+++++lgY++Yvdrfagtlagv++r+ yL++Lgv+yLH Lp
+  TWB36463.1 122 TAEALLRRLYAGVP----DVEDWLVRMRNVVSTAALNRPAPLAERDDRRLAE--PDWFQRSNQLGYCFYVDRFAGTLAGVQARLGYLADLGVTYLHALP 214
+                 5677899999999999999******************************************************************************** PP
+
+   SH_train2 124 llraragdnDGGFAVadyeevePrlGsnadlealtarLreagisLcaDlvlNHvaddhaWAqaaraGdaryrdfyhvladreevdayertlgqvFPqtA 222
+                 ll ++agdnDGGFAVady+++ePrlG+++dl+al+++ + ag++Lc+D+v+NH+a+dhaWAqaaraGd+ryr++yhvl+++e+v+aye+tlgqvFP+tA
+  TWB36463.1 215 LLAMQAGDNDGGFAVADYRAIEPRLGRTEDLTALAQAAHGAGMALCLDVVCNHTARDHAWAQAARAGDPRYRAYYHVLESAESVAAYEATLGQVFPKTA 313
+                 *************************************************************************************************** PP
+
+   SH_train2 223 PGnFtlveel.....ggwvWttFypyqWDLnyanpavfaemaeallrlankGveaFRLDStafLWKregtdcrnqpeahtilqalravldivaPgvllk 316
+                 PGnFt +++l     ++wvWttFypyqWDLnyanpavf+em+e+ll+lan+Gv++FRLDSt+fLWK  gt+cr  p++h++++a+ra+l+i+aP+vllk
+  TWB36463.1 314 PGNFTPEPALardggQAWVWTTFYPYQWDLNYANPAVFQEMLEVLLHLANQGVDVFRLDSTPFLWKAPGTACRGLPQTHWVVRAWRALLAIAAPAVLLK 412
+                 *******9996666678********************************************************************************** PP
+
+   SH_train2 317 AEaivptaelppyfg.......sga.............akechlaYhsslmaagWvalaeqdadllraviaatpalpeaaaWlsYvRCHDDigWnvlr 394
+                  Eaiv+ ++++++fg       + +             a+echlaY++++m+a+W a a++da+ ++a++++ + +p++aaW++YvRCHDDi+W++l+
+  TWB36463.1 413 GEAIVDPDDVVSFFG------rD-Dat--glpa-----ANECHLAYNNGMMTALWLAQATGDAAPAHALLDRLAVRPRQAAWITYVRCHDDIIWDALA 496
+                 *********************64.447********************************************************************997 PP
+
+  == domain 2  score: 84.0 bits;  conditional E-value: 1.3e-26
+   SH_train2 404 aeerlarvarfyagave..gsya.....rGeaFqssd.davhgtnGmaaaLaGle....................aaed..aaaeelalrRllllyala 472
+                 ++e+l+rv++fyaga++  gsya      G+aFq+++ d++ +tnGmaa+L+Gl+                    + +   +a++++al+Rll ly ++
+  TWB36463.1 550 PQETLHRVSAFYAGATP--GSYA-----LGAAFQADG-DGAPSTNGMAASLVGLR---------p----------EGRP-gEADTDAALARLLQLYQVT 620
+                 5789***********************************************************************99988899999************* PP
+
+   SH_train2 473 lalgglpllYmGDElalendesyrd...dperaadgRwlhRpamdwara.aqre..................daesla.....grvyaalraliaarra 544
+                 lal+glp+lYmGDE+al+n             a +gRwlhRp mdw+ra a+r+                  d++++a     g++++alr+li++r++
+  TWB36463.1 621 LALDGLPVLYMGDEIALTNAP---L---AGLPAGEGRWLHRPDMDWNRA-AERH------------------DSATAA-----GTFHTALRRLIRVRAT 689
+                 *******************97...2333356789***************99999888888888888888888888888888888888888888888888 PP
+
+   SH_train2 545 laalaadaple 555
+                 l+al+  +p++
+  TWB36463.1 690 LDALSGIEPAR 700
+                 88887777665 PP
+
+>> ALL15239.1  amylosucrase [Caulobacter henricii]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  522.6   7.2  2.2e-159  2.2e-159      30     394 ..     121     515 ..     120     516 .. 0.97
+   2 !   17.6   0.2   1.7e-06   1.7e-06     403     449 ..     549     603 ..     548     603 .. 0.95
+   3 !   69.2   0.0   4.2e-22   4.2e-22     459     518 ..     635     694 ..     631     699 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 522.6 bits;  conditional E-value: 2.2e-159
+   SH_train2  30 arllealaslYgera....dlaalleelleelgelaaaRpaalraldaaread..pdWfleqemlgYsaYvdrfagtlagvaervdyLqeLgvryLHlL 122
+                 ++++++las+Yge++    ++ +++++l e++ ++a+aRp al+alda+rea+  pdW++++ +++Ys+Yvdrfag+l+gv++++dyL+eLgvr+LH+L
+  ALL15239.1 121 PTVEAKLASVYGEDQ----RWPDFIARLRESVLDAAKARPLALQALDAEREAS--PDWLSAPGQTTYSFYVDRFAGDLNGVRRKLDYLTELGVRWLHPL 213
+                 67899********************************************************************************************** PP
+
+   SH_train2 123 pllraragdnDGGFAVadyeevePrlGsnadlealtarLreagisLcaDlvlNHvaddhaWAqaaraGdaryrdfyhvl.adreevdayertlgqvFPq 220
+                 pll++r+gd+DGGFAV+dy++v+P+lG  +dl+al+ +Lr +g++L++D+v+NH+a++haWA aaraGd++yrd+++v+ +  ee++ ++ +l +vFP+
+  ALL15239.1 214 PLLEPREGDSDGGFAVKDYRQVDPKLGCLQDLAALAGDLRGKGMGLILDVVCNHTAREHAWAVAARAGDPTYRDYFIVV-SA-EEAACRDLELIDVFPD 310
+                 *****************************************************************************97754.455677899******* PP
+
+   SH_train2 221 tAPGnFtlveel.....ggwvWttFypyqWDLnyanpavfaemaeallrlankGveaFRLDStafLWKregtdcrnqpeahtilqalravldivaPgvl 314
+                 tAPG+Ft  +e+     gg+vWttFyp+qWDLnyanpavfaem+++l+ la +Gv++FRLDS++fLWK++gt+crn p+++++++a+ra+l+ivaPgv+
+  ALL15239.1 311 TAPGSFTPCPEM-----GGHVWTTFYPFQWDLNYANPAVFAEMLDVLVFLAAQGVQGFRLDSAPFLWKQAGTTCRNLPQTYALVEAWRAALSIVAPGVV 404
+                 *************************************************************************************************** PP
+
+   SH_train2 315 lkAEaivptaelppyfg......................sgaakechlaYhsslmaagWvalaeqdadllraviaatpalpeaaaWlsYvRCHDDigWn 391
+                 l AEai+++++++p+fg                            c+laY++++m+a+W+ala+qda+++r+++aa++ +p +aaWl+YvRCHDD++Wn
+  ALL15239.1 405 LVAEAIESLEDVLPFFG------d---------d-----A---GGCDLAYNNGVMTALWAALADQDAAIFRRCLAASSGKPGRAAWLNYVRCHDDVIWN 480
+                 ****************999999999999999998888887...58****************************************************** PP
+
+   SH_train2 392 vlr 394
+                 +l+
+  ALL15239.1 481 ALA 483
+                 *97 PP
+
+  == domain 2  score: 17.6 bits;  conditional E-value: 1.7e-06
+   SH_train2 403 aaeerlarvarfyagave...gsya.....rGeaFqssd.davhgtnGmaaaLaGl 449
+                 a++e+lar++rfyag+ +   +s++      G+aFq++  ++  +tnGmaa+LaG+
+  ALL15239.1 549 APREDLARWSRFYAGQ-T---ESFS-----LGKAFQTAA-GGEPSTNGMAASLAGI 594
+                 57899**********9.89999*********************************7 PP
+
+  == domain 3  score: 69.2 bits;  conditional E-value: 4.2e-22
+   SH_train2 459 elalrRllllyalalalgglpllYmGDElalendesyrddperaadgRwlhRpamdwara 518
+                 ++ ++Rl+lly++++ l+g+pl+YmGDE++l +d+ y++dp r+ dgRwlhRp+mdw++a
+  ALL15239.1 635 SAGAARLALLYGIIYGLDGWPLIYMGDEIGLADDHLYAEDPLRSGDGRWLHRPTMDWSLA 694
+                 56789****************************************************986 PP
+
+>> WP_023457211.1  hypothetical protein [Asticcacaulis sp. AC466]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  524.7   1.3  5.2e-160  5.2e-160      33     394 ..     124     515 ..     121     516 .. 0.99
+   2 !   11.9   0.0   9.2e-05   9.2e-05     405     449 ..     551     603 ..     549     604 .. 0.88
+   3 !   71.2   0.2     1e-22     1e-22     460     518 ..     636     694 ..     633     699 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 524.7 bits;  conditional E-value: 5.2e-160
+       SH_train2  33 lealaslYgera....dlaalleelleelgelaaaRpaalraldaaread..pdWfleqemlgYsaYvdrfagtlagvaervdyLqeLgvryLHl 121
+                     +++l++lYgera    d+aa+++e++++++ ++a+Rp++l+ald+ar ++  p+Wf+++ + gYs+Y+drf++tl+g  + ++yL++Lgv  +H+
+  WP_023457211.1 124 RTCLRNLYGERA----DFAAIVTEIESRVRMAQAERPNDLKALDSARLNT--PKWFARPGRPGYSCYIDRFSDTLTGCIDTIPYLNSLGVGLFHP 212
+                     5689********************************************99********************************************* PP
+
+       SH_train2 122 LpllraragdnDGGFAVadyeevePrlGsnadlealtarLreagisLcaDlvlNHvaddhaWAqaaraGdaryrdfyhvladreevdayertlgq 216
+                     Lpll++r+gd+DGGFAVady+ev+PrlG+ +dl al+++Lr+++isL++D+v+NH+a++haWA+a  aGd++y dfy+ ++ ++e+++++r+l++
+  WP_023457211.1 213 LPLLKPREGDSDGGFAVADYHEVDPRLGTFDDLVALADSLRANDISLVLDVVCNHTAREHAWAKAWLAGDPAYADFYIKVETDAEMQEWNRHLSD 307
+                     *********************************************************************************************** PP
+
+       SH_train2 217 vFPqtAPGnFtlveel.....ggwvWttFypyqWDLnyanpavfaemaeallrlankGveaFRLDStafLWKregtdcrnqpeahtilqalravl 306
+                     vFP+tAPG+F++++++     +g+vWttFyp+qWDLnyanp+vf +m+++ll+lan Gve+FRLDS+a+LWK +gt crn p+ah il+a+r+ l
+  WP_023457211.1 308 VFPDTAPGSFSWDDDA-----KGFVWTTFYPFQWDLNYANPKVFLAMLDVLLDLANSGVEGFRLDSAAYLWKIKGTICRNLPQAHDILKAFRSYL 397
+                     *********************************************************************************************** PP
+
+       SH_train2 307 divaPgvllkAEaivptaelppyfg......sga.............akechlaYhsslmaagWvalaeqdadllraviaatpalpeaaaWlsYv 382
+                     +++aPgv+l AEai+ ++e++ yfg      +++             ++ec+laY+++ m+a+W+alae++ad++++ ++ t+++p++ +Wl+Yv
+  WP_023457211.1 398 SVAAPGVFLLAEAIEGLDEVLGYFG------TDEs------------QSECDLAYDNTPMTALWGALAEGKADAMSEALRLTQQKPPHGTWLNYV 474
+                     *******************************6666************************************************************ PP
+
+       SH_train2 383 RCHDDigWnvlr 394
+                     RCHDDi+W++l+
+  WP_023457211.1 475 RCHDDIIWQALK 486
+                     **********97 PP
+
+  == domain 2  score: 11.9 bits;  conditional E-value: 9.2e-05
+       SH_train2 405 eerlarvarfyagave...gsya.....rGeaFqssd.davhgtnGmaaaLaGl 449
+                     ++rl r+++ yag+     +s+a     +G aFq+   +++ +t+Gmaa+L+G+
+  WP_023457211.1 551 QDRLWRWSNLYAGE-G---DSFA-----DGLAFQAPA-GQAPSTCGMAASLCGV 594
+                     56888899999998.6666799999999*************************7 PP
+
+  == domain 3  score: 71.2 bits;  conditional E-value: 1e-22
+       SH_train2 460 lalrRllllyalalalgglpllYmGDElalendesyrddperaadgRwlhRpamdwara 518
+                       l+Rl+l+y++++al+g+p++YmGDEla++nd+ +rddp++a++ RwlhRp+m+w++a
+  WP_023457211.1 636 FGLDRLKLVYGITYALDGVPMIYMGDELAMRNDTLFRDDPQKAQELRWLHRPQMEWTLA 694
+                     5789****************************************************987 PP
+
+>> WP_033963675.1  MULTISPECIES: DUF3459 domaincontaining protein [unclassified Sphingomonas]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  505.8   8.1  2.8e-154  2.8e-154      31     394 ..     122     515 ..     120     516 .. 0.98
+   2 !    6.3   0.1    0.0045    0.0045     425     448 ..     578     602 ..     578     603 .. 0.95
+   3 !   40.9   0.1   1.6e-13   1.6e-13     460     518 ..     636     694 ..     633     697 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 505.8 bits;  conditional E-value: 2.8e-154
+       SH_train2  31 rllealaslYgera....dlaalleelleelgelaaaRpaalraldaaread..pdWfleqemlgYsaYvdrfagtlagvaervdyLqeLgvryL 119
+                     +l + l+ lY+ ++    ++    ++++++++++a +R+ +lralda+r+a+  p+Wf +++m+gYs+Yvdrfa+tlag+++r+++L++Lg+r L
+  WP_033963675.1 122 SLFDLLEPLYQGHP----AWPVERDRIAAAVSAAAGTRSPTLRALDADRAAH--PAWFGAPDMVGYSFYVDRFAATLAGLRQRLPWLEALGIRLL 210
+                     577778888888888888888888999******************************************************************** PP
+
+       SH_train2 120 HlLpllraragdnDGGFAVadyeevePrlGsnadlealtarLreagisLcaDlvlNHvaddhaWAqaaraGdaryrdfyhvladreevdayertl 214
+                     H+Lp+   ++ ++DGGFAVady+++eP+lGs +d++al+a+L+e+g++L++D+vlNH+a+dh+WAqaa aGd ++r +y++++d++ev+a+er+l
+  WP_033963675.1 211 HPLPMTLGQSEHSDGGFAVADYRAIEPALGSLDDVRALAADLHERGMALAMDCVLNHTARDHPWAQAALAGDREMRGYYRIVDDAAEVAAWERDL 305
+                     *********************************************************************************************** PP
+
+       SH_train2 215 gqvFPqtAPGnFtlveel.....ggwvWttFypyqWDLnyanpavfaemaeallrlankGveaFRLDStafLWKregtdcrnqpeahtilqalra 304
+                     ++vFP+tAPGnFt++++l     ggwvWt+Fyp+qWDL+++npavf em+++ll ++n Gv+aFRLDS+++LWKr+g+ +rn pe+ht+++alra
+  WP_033963675.1 306 DEVFPDTAPGNFTHEPAL-----GGWVWTSFYPFQWDLDWSNPAVFREMLDVLLFWSNIGVDAFRLDSAPYLWKRRGSVSRNLPETHTLVAALRA 395
+                     *********************************************************************************************** PP
+
+       SH_train2 305 vldivaPgvllkAEaivptaelppyfg................sga...akechlaYhsslmaagWvalaeqdadllraviaatpalpeaaaWls 380
+                      ldi+aPgv l AEai+ ta+++py++                ++    ++ ++laYh+++maa+Wvala++da+++ +++++t  + +++aWl+
+  WP_033963675.1 396 GLDIAAPGVALLAEAIERTADVLPYIE---------------pQDG---TRAAQLAYHNGVMAALWVALATGDAAIVGDLVRDTVLTRPDTAWLT 472
+                     ******************************************6555************************************************* PP
+
+       SH_train2 381 YvRCHDDigWnvlr 394
+                     Y+RCHDDi+W++l+
+  WP_033963675.1 473 YLRCHDDIIWSALN 486
+                     ***********996 PP
+
+  == domain 2  score: 6.3 bits;  conditional E-value: 0.0045
+       SH_train2 425 rGeaFqssd.davhgtnGmaaaLaG 448
+                     +G++Fq++  +a+ +t+Gm a+L+G
+  WP_033963675.1 578 DGRRFQARP-GAAASTVGMLASLVG 601
+                     599*********************9 PP
+
+  == domain 3  score: 40.9 bits;  conditional E-value: 1.6e-13
+       SH_train2 460 lalrRllllyalalalgglpllYmGDElalende....syrddperaadgRwlhRpamdwara 518
+                      al R++ll a +lal+g+p+lYmGDE++l n+     +    p+  +d+RwlhRp mdw+ra
+  WP_033963675.1 636 EALGRYRLLLATMLALPGMPMLYMGDEIGLPNHV----D----PAAPDDARWLHRPPMDWSRA 690
+                     6899****************************7444443....78889************986 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (620 nodes)
+Target sequences:                           30  (26820 residues searched)
+Passed MSV filter:                        30  (1); expected 0.6 (0.02)
+Passed bias filter:                       30  (1); expected 0.6 (0.02)
+Passed Vit filter:                        30  (1); expected 0.0 (0.001)
+Passed Fwd filter:                        30  (1); expected 0.0 (1e-05)
+Initial search space (Z):                 30  [actual number of targets]
+Domain search space  (domZ):              30  [number of targets reported over threshold]
+# CPU time: 0.84u 0.04s 00:00:00.88 Elapsed: 00:00:00.86
+# Mc/sec: 19.34
+//
+[ok]
