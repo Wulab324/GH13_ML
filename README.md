@@ -6,7 +6,7 @@ Reference source
 Gado, J.E., Harrison, B.E., Sandgren, M., Ståhlberg, J., Beckham, G.T., and Payne, C.M. **Machine learning reveals sequence-function relationships in family 7 glycoside hydrolases.** Submitted to *FEBS* (2020).
 https://github.com/jafetgado/Cel7ML
 
-## Python version used in this work
+## Python version 
 -----------------
 - Python (3.6.8)
 
