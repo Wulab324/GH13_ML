@@ -43,4 +43,4 @@ https://github.com/jafetgado/Cel7ML
 - Sequence datasets are in `fasta/`
 - Sequences split into five folds used for validation and design of the HMM, as well as the final trained HMMs, are in `hmm_train_test/` 
 - Datasets containing results presented in the paper are in `results_final/`
-- Figures and tables in the manuscript are in `plots/`
+- Figures and tables are in `plots/`
