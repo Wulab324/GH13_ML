@@ -21,12 +21,7 @@ https://github.com/jafetgado/Cel7ML
 - seaborn (0.11.0)
 - pydot_ng (2.0.0)
 
-## Other softwares (version used in this work)
-- HMMER v3.1b2
-- MAFFT v7.475 (2020/Nov/23)
-- NCBI command-line BLAST v2.11.0
-
-## Python scripts
+##### Python scripts
 -----------------------
 ##### Main scripts (in chronological order as used in the study)
 - `subtype_hmm.py` : Use hidden Markov models (HMM) to discriminate GH13 functional subtypes (CBH vs EG)
@@ -35,6 +30,13 @@ https://github.com/jafetgado/Cel7ML
 ##### Other Python scripts
 - `bioinformatics.py`: contains adhoc functions for bioinformatic analysis
 - `plots_and_analysis.py`: for analyzing results and plotting the figures in the manuscript 
+
+## Other softwares (version used in this work)
+- HMMER v3.1b2
+- MAFFT v7.475 (2020/Nov/23)
+- NCBI command-line BLAST v2.11.0
+
+
 
 ## Datasets and plots
 -------------------------
