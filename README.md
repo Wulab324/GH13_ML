@@ -29,7 +29,7 @@ https://github.com/jafetgado/Cel7ML
 
 #### Other Python scripts
 - `bioinformatics.py`: contains adhoc functions for bioinformatic analysis
-- `plots_and_analysis.py`: for analyzing results and plotting the figures in the manuscript 
+- `plots_and_analysis.py`: for analyzing results and plotting the figures
 
 ## Other softwares
 - HMMER v3.1b2
