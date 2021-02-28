@@ -31,7 +31,7 @@ https://github.com/jafetgado/Cel7ML
 - `bioinformatics.py`: contains adhoc functions for bioinformatic analysis
 - `plots_and_analysis.py`: for analyzing results and plotting the figures in the manuscript 
 
-## Other softwares (version used in this work)
+## Other softwares
 - HMMER v3.1b2
 - MAFFT v7.475 (2020/Nov/23)
 - NCBI command-line BLAST v2.11.0
