@@ -1,10 +1,6 @@
 # GH13_ML
 ## Deciphering the mechanism of transglycosylation and hydrolysis in a GH13 family using machine learning 
 ----------------
-Reference source 
-
-Gado, J.E., Harrison, B.E., Sandgren, M., Ståhlberg, J., Beckham, G.T., and Payne, C.M. **Machine learning reveals sequence-function relationships in family 7 glycoside hydrolases.** Submitted to *FEBS* (2020).
-https://github.com/jafetgado/Cel7ML
 
 ## Python version 
 -----------------
@@ -44,3 +40,8 @@ https://github.com/jafetgado/Cel7ML
 - Sequences split into five folds used for validation and design of the HMM, as well as the final trained HMMs, are in `hmm_train_test/` 
 - Datasets containing results presented in the paper are in `results_final/`
 - Figures and tables are in `plots/`
+-------------------------
+Reference
+
+Gado, J.E., Harrison, B.E., Sandgren, M., Ståhlberg, J., Beckham, G.T., and Payne, C.M. **Machine learning reveals sequence-function relationships in family 7 glycoside hydrolases.** Submitted to *FEBS* (2020).
+https://github.com/jafetgado/Cel7ML
