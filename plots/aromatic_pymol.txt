@@ -1,4 +1,4 @@
-select aroAS, resi 184
+select aro
 
-select aroboth, resi 147 or resi 395 or resi 331 or resi 445 or resi 332 or resi 298
+select aroboth, resi 147 or resi 187 or resi 250 or resi 392 or resi 229 or resi 290 or resi 436 or resi 397
 
