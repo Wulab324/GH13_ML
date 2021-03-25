@@ -7,14 +7,14 @@
 - Python (3.6.8)
 
 #### Python modules (version used in this work)
-- pandas (1.1.1)
+- pandas (1.1.5)
 - numpy (1.19.1)
-- scipy (1.5.2)
-- biopython (1.77)
-- scikit-learn (0.23.2)
+- scipy (1.5.4)
+- biopython (1.78)
+- scikit-learn (0.24.1)
 - imbalanced-learn (0.7.0)
-- matplotlib (3.3.1)
-- seaborn (0.11.0)
+- matplotlib (3.3.4)
+- seaborn (0.11.1)
 - pydot_ng (2.0.0)
 
 #### Python scripts
