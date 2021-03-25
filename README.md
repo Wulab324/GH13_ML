@@ -23,7 +23,7 @@
 - `subtype_hmm.py` : Use hidden Markov models (HMM) to discriminate GH13 functional subtypes (ASs vs SHs)
 - `subtype_rules.py`: Derive position-specific classification rules for discriminating GH13 functional subtypes
 - `subtype_rf.py`: Using random forest classifier to distinguish the GH13 functional subtypes
-- 
+
 #### Other Python scripts
 - `bioinformatics.py`: contains adhoc functions for bioinformatic analysis
 - `plots_and_analysis.py`: for analyzing results and plotting the figures
