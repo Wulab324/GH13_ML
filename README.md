@@ -22,7 +22,8 @@
 #### Main scripts
 - `subtype_hmm.py` : Use hidden Markov models (HMM) to discriminate GH13 functional subtypes (ASs vs SHs)
 - `subtype_rules.py`: Derive position-specific classification rules for discriminating GH13 functional subtypes
-
+- `subtype_rf.py`: Using random forest classifier to distinguish the GH13 functional subtypes
+- 
 #### Other Python scripts
 - `bioinformatics.py`: contains adhoc functions for bioinformatic analysis
 - `plots_and_analysis.py`: for analyzing results and plotting the figures
@@ -41,7 +42,6 @@
 - Datasets containing results presented in the paper are in `results_final/`
 - Figures and tables are in `plots/`
 -------------------------
-Reference
+## Reference
 
 Gado, J.E., Harrison, B.E., Sandgren, M., Ståhlberg, J., Beckham, G.T., and Payne, C.M. **Machine learning reveals sequence-function relationships in family 7 glycoside hydrolases.** Submitted to *FEBS* (2020).
-https://github.com/jafetgado/Cel7ML
