@@ -16,6 +16,8 @@
 - matplotlib (3.3.4)
 - seaborn (0.11.1)
 - pydot_ng (2.0.0)
+- Keras (2.2.5)
+- tensorflow (1.14.0)
 
 #### Python scripts
 -----------------------
@@ -23,10 +25,12 @@
 - `subtype_hmm.py` : Use hidden Markov models (HMM) to discriminate GH13 functional subtypes (ASs vs SHs)
 - `subtype_rules.py`: Derive position-specific classification rules for discriminating GH13 functional subtypes
 - `subtype_rf.py`: Using random forest classifier to distinguish the GH13 functional subtypes
+- `deep_rf.py`: Convolutional Neural Networks to distinguish the GH13 functional subtypes
 
 #### Other Python scripts
 - `bioinformatics.py`: contains adhoc functions for bioinformatic analysis
 - `plots_and_analysis.py`: for analyzing results and plotting the figures
+- `confusion_matrix.py`: for plotting the confusion matrix
 
 ## Other softwares
 - HMMER v3.1b2
