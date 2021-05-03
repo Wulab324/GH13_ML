@@ -36,11 +36,11 @@ import bioinformatics as bioinf
 #=====================================================#
 accession_SH = bioinf.get_accession('fasta/subtype/alignments/SHs.fasta')
 accession_all = bioinf.get_accession('fasta/initial_blast/nrblast_all.fasta')
-GH13 = [0 if x in accession_SH else 1 for x in accession_all]
+GH13 = [1 if x in accession_SH else 0 for x in accession_all]
 # class labels
 y = pd.Series(GH13)   
-GH13_AS = y[y==1]  
-GH13_SH = y[y==0]
+GH13_not_SH = y[y==0]  
+GH13_yes_SH = y[y==1]
 
 # Derive features for machine learning with one-hot encoding
 #============================================================#
@@ -80,10 +80,10 @@ for i in range(len(sequence_df.columns)):
 
 
 # Test set data (10% of total data)
-SH_test_size = int(0.1 * len(GH13_SH))
-AS_test_size = int(0.1 * len(GH13_AS))
-SH_test_indices = random.sample(list(GH13_SH.index), SH_test_size)
-AS_test_indices = random.sample(list(GH13_AS.index), AS_test_size)
+SH_test_size = int(0.1 * len(GH13_yes_SH))
+AS_test_size = int(0.1 * len(GH13_not_SH))
+SH_test_indices = random.sample(list(GH13_yes_SH.index), SH_test_size)
+AS_test_indices = random.sample(list(GH13_not_SH.index), AS_test_size)
 test_indices = SH_test_indices + AS_test_indices
 test_indices = sorted(test_indices)
 

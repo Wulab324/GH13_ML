@@ -60,7 +60,8 @@ from sklearn.metrics import auc
 
 
 # load train and test dataset
-heads, sequences = bioinf.split_fasta('fasta/GH13_positions_only/GH13_cat.fasta')
+sequences = bioinf.split_fasta('fasta/GH13_positions_only/GH13_cat.fasta')
+heads=bioinf.get_accession('fasta/GH13_positions_only/GH13_cat.fasta')
 subtype = list(pd.read_csv('results_final/ncbi_subtypes.csv')['ncbi_pred_class'])
 lb = LabelBinarizer()
 y = lb.fit_transform(subtype)
@@ -335,9 +336,14 @@ import bioinformatics as bioinf
 # Prepare sequences and data
 #=====================================================#
 # class labels
-GH13 = pd.read_csv('results_final/lable.csv')['y_dp']
-GH13_AS = GH13[(GH13==1)]
-GH13_SH = GH13[(GH13==0)]
+GH13_df = pd.read_csv('results_final/lable.csv')
+GH13_SH = GH13_df[(GH13_df.y_dp==0)]
+accession_SH=GH13_SH.accession.tolist() 
+accession_all = bioinf.get_accession('fasta/initial_blast/nrblast_all.fasta')
+GH13 = [1 if x in accession_SH else 0 for x in accession_all]
+y = pd.Series(GH13)   
+GH13_not_SH = y[y==0]  
+GH13_yes_SH = y[y==1]
 
 
 
@@ -379,12 +385,12 @@ for i in range(len(sequence_df.columns)):
 #====================================================#
 
 
-y=GH13
+
 # Test set data (10% of total data)
-SH_test_size = int(0.1 * len(GH13_SH))
-AS_test_size = int(0.1 * len(GH13_AS))
-SH_test_indices = random.sample(list(GH13_SH.index), SH_test_size)
-AS_test_indices = random.sample(list(GH13_AS.index), AS_test_size)
+SH_test_size = int(0.1 * len(GH13_yse_SH))
+AS_test_size = int(0.1 * len(GH13_not_SH))
+SH_test_indices = random.sample(list(GH13_yse_SH.index), SH_test_size)
+AS_test_indices = random.sample(list(GH13_not_SH.index), AS_test_size)
 test_indices = SH_test_indices + AS_test_indices
 test_indices = sorted(test_indices)
 
