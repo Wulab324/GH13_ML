@@ -91,7 +91,7 @@ model.add(Dense(top_classes, activation='sigmoid'))
 opt = Adam(lr=0.001, decay=1e-6)
 model.compile(optimizer=opt, loss='categorical_crossentropy', metrics=['acc'])
 print(model.summary())
-plot_model(model, to_file='model_plot.png', show_shapes=True, show_layer_names=True)
+plot_model(model, to_file='plots/model_plot.png', show_shapes=True, show_layer_names=True)
 ################
 
  
@@ -146,9 +146,9 @@ def summarize_diagnostics_1(histories):
         plt.title('Cross Entropy Loss')
         plt.plot(histories[i].history['loss'], color='blue', label='train')
         plt.plot(histories[i].history['val_loss'], color='orange', label='test')
-        plt.savefig('loss.pdf')
-        plt.savefig('loss.png',transparent = True)
-        plt.savefig('loss.svg',format='svg',transparent = True)		
+        plt.savefig('plots/loss.pdf')
+        plt.savefig('plots/loss.png',transparent = True)
+        plt.savefig('plots/loss.svg',format='svg',transparent = True)		
     plt.show()
 
 
@@ -163,9 +163,9 @@ def summarize_diagnostics_2(histories):
         plt.title('Classification Accuracy')
         plt.plot(histories[i].history['acc'], color='blue', label='train')
         plt.plot(histories[i].history['val_acc'], color='orange', label='test')
-        plt.savefig('acc.pdf')
-        plt.savefig('acc.png',transparent = True)
-        plt.savefig('acc.svg',format='svg',transparent = True)		
+        plt.savefig('plots/acc.pdf')
+        plt.savefig('plots/acc.png',transparent = True)
+        plt.savefig('plots/acc.svg',format='svg',transparent = True)		
     plt.show()
 
 
@@ -230,9 +230,9 @@ plt.legend(pltout, prop=legend_font,
            loc='best',frameon=False)
 plt.rcParams['savefig.dpi'] = 300 
 plt.rcParams['figure.dpi'] = 300 
-plt.savefig('ROC.pdf')
-plt.savefig('ROC.png',transparent = True)
-plt.savefig('ROC.svg',format='svg',transparent = True)	
+plt.savefig('plots/ROC.pdf')
+plt.savefig('plots/ROC.png',transparent = True)
+plt.savefig('plots/ROC.svg',format='svg',transparent = True)	
 plt.show()
 ####
 
