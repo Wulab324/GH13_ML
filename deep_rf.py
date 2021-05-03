@@ -60,7 +60,7 @@ from sklearn.metrics import auc
 
 
 # load train and test dataset
-sequences = bioinf.split_fasta('fasta/GH13_positions_only/GH13_cat.fasta')
+h, sequences = bioinf.split_fasta('fasta/GH13_positions_only/GH13_cat.fasta')
 heads=bioinf.get_accession('fasta/GH13_positions_only/GH13_cat.fasta')
 subtype = list(pd.read_csv('results_final/ncbi_subtypes.csv')['ncbi_pred_class'])
 lb = LabelBinarizer()
