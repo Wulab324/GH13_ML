@@ -353,8 +353,8 @@ df['subtype'] = pd.read_csv('results_final/lable.csv')['y_dp']
 df_AS = df[df['subtype']==1]
 df_SH = df[df['subtype']==0]
 
-AS_noS = df_AS.has_S.value_counts()[0]
-SH_S = df_SH.has_S.value_counts()[1]
+#AS_noS = df_AS.has_S.value_counts()[0]
+#SH_S = df_SH.has_S.value_counts()[1]
 
 
 
