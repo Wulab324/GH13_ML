@@ -103,7 +103,7 @@ checkpoint = ModelCheckpoint(os.path.join(save_dir, filepath), monitor='val_acc'
 
 
 #learning_rate_reduction = ReduceLROnPlateau(os.path.join(save_dir, filepath), monitor = 'val_acc', patience = 3,
-                                            verbose = 1, factor=0.5, min_lr = 0.00001)
+#                                           verbose = 1, factor=0.5, min_lr = 0.00001)
 
 											
 # evaluate a model using k-fold cross-validation
@@ -194,10 +194,10 @@ def run_test_harness():
 run_test_harness()	
 
 # save model
-
 model.save("my_model.h5")
 model.save_weights('my_model_weights.h5')
 
+####classification_report
 train_pred = model.predict(trainX)
 test_pred = model.predict(testX)
 print("train-acc = " + str(accuracy_score(np.argmax(trainY, axis=1), np.argmax(train_pred, axis=1))))
@@ -207,6 +207,7 @@ test_pred1=np.argmax(test_pred, axis=1)
 print(classification_report(y_test1, test_pred1))
 
 
+##### Compute ROC curve
 nb_classes=2
 
 Y_pred = model.predict(testX)
@@ -219,7 +220,6 @@ Y_pred1 = label_binarize(Y_pred, classes=[i for i in range(nb_classes)])
 fpr_keras, tpr_keras, thresholds_keras = roc_curve(Y_test1, Y_pred1)
 auc_keras = auc(fpr_keras, tpr_keras)
 
-##### Compute ROC curve
 plt.figure(1)
 plt.plot([0, 1], [0, 1], 'k--')
 plt.plot(fpr_keras, tpr_keras, color='blue',label='ROC (area = {:.3f})'.format(auc_keras))
@@ -234,7 +234,7 @@ plt.savefig('plots/ROC.pdf')
 plt.savefig('plots/ROC.png',transparent = True)
 plt.savefig('plots/ROC.svg',format='svg',transparent = True)	
 plt.show()
-
+#######
 
 
 # Zoom in view of the upper left corner.
@@ -259,17 +259,19 @@ plt.show()
 # fpr[i], tpr[i], _ = roc_curve(Y_valid[:, i], Y_pred[:, i])
 # roc_auc[i] = auc(fpr[i], tpr[i])
 
+
+#### save lable
 nb_classes=2
 
-Y_pred1 = model.predict(X_seq)
-Y_pred1 = [np.argmax(y) for y in Y_pred]
-y_dp = label_binarize(Y_pred, classes=[i for i in range(nb_classes)])
+Y_pred2 = model.predict(X_seq)
+Y_pred2 = [np.argmax(y) for y in Y_pred2]
+y_dp = label_binarize(Y_pred2, classes=[i for i in range(nb_classes)])
 
 y1 = lb.fit_transform(subtype)
 
 y2=pd.DataFrame(y1)
-y_dp1=pd.DataFrame(Y_pred)
-heads1=pd.DataFrame(heads)
+y_dp1=pd.DataFrame(Y_pred2)
+#heads1=pd.DataFrame(heads)
 
 store = []
 store = pd.DataFrame(heads)
@@ -279,7 +281,7 @@ store['y_dp'] = y_dp1
 
 store.index=store.index+1
 store.to_csv('results_final/lable.csv')
-
+#####
 
 #confusion_matrix
 from sklearn.metrics import confusion_matrix
@@ -290,12 +292,13 @@ Y_pred = [np.argmax(y) for y in Y_pred]
 Y_test = [np.argmax(y) for y in testY]
 confusionMatrix = confusion_matrix(Y_test, Y_pred)
 confusionMatrix
+#####
 
 # save history
-import pickle
+#import pickle
  
-with open('trainHistoryDict.txt', 'wb') as file_pi:
-    pickle.dump(history.history, file_pi)
+#with open('trainHistoryDict.txt', 'wb') as file_pi:
+    #pickle.dump(history.history, file_pi)
 
 #with open('trainHistoryDict.txt','rb') as file_pi:
 #    history=pickle.load(file_pi)
