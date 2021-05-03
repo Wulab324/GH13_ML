@@ -57,7 +57,8 @@ from sklearn.metrics import classification_report
 from sklearn.preprocessing import label_binarize
 from sklearn.metrics import roc_curve
 from sklearn.metrics import auc
-
+from sklearn.metrics import confusion_matrix
+from keras.models import load_model
 
 # load train and test dataset
 h, sequences = bioinf.split_fasta('fasta/GH13_positions_only/GH13_cat.fasta')
@@ -284,8 +285,7 @@ store.to_csv('results_final/lable.csv')
 ####
 
 #confusion_matrix
-from sklearn.metrics import confusion_matrix
-from keras.models import load_model
+
 model = load_model('my_model.h5')
 Y_pred = model.predict(testX)
 Y_pred = [np.argmax(y) for y in Y_pred]
