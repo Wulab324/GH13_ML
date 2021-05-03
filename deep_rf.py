@@ -91,7 +91,7 @@ model.add(Dense(top_classes, activation='sigmoid'))
 opt = Adam(lr=0.001, decay=1e-6)
 model.compile(optimizer=opt, loss='categorical_crossentropy', metrics=['acc'])
 print(model.summary())
-plot_model(model, to_file='plots/model_plot.png', show_shapes=True, show_layer_names=True)
+plot_model(model, to_file='model_plot.png', show_shapes=True, show_layer_names=True)
 ################
 
  
@@ -103,7 +103,7 @@ checkpoint = ModelCheckpoint(os.path.join(save_dir, filepath), monitor='val_acc'
 
 
 #learning_rate_reduction = ReduceLROnPlateau(os.path.join(save_dir, filepath), monitor = 'val_acc', patience = 3,
-#                                           verbose = 1, factor=0.5, min_lr = 0.00001)
+                                            verbose = 1, factor=0.5, min_lr = 0.00001)
 
 											
 # evaluate a model using k-fold cross-validation
@@ -146,9 +146,9 @@ def summarize_diagnostics_1(histories):
         plt.title('Cross Entropy Loss')
         plt.plot(histories[i].history['loss'], color='blue', label='train')
         plt.plot(histories[i].history['val_loss'], color='orange', label='test')
-        plt.savefig('plots/loss.pdf')
-        plt.savefig('plots/loss.png',transparent = True)
-        plt.savefig('plots/loss.svg',format='svg',transparent = True)		
+        plt.savefig('loss.pdf')
+        plt.savefig('loss.png',transparent = True)
+        plt.savefig('loss.svg',format='svg',transparent = True)		
     plt.show()
 
 
@@ -163,9 +163,9 @@ def summarize_diagnostics_2(histories):
         plt.title('Classification Accuracy')
         plt.plot(histories[i].history['acc'], color='blue', label='train')
         plt.plot(histories[i].history['val_acc'], color='orange', label='test')
-        plt.savefig('plots/acc.pdf')
-        plt.savefig('plots/acc.png',transparent = True)
-        plt.savefig('plots/acc.svg',format='svg',transparent = True)		
+        plt.savefig('acc.pdf')
+        plt.savefig('acc.png',transparent = True)
+        plt.savefig('acc.svg',format='svg',transparent = True)		
     plt.show()
 
 
@@ -193,11 +193,9 @@ def run_test_harness():
 # entry point, run the test harness
 run_test_harness()	
 
-# save model
 model.save("my_model.h5")
 model.save_weights('my_model_weights.h5')
 
-####classification_report
 train_pred = model.predict(trainX)
 test_pred = model.predict(testX)
 print("train-acc = " + str(accuracy_score(np.argmax(trainY, axis=1), np.argmax(train_pred, axis=1))))
@@ -205,6 +203,8 @@ print("test-acc = " + str(accuracy_score(np.argmax(testY, axis=1), np.argmax(tes
 y_test1=np.argmax(testY, axis=1)
 test_pred1=np.argmax(test_pred, axis=1)
 print(classification_report(y_test1, test_pred1))
+
+
 
 
 ##### Compute ROC curve
@@ -230,11 +230,11 @@ plt.legend(pltout, prop=legend_font,
            loc='best',frameon=False)
 plt.rcParams['savefig.dpi'] = 300 
 plt.rcParams['figure.dpi'] = 300 
-plt.savefig('plots/ROC.pdf')
-plt.savefig('plots/ROC.png',transparent = True)
-plt.savefig('plots/ROC.svg',format='svg',transparent = True)	
+plt.savefig('ROC.pdf')
+plt.savefig('ROC.png',transparent = True)
+plt.savefig('ROC.svg',format='svg',transparent = True)	
 plt.show()
-#######
+####
 
 
 # Zoom in view of the upper left corner.
@@ -272,7 +272,6 @@ y1 = lb.fit_transform(subtype)
 y2=pd.DataFrame(y1)
 y_dp1=pd.DataFrame(Y_pred2)
 #heads1=pd.DataFrame(heads)
-
 store = []
 store = pd.DataFrame(heads)
 store.columns = ['accession']
@@ -281,20 +280,19 @@ store['y_dp'] = y_dp1
 
 store.index=store.index+1
 store.to_csv('results_final/lable.csv')
-#####
+####
 
 #confusion_matrix
 from sklearn.metrics import confusion_matrix
 from keras.models import load_model
-#model = load_model('my_model.h5')
+model = load_model('my_model.h5')
 Y_pred = model.predict(testX)
 Y_pred = [np.argmax(y) for y in Y_pred]
 Y_test = [np.argmax(y) for y in testY]
 confusionMatrix = confusion_matrix(Y_test, Y_pred)
 confusionMatrix
-#####
+####
 
-# save history
 #import pickle
  
 #with open('trainHistoryDict.txt', 'wb') as file_pi:
@@ -304,7 +302,7 @@ confusionMatrix
 #    history=pickle.load(file_pi)
 
 #######
-# RandomForest
+
 
 
 # Imports
@@ -336,25 +334,11 @@ import bioinformatics as bioinf
 
 # Prepare sequences and data
 #=====================================================#
-accession_S = []
-parser= SeqIO.parse("fasta/GH13_positions_only/GH13_all.fasta", "fasta")
-for sequence in parser:
-    if sequence.seq[294:295]=="S":
-        accession_S.append(sequence.id)
+# class labels
+GH13 = pd.read_csv('results_final/lable.csv')['y_dp']
+GH13_AS = GH13[(GH13==1)]
+GH13_SH = GH13[(GH13==0)]
 
-accession_all = bioinf.get_accession('fasta/initial_blast/nrblast_all.fasta')
-has_S = [1 if x in accession_S else 0 for x in accession_all]
-df = pd.DataFrame([accession_all, has_S], index=['accession', 'has_S']).transpose()
-df.to_csv('results_final/has_S.csv')
-
-
-# S distribution
-df['subtype'] = pd.read_csv('results_final/lable.csv')['y_dp']
-df_AS = df[df['subtype']==1]
-df_SH = df[df['subtype']==0]
-
-#AS_noS = df_AS.has_S.value_counts()[0]
-#SH_S = df_SH.has_S.value_counts()[1]
 
 
 
@@ -393,16 +377,15 @@ for i in range(len(sequence_df.columns)):
 		
 # Randomly split data to validation set and test set
 #====================================================#
-y = pd.Series(has_S)   # class labels
-y_yes_S = y[y==1]  
-y_no_S = y[y==0]
 
+
+y=GH13
 # Test set data (10% of total data)
-yes_test_size = int(0.1 * len(y_yes_S))
-no_test_size = int(0.1 * len(y_no_S))
-yes_test_indices = random.sample(list(y_yes_S.index), yes_test_size)
-no_test_indices = random.sample(list(y_no_S.index), no_test_size)
-test_indices = yes_test_indices + no_test_indices
+SH_test_size = int(0.1 * len(GH13_SH))
+AS_test_size = int(0.1 * len(GH13_AS))
+SH_test_indices = random.sample(list(GH13_SH.index), SH_test_size)
+AS_test_indices = random.sample(list(GH13_AS.index), AS_test_size)
+test_indices = SH_test_indices + AS_test_indices
 test_indices = sorted(test_indices)
 
 # Validation set data (90% of total data)

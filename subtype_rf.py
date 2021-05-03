@@ -34,27 +34,13 @@ import bioinformatics as bioinf
 
 # Prepare sequences and data
 #=====================================================#
-accession_S = []
-parser= SeqIO.parse("fasta/GH13_positions_only/GH13_all.fasta", "fasta")
-for sequence in parser:
-    if sequence.seq[294:295]=="S":
-        accession_S.append(sequence.id)
-
+accession_SH = bioinf.get_accession('fasta/subtype/alignments/SHs.fasta')
 accession_all = bioinf.get_accession('fasta/initial_blast/nrblast_all.fasta')
-has_S = [1 if x in accession_S else 0 for x in accession_all]
-df = pd.DataFrame([accession_all, has_S], index=['accession', 'has_S']).transpose()
-df.to_csv('results_final/has_S.csv')
-
-
-# S distribution
-df['subtype'] = pd.read_csv('results_final/ncbi_subtypes.csv')['ncbi_pred_class']
-df_AS = df[df['subtype']==1]
-df_SH = df[df['subtype']==0]
-
-AS_noS = df_AS.has_S.value_counts()[0]
-SH_S = df_SH.has_S.value_counts()[1]
-
-
+GH13 = [0 if x in accession_SH else 1 for x in accession_all]
+# class labels
+y = pd.Series(GH13)   
+GH13_AS = y[y==1]  
+GH13_SH = y[y==0]
 
 # Derive features for machine learning with one-hot encoding
 #============================================================#
@@ -91,16 +77,14 @@ for i in range(len(sequence_df.columns)):
 		
 # Randomly split data to validation set and test set
 #====================================================#
-y = pd.Series(has_S)   # class labels
-y_yes_S = y[y==1]  
-y_no_S = y[y==0]
+
 
 # Test set data (10% of total data)
-yes_test_size = int(0.1 * len(y_yes_S))
-no_test_size = int(0.1 * len(y_no_S))
-yes_test_indices = random.sample(list(y_yes_S.index), yes_test_size)
-no_test_indices = random.sample(list(y_no_S.index), no_test_size)
-test_indices = yes_test_indices + no_test_indices
+SH_test_size = int(0.1 * len(GH13_SH))
+AS_test_size = int(0.1 * len(GH13_AS))
+SH_test_indices = random.sample(list(GH13_SH.index), SH_test_size)
+AS_test_indices = random.sample(list(GH13_AS.index), AS_test_size)
+test_indices = SH_test_indices + AS_test_indices
 test_indices = sorted(test_indices)
 
 # Validation set data (90% of total data)
@@ -133,7 +117,7 @@ def evalPerf(y_test, y_pred):
     mcc = ((tp*tn) - (fp*fn))/np.sqrt((tp+fp)*(tn+fn)*(tp+fp)*(tn+fp))
     sens = tp/(tp + fn) * 100 if tp + fp != 0 else 0
     spec = tn/(tn + fp) * 100 if tn + fn != 0 else 0
-    table = np.array([[tp, fp], [fn, tn]]) # AS and SH have same contingency table
+    table = np.array([[tp, fp], [fn, tn]]) # CBH and EG have same contingency table
     p_value = stats.chi2_contingency(table)[1]
     return [sens, spec, accuracy, mcc, p_value]
 
