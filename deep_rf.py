@@ -228,8 +228,7 @@ plt.plot(fpr_keras, tpr_keras, color='blue',label='ROC (area = {:.3f})'.format(a
 plt.xlabel('False positive rate')
 plt.ylabel('True positive rate')
 plt.title('ROC curve')
-plt.legend(pltout, prop=legend_font, 
-           loc='best',frameon=False)
+plt.legend(loc='best')
 plt.rcParams['savefig.dpi'] = 300 
 plt.rcParams['figure.dpi'] = 300 
 plt.savefig('plots/ROC.pdf')
