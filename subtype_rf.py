@@ -34,7 +34,9 @@ import bioinformatics as bioinf
 
 # Prepare sequences and data
 #=====================================================#
-accession_SH = bioinf.get_accession('fasta/subtype/alignments/SHs.fasta')
+GH13_df = pd.read_csv('results_final/ncbi_subtypes.csv')
+GH13_SH = GH13_df[(GH13_df.ncbi_pred_class==0)]
+accession_SH = GH13_SH.Accession.tolist() 
 accession_all = bioinf.get_accession('fasta/initial_blast/nrblast_all.fasta')
 GH13 = [1 if x in accession_SH else 0 for x in accession_all]
 # class labels
