@@ -119,8 +119,11 @@ def evalPerf(y_test, y_pred):
     mcc = ((tp*tn) - (fp*fn))/np.sqrt((tp+fp)*(tn+fn)*(tp+fp)*(tn+fp))
     sens = tp/(tp + fn) * 100 if tp + fp != 0 else 0
     spec = tn/(tn + fp) * 100 if tn + fn != 0 else 0
-    table = np.array([[tp, fp], [fn, tn]]) # CBH and EG have same contingency table
-    p_value = stats.chi2_contingency(table)[1]
+    if tp == 1 or fp == 0 or fn ==0 or tn == 1:
+        p_value = 0
+    else:					
+        table = np.array([[tp, fp], [fn, tn]]) # AS and SH have same contingency table
+        p_value = stats.chi2_contingency(table)[1]
     return [sens, spec, accuracy, mcc, p_value]
 
 
