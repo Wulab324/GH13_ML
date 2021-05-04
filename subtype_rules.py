@@ -194,8 +194,11 @@ class GH13MSA():
                 tn = specificity*self.SH_size  # not X => SH
                 fn = self.AS_size * (1 - AS_freq.iloc[cons_pos,i]) # not X => AS
                 MCC = ((tp * tn) - (fp * fn))/np.sqrt((tp + fp)*(tp + fn)*(tn + fp)*(tn + fn))
-                table = np.array([[tp, fp], [fn, tn]]) # AS and SH have same contingency table
-                p_value = stats.chi2_contingency(table)[1]
+                if tp == 1 or fp == 0 or fn ==0 or tn == 1:
+                    p_value = 0
+                else:					
+                    table = np.array([[tp, fp], [fn, tn]]) # AS and SH have same contingency table
+                    p_value = stats.chi2_contingency(table)[1]
                 
                 pos.append(i+1) # Position in GH13
                 sens.append(sensitivity * 100)
@@ -218,8 +221,11 @@ class GH13MSA():
                 tn = self.SH_size * specificity # Z => SH
                 fn = self.AS_size * AS_freq.iloc[cons_pos,i] # Z => AS
                 MCC = ((tp * tn) - (fp * fn))/np.sqrt((tp + fp)*(tp + fn)*(tn + fp)*(tn + fn))
-                table = np.array([[tp, fp], [fn, tn]])
-                p_value = stats.chi2_contingency(table)[1]
+                if tp == 1 or fp == 0 or fn ==0 or tn == 1:
+                    p_value = 0
+                else:					
+                    table = np.array([[tp, fp], [fn, tn]]) # AS and SH have same contingency table
+                    p_value = stats.chi2_contingency(table)[1]
                 
                 pos.append(i+1)
                 sens.append(sensitivity * 100)
@@ -248,8 +254,11 @@ class GH13MSA():
                 
                 tp, fp, tn, fn = tpX + tpZ, fpX + fpZ, tnX + tnZ, fnX + fnZ
                 MCC = ((tp * tn) - (fp * fn))/np.sqrt((tp + fp)*(tp + fn)*(tn + fp)*(tn + fn))
-                AS_table = np.array([[tp, fp], [fn, tn]])
-                p_value = stats.chi2_contingency(AS_table)[1]
+                if tp == 1 or fp == 0 or fn ==0 or tn == 1:
+                    p_value = 0
+                else:					
+                    AS_table = np.array([[tp, fp], [fn, tn]])
+                    p_value = stats.chi2_contingency(AS_table)[1]
                 
                 pos.append(i+1)
                 sens.append(tp/(tp + fn) * 100)
