@@ -70,7 +70,8 @@ for i in range(len(sequence_df.columns)):
     
     # Name encoded features (residue + position, e.g G434)
     X_encoded.columns = ['{0}{1}'.format(res,i+1) for res in label_resid]
-    del X_encoded['-{0}'.format(i+1)]  # remove encoded features from gaps
+    if X_encoded.columns[0][0:1]=='-' :
+        del X_encoded['-{0}'.format(i+1)]  # remove encoded features from gaps 
     
     # Append features to dataframe store
     for col in X_encoded.columns:
