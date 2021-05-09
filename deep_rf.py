@@ -290,7 +290,7 @@ Y_pred = model.predict(testX)
 Y_pred = [np.argmax(y) for y in Y_pred]
 Y_test = [np.argmax(y) for y in testY]
 confusionMatrix = confusion_matrix(Y_test, Y_pred)
-confusionMatrix
+#confusionMatrix
 ####
 
 #import pickle
